@@ -1,5 +1,9 @@
 # Program Slnečné škvrny
 
+![](https://img.shields.io/github/downloads/pavolgaj/SlnecneSkvrny/total?label=GitHub%20download&style=plastic)
+![](https://img.shields.io/github/v/release/pavolgaj/SlnecneSkvrny?style=plastic)
+![](https://img.shields.io/github/languages/top/pavolgaj/SlnecneSkvrny?style=plastic)
+
 Program vznikol ako ročníková práca z informatiky na [Gymnáziu Jána Adama Raymana v Prešove](https://www.gjar-po.sk/). Vznikol na základe programu PC – Sun (autor: V. Feik), ktorý slúži na digitalizáciu pozorovaní Slnka na Hvezdárni Františka Pešty v Sezimovom Ústí (ČR).
 
 Program Slnečné škvrny slúži na digitalizáciu pozorovaní slnečných škvŕn a fakulových polí. Pozorovania sú následne štatisticky spracované do tabuliek a grafov popisujúcich aktivitu Slnka. Program taktiež umožňuje výpočet heliografických súradníc škvŕn, fyzikálnych súradníc Slnka, Carringtonovej otočky a juliánskeho dátumu. Program je určený pre astronómov – amatérov aj profesionálnych astronómov.
