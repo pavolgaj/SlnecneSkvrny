@@ -1,0 +1,185 @@
+object Form12: TForm12
+  Left = 410
+  Height = 336
+  Top = 224
+  Width = 412
+  BorderIcons = [biSystemMenu]
+  Caption = 'Heliografické súradnice'
+  ClientHeight = 336
+  ClientWidth = 412
+  Icon.Data = {
+    7E04000000000100010010100000010020006804000016000000280000001000
+    0000200000000100200000000000000400006400000064000000000000000000
+    00000000000000000000000000000000000000000000000000221E41463A0000
+    0000000000000B222216040E0E35000000000000000000000000000000000000
+    00000000000000000000000000000000000000000000000000154AA5A8BF0000
+    0001000000003B82848500000015000000000000000000000000000000000000
+    000000000000000000000C20204F1313130D000000000000001564DDE1FF4396
+    98662E6D6D315DCFD3F800000015000000001313130D0C20204F000000000000
+    000000000000000000001313130D4CACAECB469EA2771935394769E9EDFF67E4
+    E8F564DDE0ED6BECF0FF1A3A3E4E3F8E8E644CACAECB1313130D000000000000
+    00000000000000000000000000003F8E8E646EF3F7FF67EFF7FF3CDFF6FF1AE6
+    F9FF18E5F9FF37E0F6FF67EFF7FF6EF3F7FF469EA27700000000000000000000
+    0000040E0E3500000015000000151F464A4161E3EAFF22E3F8FF02FDFFFF00FF
+    FFFF00FFFFFF02FDFFFF22E3F8FF67EFF7FF1935394700000015000000150000
+    001E0B2222163B8284855DCFD3F86BECF0FF3CDFF6FF02FDFFFF00FFFFFF00FF
+    FFFF00FFFFFF00FFFFFF02FDFFFF37E0F6FF69E9EDFF5ED2D5FD408F92970707
+    072200000000000000002E6D6D3164DDE0ED18E5F9FF00FFFFFF00FFFFFF00FF
+    FFFF00FFFFFF00FFFFFF00FFFFFF18E5F9FF64DDE0ED35787D39000000000000
+    000000000000000000014396986667E4E8F518E5F9FF00FFFFFF00FFFFFF00FF
+    FFFF00FFFFFF00FFFFFF00FFFFFF1AE6F9FF67E4E8F53E909051000000000000
+    00000F282832469D9FAD64DDE1FF69E9EDFF3CDFF6FF02FDFFFF00FFFFFF00FF
+    FFFF00FFFFFF00FFFFFF02FDFFFF3CDFF6FF6BECF0FF60D6DAFD46999CAB1944
+    441E0000002200000015000000151935394769F0F7FF24E0F8FF02FDFFFF00FF
+    FFFF00FFFFFF02FDFFFF22E3F8FF67EFF7FF1A3A3E4E00000015000000150E1C
+    1C35000000000000000000000000469EA2776EF3F7FF69F0F7FF3CDFF6FF18E5
+    F9FF18E5F9FF3CDFF6FF67EFF7FF6EF3F7FF4395976A00000000000000000000
+    00000000000000000000285050134DADB1CB3F8E8E641A3A3E4E6BECF0FF64DD
+    E0ED67E4E8F569E9EDFF19353947469EA27750B2B4D81313130D000000000000
+    000000000000000000000C20204F1313130D00000000000000155DCFD3F82E6D
+    6D314396986664DDE1FF00000015000000002850501315303055000000000000
+    00000000000000000000000000000000000000000000000000153B8284850000
+    000000000001469D9FAD00000015000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000022000000160000
+    0000000000000F28283200000022000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000
+  }
+  Menu = MainMenu1
+  OnShow = FormShow
+  LCLVersion = '0.9.28.2'
+  object Label1: TLabel
+    Left = 16
+    Height = 33
+    Top = 13
+    Width = 386
+    Caption = 'Výpočet heliografickej dĺžky (l) a heliografickej šírky (b) pre skupiny'#13#10'škvŕn a fakulové polia na zákrese zo dňa'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 17
+    Top = 59
+    Width = 171
+    Anchors = [akLeft, akBottom]
+    Caption = 'Skupiny slnečných škvŕn'
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 240
+    Height = 17
+    Top = 59
+    Width = 105
+    Anchors = [akRight, akBottom]
+    BorderSpacing.Left = 10
+    Caption = 'Fakulové polia'
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object StringGrid1: TStringGrid
+    Left = 16
+    Height = 250
+    Hint = 'Heliografické súradnice skupín sl. škvŕn.'
+    Top = 85
+    Width = 162
+    ColCount = 3
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goTabs, goSmoothScroll]
+    ParentShowHint = False
+    PopupMenu = PopupMenu1
+    RowCount = 1
+    ShowHint = True
+    TabOrder = 0
+    ColWidths = (
+      29
+      64
+      64
+    )
+    Cells = (
+      2
+      1
+      0
+      'l'
+      2
+      0
+      'b'
+    )
+  end
+  object StringGrid2: TStringGrid
+    Left = 240
+    Height = 250
+    Hint = 'Heligrafické súradnice fakulových polí.'
+    Top = 85
+    Width = 162
+    AutoAdvance = aaRightDown
+    ColCount = 3
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goTabs, goSmoothScroll]
+    ParentShowHint = False
+    PopupMenu = PopupMenu2
+    RowCount = 1
+    ShowHint = True
+    TabOrder = 1
+    ColWidths = (
+      29
+      64
+      64
+    )
+    Cells = (
+      2
+      1
+      0
+      'l'
+      2
+      0
+      'b'
+    )
+  end
+  object ComboBox1: TComboBox
+    Left = 258
+    Height = 21
+    Hint = 'Zvoľte zákres, pre ktorý sa '#13#10'vypočítajú heliograf. súradnice.'
+    Top = 32
+    Width = 144
+    ItemHeight = 13
+    OnChange = ComboBox1Change
+    ParentShowHint = False
+    ShowHint = True
+    Style = csDropDownList
+    TabOrder = 2
+  end
+  object MainMenu1: TMainMenu
+    left = 192
+    top = 88
+    object MenuItem1: TMenuItem
+      Caption = 'New Item1'
+      ShortCut = 27
+      Visible = False
+      OnClick = MenuItem1Click
+    end
+  end
+  object PopupMenu1: TPopupMenu
+    left = 192
+    top = 192
+    object MenuItem2: TMenuItem
+      Caption = 'Kopírovať všetko'
+      OnClick = MenuItem2Click
+    end
+  end
+  object PopupMenu2: TPopupMenu
+    left = 192
+    top = 144
+    object MenuItem3: TMenuItem
+      Caption = 'Kopírovať všetko'
+      OnClick = MenuItem3Click
+    end
+  end
+end

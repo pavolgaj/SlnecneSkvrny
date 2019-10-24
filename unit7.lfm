@@ -1,0 +1,727 @@
+object Form7: TForm7
+  Left = 844
+  Height = 624
+  Hint = 'Hrubo vyznačené údaje sú povinné.'
+  Top = 28
+  Width = 475
+  BorderIcons = [biSystemMenu]
+  Caption = 'Nový záznam'
+  ClientHeight = 624
+  ClientWidth = 475
+  Constraints.MaxHeight = 624
+  Constraints.MaxWidth = 475
+  Constraints.MinHeight = 624
+  Constraints.MinWidth = 475
+  Icon.Data = {
+    7E04000000000100010010100000000000006804000016000000280000001000
+    0000200000000100200000000000000400000000000000000000000000000000
+    0000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00196B3788196B37F2196B37FF196B37F2196B3788FFFF
+    FF00FFFFFF00BE7D558FBD7C54B5BC7B53EEBA7953FFB67751FFB47651FFB174
+    50FFAD724FFF5F6E43FF288C53FF64BA8DFF95D2B2FF64BA8DFF288C53FF196B
+    378CFFFFFF00C08055DEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFF22713FFF62BA8BFF60BA87FFFFFFFFFF60B987FF67BC8FFF196B
+    37F7FFFFFF00C28258FEFFFFFFFFAF672CFFAD642BFFAD642BFFFFFFFFFFF0E5
+    DEFFF0E5DEFF317B4CFF9CD4B6FFFFFFFFFFFFFFFFFFFFFFFFFF95D2B2FF196B
+    37FFFFFFFF00C4865AFFFFFFFFFFAF672CFFCD9F74FFAD642BFFFFFFFFFFF0E5
+    DEFFF6EFEBFF4A8A61FF90D3B1FF92D6B1FFFFFFFFFF65BC8CFF67BC8FFF196B
+    37F7FFFFFF00C5865BFFFFFFFFFFAF672CFFCDA075FFAD642BFFFFFFFFFFF0E5
+    DEFFF6EFEBFFA3BDA7FF61AB81FF95D4B4FFBAE6D0FF6ABB8FFF2D8F57FF196B
+    378CFFFFFF00C7885AFFFFFFFFFFB46E33FFD0A57EFFB26C2EFFFFFFFFFFF0E5
+    DEFFF6EFEBFFF5ECE6FFA9C1ACFF609974FF4F8E66FF4A8A61FF72774DFFFFFF
+    FF00FFFFFF00C88A5BFFFFFFFFFFB77640FFD1A683FFB67338FFFFFFFFFFF0E5
+    DEFFF6EFEBFFF6EFEBFFF6EFEBFFF6EFEBFFF0E5DEFFFFFFFFFFB67853FFFFFF
+    FF00FFFFFF00CA8C5CFFFFFFFFFFBC7F54FFBA7D4CFFBA7C4AFFFFFFFFFFF0E5
+    DEFFF0E5DEFFF0E5DEFFF0E5DEFFF0E5DEFFF0E5DEFFFFFFFFFFB97C54FFFFFF
+    FF00FFFFFF00CB8E5DFEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFBC7E55FFFFFF
+    FF00FFFFFF00CC905EFAFFFFFFFFEDC49BFFEDC49BFFEDC49BFFEDC49BFFEDC4
+    9BFFEDC49BFFEDC49BFFEDC49BFFEDC49BFFEDC49BFFFFFFFFFFBE8157FFFFFF
+    FF00FFFFFF00CD915FF0FFFFFFFFEDC49CFFF4DAC1FFF4DAC1FFF4DBC2FFF4DB
+    C2FFF4DBC2FFF4DBC2FFF4DBC2FFF4DBC2FFEDC49BFFFFFFFFFFC18458FEFFFF
+    FF00FFFFFF00CE935FD8FFFFFFFFEDC49CFFEDC49CFFEDC49CFFEDC49BFFEDC4
+    9BFFEDC49BFFEDC49BFFEDC49BFFEDC49BFFEDC49BFFFFFFFFFFC68C61F8FFFF
+    FF00FFFFFF00CE935F9BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD6AA89FFFFFF
+    FF00FFFFFF00CE935F71CE935F90CE935FCCCE935FFFCD935FFECD925FFFCC90
+    5FFFCD9261FFCD9363FFCB9161FFCB8E5FEFCA9264CBD8AE8BFFD7AC8BFFFFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFC100008000000080000000800000008000000080000000800100008001
+    0000800100008001000080010000800100008001000080010000C0010000FFFF
+    0000
+  }
+  Menu = MainMenu1
+  OnShow = FormShow
+  Position = poMainFormCenter
+  ShowHint = True
+  LCLVersion = '0.9.28.2'
+  object Label10: TLabel
+    Left = 24
+    Height = 17
+    Top = 248
+    Width = 29
+    Caption = 'Čas'
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 24
+    Height = 17
+    Top = 216
+    Width = 46
+    Caption = 'Dátum'
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label12: TLabel
+    Left = 296
+    Height = 17
+    Top = 216
+    Width = 44
+    Caption = 'Seeing'
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label13: TLabel
+    Left = 296
+    Height = 17
+    Top = 248
+    Width = 48
+    Caption = 'Teplota'
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label14: TLabel
+    Left = 296
+    Height = 17
+    Top = 279
+    Width = 87
+    Caption = 'Rýchlosť vetra'
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label17: TLabel
+    Left = 208
+    Height = 14
+    Top = 251
+    Width = 63
+    Caption = 'Časová zóna'
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label18: TLabel
+    Left = 24
+    Height = 17
+    Top = 316
+    Width = 234
+    Caption = 'Typ súradníc pri zadávaní polohy škvŕn'
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object GroupBox1: TGroupBox
+    Left = 9
+    Height = 192
+    Hint = 'Údaje o pozorovateľovi:'#13#10'Meno a priezvisko pozorovateľa'#13#10'Pozorovacia stanica'#13#10'Použitý prístroj'#13#10'Priemer ďalekohľadu (mm)'#13#10'Ohnisková vzdialenosť (mm)'#13#10'Ohnisková vzdialenosť okulára (mm)'#13#10'Použitý filter'#13#10'Pozorovacia metóda (vizuálne/projekcia)'#13#10'Polomer zákresu Slnka (mm)'
+    Top = 6
+    Width = 456
+    Caption = 'Pozorovateľ a použitý prístroj'
+    ClientHeight = 174
+    ClientWidth = 452
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 14
+      Height = 17
+      Top = 12
+      Width = 74
+      Caption = 'Pozorovateľ'
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 14
+      Height = 17
+      Top = 44
+      Width = 46
+      Caption = 'Stanica'
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label3: TLabel
+      Left = 14
+      Height = 17
+      Top = 76
+      Width = 42
+      Caption = 'Prístroj'
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label4: TLabel
+      Left = 14
+      Height = 17
+      Top = 108
+      Width = 48
+      Caption = 'Priemer'
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label5: TLabel
+      Left = 14
+      Height = 17
+      Top = 140
+      Width = 50
+      Caption = 'Ohnisko'
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label6: TLabel
+      Left = 230
+      Height = 33
+      Top = 96
+      Width = 77
+      Caption = 'Pozorovacia'#13#10'metóda'
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label7: TLabel
+      Left = 230
+      Height = 17
+      Top = 44
+      Width = 40
+      Caption = 'Okulár'
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label8: TLabel
+      Left = 230
+      Height = 17
+      Top = 76
+      Width = 30
+      Caption = 'Filter'
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label9: TLabel
+      Left = 230
+      Height = 17
+      Top = 140
+      Width = 102
+      Caption = 'Polomer zákresu'
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      ParentColor = False
+      ParentFont = False
+    end
+    object ComboBox1: TComboBox
+      Left = 94
+      Height = 23
+      Hint = 'Meno a priezvisko pozorovateľa'
+      Top = 8
+      Width = 100
+      ItemHeight = 15
+      OnChange = ComboBox1Change
+      TabOrder = 0
+      Text = 'pozorovatel'
+    end
+    object Edit1: TEdit
+      Left = 94
+      Height = 23
+      Hint = 'Pozorovacia stanica'
+      Top = 40
+      Width = 100
+      TabOrder = 1
+    end
+    object Edit2: TEdit
+      Left = 94
+      Height = 23
+      Hint = 'Použitý prístroj'
+      Top = 72
+      Width = 100
+      TabOrder = 2
+    end
+    object ComboBox2: TComboBox
+      Left = 342
+      Height = 23
+      Hint = 'Pozorovacia metóda'
+      Top = 104
+      Width = 100
+      ItemHeight = 15
+      ItemIndex = 0
+      Items.Strings = (
+        'vizuálne'
+        'projekcia'
+      )
+      TabOrder = 7
+      Text = 'vizuálne'
+    end
+    object Edit6: TEdit
+      Left = 342
+      Height = 23
+      Hint = 'Použitý filter'
+      Top = 72
+      Width = 100
+      TabOrder = 6
+    end
+    object Edit7: TSpinEdit
+      Left = 342
+      Height = 23
+      Hint = 'Polomer zákresu Slnka (mm)'
+      Top = 136
+      Width = 100
+      MaxValue = 1000
+      MinValue = 1
+      TabOrder = 8
+      Value = 10
+    end
+    object Edit3: TSpinEdit
+      Left = 94
+      Height = 23
+      Hint = 'Priemer ďalekohľadu (mm)'
+      Top = 104
+      Width = 100
+      MaxValue = 10000
+      MinValue = 10
+      TabOrder = 3
+      Value = 100
+    end
+    object Edit4: TSpinEdit
+      Left = 94
+      Height = 23
+      Hint = 'Ohnisková vzdialenosť (mm)'
+      Top = 136
+      Width = 100
+      MaxValue = 100000
+      MinValue = 100
+      TabOrder = 4
+      Value = 1000
+    end
+    object Edit5: TSpinEdit
+      Left = 342
+      Height = 23
+      Hint = 'Ohnisková vzdialenosť okulára (mm)'
+      Top = 40
+      Width = 100
+      MinValue = 1
+      TabOrder = 5
+      Value = 20
+    end
+    object Button3: TButton
+      Left = 230
+      Height = 25
+      Hint = 'Pridanie nového pozorovateľa zo zadanými údajmi'#13#10'do zoznamu pozorovateľov.'
+      Top = 8
+      Width = 123
+      Caption = 'Pridať pozorovateľa'
+      Enabled = False
+      OnClick = Button3Click
+      TabOrder = 9
+    end
+  end
+  object DateEdit1: TDateEdit
+    Left = 88
+    Height = 23
+    Hint = 'Zvolťe dátum pozorovania a zákresu Slnka.'
+    Top = 212
+    Width = 112
+    CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames, dsStartMonday]
+    OKCaption = 'OK'
+    CancelCaption = 'Cancel'
+    DefaultToday = True
+    DateOrder = doDMY
+    ButtonWidth = 23
+    Glyph.Data = {
+      36040000424D3604000000000000360000002800000010000000100000000100
+      2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00D69E
+      72C4D3996EF4D19668FFCE9263FFCB8E5EFFC98A5BFFC78756FFC38452FFC384
+      52FFC38452FFC38452FFC38452FFC38452FFBB7742B0FFFFFF00FFFFFF00D7A1
+      75FFF8F2EDFFF7F0EAFFF6EDE6FFF4EAE2FFF3E7DEFFF1E4DBFFF0E2D8FFEAD6
+      C8FFF2E5DCFFFAF4F1FFF9F3F0FFFAF5F2FFC58A5DFDFFFFFF00FFFFFF00D9A4
+      7AFFF9F3EEFFEBD2BEFFFFFFFFFFEBD3BFFFFFFFFFFFEBD3C0FFFFFFFFFFEAC7
+      ADFFECD9CDFFF1E4DBFFF9F3F0FFF9F2EFFFC68C5FFFFFFFFF00FFFFFF00DDA8
+      7EFFF9F3EFFFEBD0BAFFEBD0BBFF75B57AFF75B57AFF75B57AFFEBD1BDFFEACD
+      B5FFFAF4F0FFEBD9CCFFF1E4DBFFFAF4F1FFC68A5CFFFFFFFF00FFFFFF00DFAA
+      82FFF9F3EFFFEACEB7FFFFFFFFFF75B57AFF94D49BFF74B579FFFFFFFFFFEACF
+      BAFFFBF6F2FFFAF3F0FFEBD8CBFFF2E6DDFFC88D5FFFFFFFFF00FFFFFF00E1AE
+      87FFFAF4F0FFEACBB2FFEACCB3FF75B57AFF74B579FF73B478FFEACEB7FF70B3
+      75FF6FB274FF6EB172FFE8C8AEFFEAD7C9FFC48654FFFFFFFF00FFFFFF00E3B1
+      8CFFFAF6F1FFEAC9AEFFFFFFFFFFEAC9B0FFFFFFFFFFE9CBB3FFFFFFFFFF6FB1
+      73FF8ED295FF6BAF6FFFFFFFFFFFF1E5DBFFC68655FFFFFFFF00FFFFFF00E5B4
+      8FFFFAF6F2FFE9C6AAFFE9C6ACFFEAC7ACFFE9C7ADFFE9C9AEFFE9C9B0FF6CB0
+      71FF6AAF6EFF68AD6DFFE8CCB5FFF2E7DEFFC88A59FFFFFFFF00FFFFFF00E7B7
+      94FFFBF7F4FFE9C3A6FFFFFFFFFFE8C4A9FFFFFFFFFFE9C6AAFFFFFFFFFFE8C7
+      ACFFFFFFFFFFE8C8B0FFFFFFFFFFF7F1EBFFCB8F5FFFFFFFFF00FFFFFF00E9BA
+      98FFFBF7F4FF65A4FFFF64A3FFFF62A2FFFF61A1FFFF5F9FFFFF5C9DFFFF5A9A
+      FFFF5798FFFF5495FFFF5294FFFFFBF7F4FFCE9364FFFFFFFF00FFFFFF00EBBD
+      9BFFFBF7F4FF64A4FFFF79BDFFFF75BBFFFF71B9FFFF6DB8FFFF68B3FFFF61B0
+      FFFF5AABFFFF54A7FFFF3B7DFFFFFBF7F4FFD1976AFFFFFFFF00FFFFFF00ECBF
+      9EFFFBF7F4FF65A4FFFF64A3FFFF60A0FFFF5D9EFFFF5899FFFF5496FFFF4D90
+      FFFF478BFFFF4284FFFF3D7FFFFFFBF7F4FFD49B6FFFFFFFFF00FFFFFF00EEC1
+      A1EBFBF7F4FFFBF7F4FFFBF7F4FFFBF7F4FFFBF7F4FFFBF7F4FFFBF7F4FFFBF7
+      F4FFFBF7F4FFFBF7F4FFFBF7F4FFFBF7F4FFD7A074F8FFFFFF00FFFFFF00EFC2
+      A37EEFC1A2E3EDC09FFFEBBE9DFFEBBC9AFFE9BA96FFE7B793FFE6B590FFE4B2
+      8CFFE2AF88FFE0AC84FFDDA980FFDCA57DFFDAA37ACAFFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+    }
+    NumGlyphs = 0
+    MaxLength = 10
+    OnChange = DateEdit1Change
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 1
+  end
+  object MaskEdit1: TMaskEdit
+    Left = 88
+    Height = 23
+    Hint = 'Zvolťe čas pozorovania a zákresu Slnka.'
+    Top = 244
+    Width = 80
+    MaxLength = 8
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 2
+    EditMask = '00:00:00;0;_'
+    SpaceChar = '_'
+  end
+  object SpinEdit1: TSpinEdit
+    Left = 400
+    Height = 23
+    Hint = 'Zadajte seeing (chvenie vzduchu):'#13#10'1 - 5 (1 - najkvalitnejší obraz, 5 - najhorší obraz) '
+    Top = 212
+    Width = 50
+    MaxValue = 5
+    MinValue = 1
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 6
+    Value = 1
+  end
+  object SpinEdit2: TSpinEdit
+    Left = 400
+    Height = 23
+    Hint = 'Zadajte teplotu vzduchu v °C.'
+    Top = 244
+    Width = 50
+    MaxValue = 50
+    MinValue = -20
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 7
+    Value = 15
+  end
+  object SpinEdit3: TSpinEdit
+    Left = 400
+    Height = 23
+    Hint = 'Zadajte rýchlosť vetra v m/s.'
+    Top = 275
+    Width = 50
+    MaxValue = 30
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 8
+  end
+  object RadioButton1: TRadioButton
+    Left = 24
+    Height = 19
+    Hint = 'Letný a zimný čas sa nastaví automticky podľa zadaného dátumu.'#13#10'Zimný čas je automaticky natavený v mesiacoch december - február.'#13#10'Letný alebo zimný čas je možné manuálne prepnúť.'
+    Top = 279
+    Width = 68
+    Caption = 'Zimný čas'
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 3
+  end
+  object RadioButton2: TRadioButton
+    Left = 112
+    Height = 19
+    Hint = 'Letný a zimný čas sa nastaví automticky podľa zadaného dátumu.'#13#10'Zimný čas je automaticky natavený v mesiacoch november - marec.'#13#10'Letný alebo zimný čas je možné manuálne prepnúť.'
+    Top = 279
+    Width = 66
+    Caption = 'Letný čas'
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 4
+  end
+  object SpinEdit4: TSpinEdit
+    Left = 208
+    Height = 23
+    Hint = 'Nastavte časové pásmo.'#13#10'Prednastavenné +1 h (Slovensko).'
+    Top = 275
+    Width = 48
+    MaxValue = 12
+    MinValue = -12
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 5
+    Value = 1
+  end
+  object GroupBox2: TGroupBox
+    Left = 9
+    Height = 128
+    Hint = 'Zadávanie údajov o skupinách slnečných škvŕn.'
+    Top = 344
+    Width = 416
+    Caption = 'Skupiny'
+    ClientHeight = 110
+    ClientWidth = 412
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 10
+    object Label15: TLabel
+      Left = 14
+      Height = 17
+      Top = 4
+      Width = 91
+      Caption = 'Počet skupín'
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object StringGrid1: TStringGrid
+      Left = 14
+      Height = 70
+      Hint = 'Informácie o jednotlivých skupinách:'#13#10'typ - podľa McIntoshovej kvalifikácie'#13#10'počet - počet škvŕn v skupine'#13#10'penum. - počet penumbier v skupine'#13#10'x - x-ová súradnica stredu skupiny'#13#10'y - y-ová súradnica stredu skupiny'#13#10'plocha - plocha škvŕn v mm2 '#13#10'mal. šk. - počet škvŕn v skupine menších ako 1 mm2'#13#10'č. skup. - číslo skupiny'
+      Top = 32
+      Width = 380
+      AutoAdvance = aaRightDown
+      ColCount = 9
+      Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goTabs, goSmoothScroll]
+      ParentShowHint = False
+      RowCount = 1
+      ShowHint = True
+      TabOrder = 1
+      ColWidths = (
+        25
+        49
+        36
+        42
+        36
+        35
+        41
+        47
+        64
+      )
+      Cells = (
+        8
+        1
+        0
+        'Typ'
+        2
+        0
+        'počet'
+        3
+        0
+        'penum.'
+        4
+        0
+        'x'
+        5
+        0
+        'y'
+        6
+        0
+        'plocha'
+        7
+        0
+        'mal. šk.'
+        8
+        0
+        'č. skup.'
+      )
+    end
+    object Edit8: TSpinEdit
+      Left = 125
+      Height = 23
+      Hint = 'Zadajte počet skupín.'
+      Top = 0
+      Width = 50
+      MaxValue = 50
+      OnChange = Edit8Change
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 0
+    end
+  end
+  object GroupBox4: TGroupBox
+    Left = 9
+    Height = 128
+    Hint = 'Zadávanie údajov o fakulových poliach.'
+    Top = 488
+    Width = 288
+    Caption = 'Fakulové polia'
+    ClientHeight = 110
+    ClientWidth = 284
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 11
+    object Label16: TLabel
+      Left = 15
+      Height = 17
+      Top = 7
+      Width = 150
+      Caption = 'Počet fakulových polí'
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object StringGrid2: TStringGrid
+      Left = 15
+      Height = 70
+      Hint = 'Informácie o jednotlivých fakulových poliach:'#13#10'intezita - od 0 do 4 (4 -> najjasnejšie)'#13#10'x - x-ová súradnica stredu fakuly'#13#10'y - y-ová súradnica stredu fakuly'#13#10'plocha - plocha fakulového poľa v mm2'#13#10'č. fak. - číslo fakulového poľa'
+      Top = 32
+      Width = 248
+      AutoAdvance = aaRightDown
+      ColCount = 6
+      Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goTabs, goSmoothScroll]
+      ParentShowHint = False
+      RowCount = 1
+      ShowHint = True
+      TabOrder = 1
+      ColWidths = (
+        22
+        50
+        36
+        35
+        51
+        49
+      )
+      Cells = (
+        5
+        1
+        0
+        'intenzita'
+        2
+        0
+        'x'
+        3
+        0
+        'y'
+        4
+        0
+        'plocha'
+        5
+        0
+        'č. fak.'
+      )
+    end
+    object Edit9: TSpinEdit
+      Left = 174
+      Height = 23
+      Hint = 'Zadajte počet fakulových polí.'
+      Top = 3
+      Width = 50
+      MaxValue = 90
+      OnChange = Edit9Change
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 0
+    end
+  end
+  object ComboBox3: TComboBox
+    Left = 280
+    Height = 23
+    Hint = 'Zvoľte typ súradnicovej sústavy,'#13#10'v ktorej budete zadáť polohu škvŕn.'
+    Top = 312
+    Width = 152
+    ItemHeight = 15
+    Items.Strings = (
+      'Pravouhlé, karteziánske'
+      'Polárne'
+    )
+    OnChange = ComboBox3Change
+    ParentShowHint = False
+    ShowHint = True
+    Style = csDropDownList
+    TabOrder = 9
+  end
+  object Button1: TButton
+    Left = 336
+    Height = 73
+    Hint = 'Pridať záznam.'
+    Top = 488
+    Width = 129
+    Caption = 'Uložiť'
+    Font.Height = -33
+    OnClick = Button1Click
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 12
+  end
+  object Button2: TButton
+    Left = 336
+    Height = 40
+    Top = 576
+    Width = 129
+    Caption = 'Zrušiť'
+    Font.Height = -20
+    OnClick = Button2Click
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 13
+  end
+  object MainMenu1: TMainMenu
+    left = 440
+    top = 368
+    object MenuItem1: TMenuItem
+      Caption = 'ok'
+      ShortCut = 13
+      Visible = False
+      OnClick = MenuItem1Click
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'zrusit'
+      ShortCut = 27
+      Visible = False
+      OnClick = MenuItem2Click
+    end
+  end
+end

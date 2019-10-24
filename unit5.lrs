@@ -1,0 +1,164 @@
+{ Toto je automaticky generovaný súbor zdrojov Lazarus }
+
+LazarusResources.Add('TForm5','FORMDATA',[
+  'TPF0'#6'TForm5'#5'Form5'#4'Left'#3#26#1#6'Height'#3'J'#1#3'Top'#3#222#1#5'Wi'
+  +'dth'#3#218#2#11'BorderIcons'#11#12'biSystemMenu'#0#7'Caption'#6#10'Nastaven'
+  +'ia'#12'ClientHeight'#3'J'#1#11'ClientWidth'#3#218#2#21'Constraints.MaxHeigh'
+  +'t'#3'J'#1#20'Constraints.MaxWidth'#3#218#2#21'Constraints.MinHeight'#3'J'#1
+  +#20'Constraints.MinWidth'#3#218#2#9'Icon.Data'#10#130#4#0#0'~'#4#0#0#0#0#1#0
+  +#1#0#16#16#0#0#1#0' '#0'h'#4#0#0#22#0#0#0'('#0#0#0#16#0#0#0' '#0#0#0#1#0' '#0
+  +#0#0#0#0#0#4#0#0'd'#0#0#0'd'#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#162'xX7'#145'iLr'#134'[@r'#134'[Cr'#146'iOj'#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#175#142'u='#130'U7'
+  +#170'sC&'#241'sB#'#255'vE%'#255'zJ*'#255'}N/'#253#128'S5'#229#131'U6]'#148'j'
+  +'?'#12#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#165#132'hS|L,'#239'h/'#10#255
+  +'r@'#29#255'tA'#26#255'|A'#16#255#130'G'#22#255#134'N'#31#255#137'U)'#255#135
+  +'W2'#255#137'_@'#210#159'wYS'#0#0#0#0#0#0#0#0#0#0#0#0#200#178#159'P'#131'R0'
+  +#239'n3'#7#255'z='#10#255#151'kC'#255#189#177#162#255#133'S"'#255#136'H'#11
+  +#255#136'H'#12#255#134'I'#14#255#164#135'j'#255#186#171#157#255#146'kK'#239
+  +#184#149'|P'#0#0#0#0#255#255#191#4#168#129'd'#230'v9'#10#255#133'K'#22#255
+  +#152'vP'#255'~F'#18#255#206#197#186#255#156'yR'#255#142'M'#11#255#141'N'#13
+  +#255#155'vN'#255#229#228#226#255#232#231#231#255#170#139'm'#255#168'~X'#230
+  +#191#191#191#4#223#205#190'r'#136'N'#31#255#137'H'#12#255#147'U'#20#255#206
+  +#189#168#255#209#204#196#255#242#243#244#255#195#183#167#255#137'V'#27#255
+  +#158'wK'#255#235#234#233#255#239#238#238#255#183#152't'#255#145'R'#16#255#153
+  +'_%'#255#199#170#138'r'#170'{Rr'#138'I'#14#255#153'X'#19#255#161'b'#26#255
+  +#162'g$'#255#173#129'M'#255#201#181#157#255#235#234#235#255#206#200#190#255
+  +#225#223#219#255#234#234#234#255#183#151'o'#255#160'c'#29#255#160'`'#23#255
+  +#154'Y'#17#255#200#167#133#245#198#165#132#231#155'['#25#255#171'n&'#255#172
+  +'p'''#255#172'p'''#255#174'r)'#255#174'y7'#255#205#193#176#255#223#223#223
+  +#255#225#225#225#255#182#159'|'#255#172'q)'#255#174'q)'#255#174'q'''#255#170
+  +'k!'#255#194#151'g'#255#207#174#140#231#175't2'#255#181'}5'#255#180#146'a'
+  +#255#178#148'i'#255#191#141'L'#255#188#156'n'#255#210#206#200#255#215#215#213
+  +#255#216#216#216#255#199#189#174#255#176#131'F'#255#180'}6'#255#184'~5'#255
+  +#184#127'5'#255#204#164's'#255#199#152'dr'#189#132'B'#255#194#158'k'#255#213
+  +#211#207#255#214#212#206#255#191#165'|'#255#220#217#212#255#223#222#219#255
+  +#208#186#154#255#213#200#179#255#223#223#224#255#212#207#197#255#201#188#166
+  +#255#185#146'W'#255#196#141'D'#255#218#187#145#245#230#208#178'r'#205#154'Z'
+  +#255#208#164'd'#255#221#206#181#255#233#232#230#255#228#228#225#255#231#230
+  +#226#255#219#196#160#255#219#182#127#255#218#183#129#255#225#218#206#255#229
+  +#226#219#255#220#201#172#255#212#196#169#255#206#157'U'#255#221#185#136'r'
+  +#255#191#191#4#223#184#130#230#219#170'b'#255#225#186'~'#255#237#228#212#255
+  +#245#245#245#255#231#227#217#255#221#197#155#255#227#197#150#255#231#199#150
+  +#255#235#222#202#255#225#214#194#255#225#190#135#255#220#178'n'#255#224#183
+  +'y'#244#243#228#213'C'#0#0#0#0#238#212#176'k'#231#189'~'#255#234#195#132#255
+  +#239#216#177#255#241#229#207#255#248#247#245#255#242#240#234#255#235#223#201
+  +#255#238#212#169#255#239#215#174#255#242#230#210#255#232#202#152#255#232#189
+  +'y'#255#241#219#183#185#0#0#0#0#0#0#0#0#255#242#230#21#244#220#186#186#239
+  +#202#141#255#244#217#172#255#245#223#184#255#245#229#201#255#245#232#206#255
+  +#244#224#188#255#246#223#184#255#245#223#185#255#245#220#178#255#240#204#142
+  +#255#242#213#165#186#242#230#206#21#0#0#0#0#0#0#0#0#0#0#0#0#255#242#230#21
+  +#247#221#178'k'#245#215#164#244#249#225#184#255#250#230#196#255#250#231#197
+  +#255#250#231#197#255#250#230#196#255#249#227#189#255#246#216#164#244#248#227
+  +#190#185#255#230#206#21#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#251
+  +#243#228'C'#250#223#176'r'#250#232#198#245#251#232#199#255#251#232#199#255
+  +#250#232#198#245#250#223#174'r'#251#235#213'C'#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#4'Menu'#7#9'MainMenu1'
+  +#6'OnShow'#7#8'FormShow'#8'Position'#7#16'poMainFormCenter'#10'LCLVersion'#6
+  +#8'0.9.28.2'#0#6'TLabel'#6'Label5'#4'Left'#2#16#6'Height'#2#17#3'Top'#3#188#0
+  +#5'Width'#3#202#0#7'Caption'#6#29'Prednastaven'#195#189' n'#195#161'zov s'
+  +#195#186'boru'#11'Font.Height'#2#243#9'Font.Name'#6#13'MS Sans Serif'#10'Fon'
+  +'t.Style'#11#6'fsBold'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6
+  +'Label6'#4'Left'#2#16#6'Height'#2#17#3'Top'#3#255#0#5'Width'#3#17#1#7'Captio'
+  +'n'#6',Typ s'#195#186'radn'#195#173'c pri zad'#195#161'van'#195#173' polohy '
+  +#197#161'kv'#197#149'n'#11'Font.Height'#2#243#9'Font.Name'#6#13'MS Sans Seri'
+  +'f'#10'Font.Style'#11#6'fsBold'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#6'T'
+  +'Label'#6'Label7'#4'Left'#3'X'#1#6'Height'#2#17#3'Top'#3'('#1#5'Width'#3#174
+  ,#0#7'Caption'#6#26'Import / export nastaven'#195#173#11'Font.Height'#2#243#9
+  +'Font.Name'#6#13'MS Sans Serif'#10'Font.Style'#11#6'fsBold'#0#11'ParentColor'
+  +#8#10'ParentFont'#8#0#0#11'TStringGrid'#11'StringGrid1'#4'Left'#2#16#6'Heigh'
+  +'t'#2'h'#4'Hint'#12#135#1#0#0'Zad'#195#161'vanie pozorovate'#196#190'ov:'#13
+  +#10#13#10'Meno a priezvisko pozorovate'#196#190'a'#13#10'Pozorovacia stanica'
+  +#13#10'Pou'#197#190'it'#195#189' pr'#195#173'stroj'#13#10'Priemer '#196#143
+  +'alekoh'#196#190'adu (mm)'#13#10'Ohniskov'#195#161' vzdialenos'#197#165' (mm'
+  +')'#13#10'Ohniskov'#195#161' vzdialenos'#197#165' okul'#195#161'ra (mm)'#13
+  +#10'Pou'#197#190'it'#195#189' filter'#13#10'Pozorovacia met'#195#179'da (viz'
+  +'u'#195#161'lne/projekcia)'#13#10'Polomer z'#195#161'kresu Slnka (mm)'#13#10
+  +#13#10'V'#197#161'etky hodnoty sa mo'#197#190'no pri zad'#195#161'van'#195
+  +#173' z'#195#161'kresu zmeni'#197#165','#13#10'zadan'#195#169' hodnoty bud'
+  +#195#186' prednastaven'#195#169'.'#3'Top'#2#16#5'Width'#3#176#2#11'AutoAdvan'
+  +'ce'#7#11'aaRightDown'#8'ColCount'#2#9#9'FixedCols'#2#0#7'Options'#11#15'goF'
+  +'ixedVertLine'#15'goFixedHorzLine'#10'goVertLine'#10'goHorzLine'#13'goRangeS'
+  +'elect'#9'goEditing'#6'goTabs'#14'goSmoothScroll'#0#14'ParentShowHint'#8#8'R'
+  +'owCount'#2#2#8'ShowHint'#9#8'TabOrder'#2#0#10'TitleStyle'#7#10'tsStandard'
+  +#13'OnEditingDone'#7#22'StringGrid1EditingDone'#9'ColWidths'#1#2'j'#2'^'#2'H'
+  +#2'.'#2'.'#2'('#2'T'#2'm'#2'V'#0#5'Cells'#1#2#9#2#0#2#0#6#12'Pozorovate'#196
+  +#190#2#1#2#0#6#7'Stanica'#2#2#2#0#6#9'Pr'#195#173'stroj'#2#3#2#0#6#7'Priemer'
+  +#2#4#2#0#6#7'Ohnisko'#2#5#2#0#6#7'Okul'#195#161'r'#2#6#2#0#6#6'Filter'#2#7#2
+  +#0#6#19'Pozorovacia met'#195#179'da'#2#8#2#0#6#16'Polomer z'#195#161'kresu'#0
+  +#0#0#5'TEdit'#5'Edit3'#4'Left'#3#192#1#6'Height'#2#23#4'Hint'#6'!Zadajte n'
+  +#195#161'zov s'#195#186'boru s d'#195#161'tami.'#3'Top'#3#184#0#5'Width'#3
+  +#152#0#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#1#0#0#9'TComboBox'#9
+  +'ComboBox1'#4'Left'#3'('#1#6'Height'#2#23#4'Hint'#6'vZvo'#196#190'te typ s'
+  +#195#186'radnicovej s'#195#186'stavy,'#13#10'v ktorej budete zad'#195#161#197
+  +#165' polohu '#197#161'kvrn.'#13#10'Vo'#196#190'bu je mo'#197#190'n'#195#169
+  +' pri zad'#195#161'van'#195#173' zmeni'#197#165'.'#3'Top'#3#251#0#5'Width'#3
+  +#152#0#10'ItemHeight'#2#15#9'ItemIndex'#2#0#13'Items.Strings'#1#6#25'Pravouh'
+  +'l'#195#169', kartezi'#195#161'nske'#6#8'Pol'#195#161'rne'#0#14'ParentShowHi'
+  +'nt'#8#8'ShowHint'#9#5'Style'#7#14'csDropDownList'#8'TabOrder'#2#2#4'Text'#6
+  +#25'Pravouhl'#195#169', kartezi'#195#161'nske'#0#0#7'TButton'#7'Button1'#4'L'
+  +'eft'#2#16#6'Height'#2#25#3'Top'#3' '#1#5'Width'#2'K'#7'Caption'#6#2'OK'#7'O'
+  +'nClick'#7#12'Button1Click'#8'TabOrder'#2#3#0#0#7'TButton'#7'Button2'#4'Left'
+  +#2'h'#6'Height'#2#25#3'Top'#3' '#1#5'Width'#2'K'#7'Caption'#6#8'Zru'#197#161
+  +'i'#197#165#7'OnClick'#7#12'Button2Click'#8'TabOrder'#2#4#0#0#7'TButton'#7'B'
+  +'utton3'#4'Left'#2#16#6'Height'#2#25#4'Hint'#6'"Pridanie '#196#143'al'#197
+  +#161'ieho pozorovate'#196#190'a.'#3'Top'#3#136#0#5'Width'#2'{'#7'Caption'#6
+  +#21'Prida'#197#165' pozorovate'#196#190'a'#7'OnClick'#7#12'Button3Click'#14
+  +'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#5#0#0#7'TButton'#7'Button4'#4
+  +'Left'#3#216#0#6'Height'#2#25#4'Hint'#6'&Odstr'#195#161'nenie zvolen'#195#169
+  +'ho pozorovate'#196#190'a.'#3'Top'#3#136#0#5'Width'#3#128#0#7'Caption'#6#25
+  +'Odstr'#195#161'ni'#197#165' pozorovate'#196#190'a'#7'OnClick'#7#12'Button4C'
+  +'lick'#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#7#0#0#9'TComboBox'#9
+  +'ComboBox2'#4'Left'#3'h'#1#6'Height'#2#23#4'Hint'#6'&Zvo'#196#190'te pozorov'
+  +'ate'#196#190'a na odstr'#195#161'nenie.'#3'Top'#3#140#0#5'Width'#3#152#0#10
+  +'ItemHeight'#2#15#14'ParentShowHint'#8#8'ShowHint'#9#5'Style'#7#14'csDropDow'
+  +'nList'#8'TabOrder'#2#6#0#0#9'TComboBox'#9'ComboBox3'#4'Left'#3#0#1#6'Height'
+  +#2#23#4'Hint'#6#148'Zvolenie prednastaven'#195#169'ho s'#195#186'boru d'#195
+  +#161't.'#13#10'1. nach'#195#161'dza sa v rovnakom prie'#196#141'inku '#13#10
+  +'    ako tento program (slnko.exe)'#13#10'2. nach'#195#161'da sa v inom prie'
+  +#196#141'inku'#3'Top'#3#184#0#5'Width'#3#152#0#10'ItemHeight'#2#15#9'ItemInd'
+  +'ex'#2#0#13'Items.Strings'#1#6#19'rovnak'#195#189' prie'#196#141'inok'#6#15
+  +'in'#195#189' prie'#196#141'inok'#0#8'OnChange'#7#15'ComboBox3Change'#14'Par'
+  +'entShowHint'#8#8'ShowHint'#9#5'Style'#7#14'csDropDownList'#8'TabOrder'#2#8#4
+  +'Text'#6#19'rovnak'#195#189' prie'#196#141'inok'#0#0#13'TFileNameEdit'#13'Fi'
+  +'leNameEdit1'#4'Left'#3#192#1#6'Height'#2#23#4'Hint'#6'.Zvo'#196#190'te umie'
+  +'stnenie a n'#195#161'zov s'#195#186'bor s d'#195#161'tami.'#3'Top'#3#184#0#5
+  +'Width'#3#152#0#13'DialogOptions'#11#17'ofForceShowHidden'#0#6'Filter'#6'<Sl'
+  +'ne'#196#141'n'#195#169' '#197#161'kvrny - d'#195#161'ta  (*.xml)|*.xml|V'
+  +#197#161'etky s'#195#186'bory|*.*'#11'FilterIndex'#2#1#15'HideDirectories'#8
+  +#11'ButtonWidth'#2#23#9'NumGlyphs'#2#0#14'ParentShowHint'#8#8'ShowHint'#9#8
+  +'TabOrder'#2#9#7'Visible'#8#0#0#7'TButton'#7'Button5'#4'Left'#3#24#2#6'Heigh'
+  ,'t'#2#25#4'Hint'#6#23'Importovanie nastaven'#195#173#3'Top'#3' '#1#5'Width'#2
+  +'K'#7'Caption'#6#6'Import'#7'OnClick'#7#12'Button5Click'#14'ParentShowHint'#8
+  +#8'ShowHint'#9#8'TabOrder'#2#10#0#0#7'TButton'#7'Button6'#4'Left'#3'u'#2#6'H'
+  +'eight'#2#25#4'Hint'#6#23'Exportovanie nastaven'#195#173#3'Top'#3' '#1#5'Wid'
+  +'th'#2'K'#7'Caption'#6#6'Export'#7'OnClick'#7#12'Button6Click'#14'ParentShow'
+  +'Hint'#8#8'ShowHint'#9#8'TabOrder'#2#11#0#0#13'TFileNameEdit'#13'FileNameEdi'
+  +'t2'#4'Left'#3#0#1#6'Height'#2#23#4'Hint'#6'+Zvo'#196#190'te umiestnenie z'
+  +#195#161'lo'#197#190'nej k'#195#179'pie d'#195#161't.'#3'Top'#3#216#0#5'Widt'
+  +'h'#3#152#0#13'DialogOptions'#11#17'ofForceShowHidden'#0#6'Filter'#6'(Slne'
+  +#196#141'n'#195#169' '#197#161'kvrny - d'#195#161'ta  (*.xml)|*.xml'#11'Filt'
+  +'erIndex'#2#1#15'HideDirectories'#8#11'ButtonWidth'#2#23#9'NumGlyphs'#2#0#7
+  +'Enabled'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#12#0#0#9'TCheck'
+  +'Box'#9'CheckBox1'#4'Left'#2#16#6'Height'#2#20#4'Hint'#6'"Vytv'#195#161'ra'
+  +#197#165' z'#195#161'lo'#197#190'n'#195#186' k'#195#179'piu d'#195#161't.'#3
+  +'Top'#3#219#0#5'Width'#3#202#0#7'Caption'#6'!Vytv'#195#161'ra'#197#165' z'
+  +#195#161'lo'#197#190'n'#195#186' k'#195#179'piu d'#195#161't'#11'Font.Height'
+  +#2#243#9'Font.Name'#6#13'MS Sans Serif'#10'Font.Style'#11#6'fsBold'#0#8'OnCh'
+  +'ange'#7#15'CheckBox1Change'#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHin'
+  +'t'#9#8'TabOrder'#2#13#0#0#11'TOpenDialog'#11'OpenDialog1'#5'Title'#6#28'Imp'
+  +'ort nastaven'#195#173' zo s'#195#186'boru'#6'Filter'#6'WTextov'#195#189' s'
+  +#195#186'bor (*.txt)|*.txt|S'#195#186'bor nastaven'#195#173' (*.config)|*.co'
+  +'nfig|V'#197#161'etky s'#195#186'bory|*.*'#7'Options'#11#12'ofNoValidate'#15
+  +'ofPathMustExist'#15'ofFileMustExist'#14'ofEnableSizing'#17'ofForceShowHidde'
+  +'n'#12'ofViewDetail'#0#4'left'#3'0'#2#3'top'#3#245#0#0#0#11'TSaveDialog'#11
+  +'SaveDialog1'#5'Title'#6#28'Export nastaven'#195#173' do s'#195#186'boru'#6
+  +'Filter'#6'WTextov'#195#189' s'#195#186'bor (*.txt)|*.txt|S'#195#186'bor nas'
+  +'taven'#195#173' (*.config)|*.config|V'#197#161'etky s'#195#186'bory|*.*'#4
+  +'left'#3#144#2#3'top'#3#245#0#0#0#9'TMainMenu'#9'MainMenu1'#4'left'#3#144#2#3
+  +'top'#3#192#0#0#9'TMenuItem'#9'MenuItem1'#7'Caption'#6#2'ok'#8'ShortCut'#2#13
+  +#7'Visible'#8#7'OnClick'#7#14'MenuItem1Click'#0#0#9'TMenuItem'#9'MenuItem2'#7
+  +'Caption'#6#6'zrusit'#8'ShortCut'#2#27#7'Visible'#8#7'OnClick'#7#14'MenuItem'
+  +'2Click'#0#0#0#0
+]);

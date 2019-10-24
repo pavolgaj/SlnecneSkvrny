@@ -1,0 +1,422 @@
+object Form10: TForm10
+  Left = 66
+  Height = 495
+  Top = 87
+  Width = 1012
+  ActiveControl = PageControl1
+  Caption = 'Štatistiky - grafy'
+  ClientHeight = 495
+  ClientWidth = 1012
+  Icon.Data = {
+    7E04000000000100010010100000000020006804000016000000280000001000
+    0000200000000100200000000000400400000000000000000000000000000000
+    0000000000230000003300000033000000330000003300000033000000330000
+    003300000033000000330000003300000033000000330000003300000031FFFF
+    FF018B8B8BC1939393FF919192FF919192FF909192FF909091FF909090FF9090
+    90FF909090FF909090FF909090FF909090FF909090FF929292FF959595F3FFFF
+    FF01939393FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF939393FFFFFF
+    FF01919192FFFFFFFFFFB97F0DFFB57903FFC4A261FFFDFEFEFFFFFFFFFFD7D7
+    D8FFFFFFFFFFFFFFFEFFD8D8D6FFFFFFFEFFFFFFFEFFFFFFFFFF919191FFFFFF
+    FF01919191FFFFFFFFFFFFFFFFFFF7F4EDFFBC8F32FFC08E2BFFF8F3ECFFD9DA
+    DDFFFFFFFFFFFFFFFDFFE1DFD5FFFFFFFDFFFFFFFCFFFFFFFFFF919190FFFFFF
+    FF01919191FFFFFFFFFFD2D3D3FFD4D6D9FFD8DDE4FFC29E53FFBA7E07FFDDDD
+    D9FFBABED8FF6873C9FF4150C4FF1527BDFF0013B9FFFFFFFFFF929291FFFFFF
+    FF01919191FFFFFFFFFFF7F6F5FFF9F8F8FFD7D7D7FFFFFFFFFFAB8756FF9F70
+    22FF3443C9FF7A86DFFF9FA3CDFFE6E7F0FFFFFFF5FFFFFFFFFF919191FFFFFF
+    FF01929191FFFFFEFEFFFFF6F9FFFFFAFCFFE7DBD9FF7076DFFF2C3FD8FFC09B
+    51FFCC982CFFFDFCF7FFD7D9D9FFF8F9F8FFF5F5F4FFFFFEFCFF919191FFFFFF
+    FF01929292FFFFFFFFFF007B29FF00842FFF008947FF135696FFDED4DBFFDCDB
+    E0FFC29C4FFFB77D06FFC7B28AFFCBC8BFFFCCD0D6FFFDFFFFFF919292FFFFFF
+    FF01929292FFFFFDFDFFFFF8F4FFA69EE6FF275B9FFF05994DFF25A267FFD0CD
+    D1FFFBF7FFFFE3CEAFFFC09342FFB87600FFB57200FFFEFEFFFF929293FFFFFF
+    FF01929292FFFFFDFAFFEBE8E6FF1F2EC6FFAFAACCFFF3F0EBFF47AC7DFF0086
+    3EFF92C8B1FFEEECF0FFDBD1DBFFFDF5FFFFF7F2FAFFFFFCFFFF929293FFFFFF
+    FF01929392FFFFFFF9FF7B83C0FF404DC1FFD3D0C4FFCDC8C6FFD3C9CBFF87B3
+    9EFF159259FF008033FF008135FF007F33FF007B2CFFFFFCFFFF939293FFFFFF
+    FF01939392FFFFFFF8FF3645C6FFABB0D8FFC7C6BEFFE5E5E2FFE7E4E3FFC8C2
+    C2FFF0E7E9FFF4E8EBFFD1C4C8FFF4E7EBFFEDE4E6FFFEF9FAFF929292FFFFFF
+    FF01949492FFFFFFF9FF1224BFFFEAE7DDFFBEBDB9FFDEDDDCFFDEDDDCFFBCBA
+    BAFFE0DDDDFFE1DDDDFFBEBBBBFFE0DDDDFFDEDBDBFFF9F8F8FF929292FFFFFF
+    FF01959494FFFFFFFBFFFFFEF7FFFCFBF6FFFAF9F7FFF8F7F6FFF8F7F6FFF9F8
+    F6FFF8F7F6FFF8F7F6FFF9F8F6FFF8F7F6FFF8F7F6FFFDFBFAFF949494FFFFFF
+    FF01989898C5949494FF939392FF929292FF929292FF929292FF929292FF9292
+    92FF929292FF929292FF929292FF929292FF929292FF949494FF989898EFFFFF
+    FF010000FFFF0000FFFF0000FFFF0000FFFF0000FFFF0000FFFF0000FFFF0000
+    FFFF0000FFFF0000FFFF0000FFFF0000FFFF0000FFFF0000FFFF0000FFFF0000
+    FFFF
+  }
+  Menu = MainMenu1
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  OnResize = FormResize
+  Position = poDefault
+  LCLVersion = '0.9.28.2'
+  WindowState = wsMaximized
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 496
+    Top = -1
+    Width = 1111
+    ActivePage = TabSheet10
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Images = Form1.ImageList1
+    TabIndex = 10
+    TabOrder = 0
+    object TabSheet11: TTabSheet
+      Caption = 'Úvod'
+      ClientHeight = 469
+      ClientWidth = 1103
+      ImageIndex = -1
+      OnShow = TabSheet11Show
+      object GroupBox1: TGroupBox
+        Left = 272
+        Height = 486
+        Top = 189
+        Width = 660
+        ClientHeight = 468
+        ClientWidth = 656
+        Color = clBtnFace
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 0
+        object Label11: TLabel
+          Left = 238
+          Height = 265
+          Top = 88
+          Width = 417
+          Caption = 'g   -  počet skupín na celom sl. disku'#13#10'f    -  počet škvŕn na celom sl. disku'#13#10'r    -  relatívne číslo '#13#10'gC -  počet skupín v centrálnej oblasti'#13#10'fC  -  počet škvŕn v centrálnej oblasti'#13#10'rC  -  relatívne číslo centrálnej oblasti'#13#10'CV -  CV indexy'#13#10'SN -  Pettisovo číslo'#13#10'RB -  Beckovo číslo'#13#10'F   -  počet fakulových polí'#13#10'Motýlikový diagram - heliografická šírka skupín'
+          Font.Height = -20
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label12: TLabel
+          Left = 70
+          Height = 25
+          Top = 88
+          Width = 149
+          Caption = 'Jednotlivé grafy:'
+          Font.Height = -20
+          Font.Style = [fsUnderline]
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label13: TLabel
+          Left = 22
+          Height = 25
+          Top = 405
+          Width = 117
+          Caption = 'Popis grafov:'
+          Font.Height = -20
+          Font.Style = [fsUnderline]
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label14: TLabel
+          Left = 154
+          Height = 49
+          Top = 405
+          Width = 469
+          Caption = 'červená čiara  -  mesačné priemery'#13#10'modrá čiara    -  kĺzavé priemery (min. 12 mesiacov)'
+          Font.Height = -20
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label15: TLabel
+          Left = 10
+          Height = 49
+          Top = 14
+          Width = 626
+          Caption = 'Vitajte v časti ŠTATISTIKY - GRAFY'
+          Font.Height = -40
+          ParentColor = False
+          ParentFont = False
+        end
+      end
+    end
+    object TabSheet1: TTabSheet
+      Hint = 'Počet skupín'
+      Caption = 'g'
+      ClientHeight = 469
+      ClientWidth = 1103
+      ImageIndex = -1
+      OnShow = TabSheet1Show
+      ParentShowHint = False
+      ShowHint = True
+      object Image1: TImage
+        Left = 0
+        Height = 386
+        Hint = 'Počet skupín'#13#10#13#10'červená čiara  -  mesačné priemery'#13#10'modrá čiara    -  kĺzavé priemery (min. 12 mesiacov)'
+        Top = 0
+        Width = 659
+        PopupMenu = PopupMenu1
+      end
+    end
+    object TabSheet2: TTabSheet
+      Hint = 'Počet škvrn'
+      Caption = 'f'
+      ClientHeight = 469
+      ClientWidth = 1103
+      ImageIndex = -1
+      OnShow = TabSheet2Show
+      ParentShowHint = False
+      ShowHint = True
+      object Image2: TImage
+        Left = 0
+        Height = 850
+        Hint = 'Počet škvŕn'#13#10#13#10'červená čiara  -  mesačné priemery'#13#10'modrá čiara    -  kĺzavé priemery (min. 12 mesiacov)'
+        Top = 0
+        Width = 1195
+        PopupMenu = PopupMenu1
+      end
+    end
+    object TabSheet3: TTabSheet
+      Hint = 'Relatíne čislo'
+      Caption = 'r'
+      ClientHeight = 469
+      ClientWidth = 1103
+      ImageIndex = -1
+      OnShow = TabSheet3Show
+      ParentShowHint = False
+      ShowHint = True
+      object Image3: TImage
+        Left = 0
+        Height = 850
+        Hint = 'Relatíne čislo'#13#10#13#10'červená čiara  -  mesačné priemery'#13#10'modrá čiara    -  kĺzavé priemery (min. 12 mesiacov)'
+        Top = 0
+        Width = 1195
+        PopupMenu = PopupMenu1
+      end
+    end
+    object TabSheet4: TTabSheet
+      Hint = 'Počet skupín v centrálnej oblasti'
+      Caption = 'gC'
+      ClientHeight = 469
+      ClientWidth = 1103
+      ImageIndex = -1
+      OnShow = TabSheet4Show
+      ParentShowHint = False
+      ShowHint = True
+      object Image4: TImage
+        Left = 0
+        Height = 850
+        Hint = 'Počet skupín v centrálnej oblasti'#13#10#13#10'červená čiara  -  mesačné priemery'#13#10'modrá čiara    -  kĺzavé priemery (min. 12 mesiacov)'
+        Top = 0
+        Width = 1195
+        PopupMenu = PopupMenu1
+      end
+    end
+    object TabSheet5: TTabSheet
+      Hint = 'Počet škvrn v centrálnej oblasti'
+      Caption = 'fC'
+      ClientHeight = 469
+      ClientWidth = 1103
+      ImageIndex = -1
+      OnShow = TabSheet5Show
+      ParentShowHint = False
+      ShowHint = True
+      object Image5: TImage
+        Left = 0
+        Height = 850
+        Hint = 'Počet škvŕn v centrálnej oblasti'#13#10#13#10'červená čiara  -  mesačné priemery'#13#10'modrá čiara    -  kĺzavé priemery (min. 12 mesiacov)'
+        Top = 0
+        Width = 1195
+        PopupMenu = PopupMenu1
+      end
+    end
+    object TabSheet6: TTabSheet
+      Hint = 'Relatívne číslo v centrálnej oblasti'
+      Caption = 'rC'
+      ClientHeight = 469
+      ClientWidth = 1103
+      ImageIndex = -1
+      OnShow = TabSheet6Show
+      ParentShowHint = False
+      ShowHint = True
+      object Image6: TImage
+        Left = 0
+        Height = 850
+        Hint = 'Relatívne číslo v centrálnej oblasti'#13#10#13#10'červená čiara  -  mesačné priemery'#13#10'modrá čiara    -  kĺzavé priemery (min. 12 mesiacov)'
+        Top = 0
+        Width = 1195
+        PopupMenu = PopupMenu1
+      end
+    end
+    object TabSheet7: TTabSheet
+      Hint = 'CV indexy'
+      Caption = 'CV'
+      ClientHeight = 469
+      ClientWidth = 1103
+      ImageIndex = -1
+      OnShow = TabSheet7Show
+      ParentShowHint = False
+      ShowHint = True
+      object Image7: TImage
+        Left = 0
+        Height = 850
+        Hint = 'CV indexy'#13#10#13#10'červená čiara  -  mesačné priemery'#13#10'modrá čiara    -  kĺzavé priemery (min. 12 mesiacov)'
+        Top = 0
+        Width = 1195
+        PopupMenu = PopupMenu1
+      end
+    end
+    object TabSheet8: TTabSheet
+      Hint = 'Pettisovo číslo'
+      Caption = 'SN'
+      ClientHeight = 469
+      ClientWidth = 1103
+      ImageIndex = -1
+      OnShow = TabSheet8Show
+      ParentShowHint = False
+      ShowHint = True
+      object Image8: TImage
+        Left = 0
+        Height = 850
+        Hint = 'Pettisovo číslo'#13#10#13#10'červená čiara  -  mesačné priemery'#13#10'modrá čiara    -  kĺzavé priemery (min. 12 mesiacov)'
+        Top = 0
+        Width = 1195
+        PopupMenu = PopupMenu1
+      end
+    end
+    object TabSheet9: TTabSheet
+      Hint = 'Beckovo číslo'
+      Caption = 'RB'
+      ClientHeight = 469
+      ClientWidth = 1103
+      ImageIndex = -1
+      OnShow = TabSheet9Show
+      ParentShowHint = False
+      ShowHint = True
+      object Image9: TImage
+        Left = 0
+        Height = 850
+        Hint = 'Beckovo číslo'#13#10#13#10'červená čiara  -  mesačné priemery'#13#10'modrá čiara    -  kĺzavé priemery (min. 12 mesiacov)'
+        Top = 0
+        Width = 1195
+        PopupMenu = PopupMenu1
+      end
+    end
+    object TabSheet10: TTabSheet
+      Hint = 'Počet fakulových polí'
+      Caption = 'F'
+      ClientHeight = 469
+      ClientWidth = 1103
+      ImageIndex = -1
+      OnShow = TabSheet10Show
+      ParentShowHint = False
+      ShowHint = True
+      object Image10: TImage
+        Left = 0
+        Height = 852
+        Hint = 'Počet fakulových polí'#13#10#13#10'červená čiara  -  mesačné priemery'#13#10'modrá čiara    -  kĺzavé priemery (min. 12 mesiacov)'
+        Top = 0
+        Width = 1193
+        PopupMenu = PopupMenu1
+      end
+    end
+    object TabSheet13: TTabSheet
+      Caption = 'Motýlikový diagram'
+      ClientHeight = 469
+      ClientWidth = 1103
+      ImageIndex = -1
+      OnShow = TabSheet13Show
+      object Image11: TImage
+        Left = 0
+        Height = 852
+        Hint = 'Heliografická šírka skupín'#13#10#13#10'Čierny bod - heliografická šírka skupiny'
+        Top = 0
+        Width = 1193
+        ParentShowHint = False
+        PopupMenu = PopupMenu1
+        ShowHint = True
+      end
+    end
+    object TabSheet12: TTabSheet
+      ClientHeight = 469
+      ClientWidth = 1103
+      ImageIndex = 5
+      object GroupBox2: TGroupBox
+        Left = 272
+        Height = 486
+        Top = 188
+        Width = 660
+        ClientHeight = 468
+        ClientWidth = 656
+        Color = clBtnFace
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 0
+        object Label6: TLabel
+          Left = 238
+          Height = 265
+          Top = 88
+          Width = 417
+          Caption = 'g   -  počet skupín na celom sl. disku'#13#10'f    -  počet škvŕn na celom sl. disku'#13#10'r    -  relatívne číslo '#13#10'gC -  počet skupín v centrálnej oblasti'#13#10'fC  -  počet škvŕn v centrálnej oblasti'#13#10'rC  -  relatívne číslo centrálnej oblasti'#13#10'CV -  CV indexy'#13#10'SN -  Pettisovo číslo'#13#10'RB -  Beckovo číslo'#13#10'F   -  počet fakulových polí'#13#10'Motýlikový diagram - heliografická šírka skupín'
+          Font.Height = -20
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label7: TLabel
+          Left = 70
+          Height = 25
+          Top = 88
+          Width = 149
+          Caption = 'Jednotlivé grafy:'
+          Font.Height = -20
+          Font.Style = [fsUnderline]
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label8: TLabel
+          Left = 22
+          Height = 25
+          Top = 405
+          Width = 117
+          Caption = 'Popis grafov:'
+          Font.Height = -20
+          Font.Style = [fsUnderline]
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label9: TLabel
+          Left = 154
+          Height = 49
+          Top = 405
+          Width = 469
+          Caption = 'červená čiara  -  mesačné priemery'#13#10'modrá čiara    -  kĺzavé priemery (min. 12 mesiacov)'
+          Font.Height = -20
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label10: TLabel
+          Left = 10
+          Height = 49
+          Top = 14
+          Width = 626
+          Caption = 'Vitajte v časti ŠTATISTIKY - GRAFY'
+          Font.Height = -40
+          ParentColor = False
+          ParentFont = False
+        end
+      end
+    end
+  end
+  object PopupMenu1: TPopupMenu
+    left = 632
+    top = 65528
+    object MenuItem1: TMenuItem
+      Caption = 'Kopírovať graf'
+      ShortCut = 24643
+      OnClick = MenuItem1Click
+    end
+  end
+  object MainMenu1: TMainMenu
+    left = 600
+    object MenuItem3: TMenuItem
+      Caption = 'zrusit'
+      ShortCut = 27
+      Visible = False
+      OnClick = MenuItem3Click
+    end
+  end
+end

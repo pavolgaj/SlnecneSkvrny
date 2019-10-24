@@ -1,0 +1,251 @@
+{ Toto je automaticky generovaný súbor zdrojov Lazarus }
+
+LazarusResources.Add('TForm13','FORMDATA',[
+  'TPF0'#7'TForm13'#6'Form13'#4'Left'#3'G'#2#6'Height'#3#171#2#3'Top'#3#21#1#5
+  +'Width'#3#177#2#7'Caption'#6#6'Form13'#12'ClientHeight'#3#171#2#11'ClientWid'
+  +'th'#3#177#2#8'Position'#7#15'poDesktopCenter'#10'LCLVersion'#6#8'0.9.28.2'#0
+  +#6'TImage'#6'Image1'#4'Left'#2#16#6'Height'#3#194#1#3'Top'#3'0'#1#5'Width'#3
+  +#194#1#0#0#7'TPRPage'#7'PRPage1'#4'Left'#2'8'#6'Height'#3'J'#3#3'Top'#2#8#5
+  +'Width'#3'T'#2#9'MarginTop'#2' '#10'MarginLeft'#2' '#11'MarginRight'#2' '#12
+  +'MarginBottom'#2' '#0#14'TPRLayoutPanel'#14'PRLayoutPanel1'#4'Left'#2#15#6'H'
+  +'eight'#3','#3#3'Top'#2#15#5'Width'#3'6'#2#0#8'TPRLabel'#8'PRLabel1'#4'Left'
+  +#2#0#6'Height'#2'#'#3'Top'#2#9#5'Width'#3'6'#2#8'FontName'#7#7'fnArial'#8'Fo'
+  +'ntSize'#5#0#0#0#0#0#0#0#160#3'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordS'
+  +'pace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#17'Sunspots - Report'#9'Alignment'
+  +#7#8'taCenter'#0#0#8'TPRImage'#8'PRImage1'#4'Left'#2':'#6'Height'#3#194#1#3
+  +'Top'#3'f'#1#5'Width'#3#194#1#11'SharedImage'#8#12'Proportional'#8#0#0#8'TPR'
+  +'Label'#8'PRLabel2'#4'Left'#2'+'#6'Height'#2#19#3'Top'#2'1'#5'Width'#2'd'#8
+  +'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#8'FontBold'#9#9
+  +'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Capti'
+  +'on'#6#10'OBSERVER :'#0#0#8'TPRLabel'#8'PRLabel3'#4'Left'#3#134#0#6'Height'#2
+  +#19#3'Top'#2'1'#5'Width'#3#144#1#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0
+  +#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0
+  +#0#0#0#0#0#7'Caption'#6#8'PRLabel3'#0#0#8'TPRLabel'#8'PRLabel4'#4'Left'#3#134
+  +#0#6'Height'#2#19#3'Top'#2'F'#5'Width'#3#144#1#8'FontName'#7#7'fnArial'#8'Fo'
+  +'ntSize'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordS'
+  +'pace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#8'PRLabel4'#0#0#8'TPRLabel'#8'PRLa'
+  +'bel5'#4'Left'#2'+'#6'Height'#2#19#3'Top'#2'F'#5'Width'#2'd'#8'FontName'#7#7
+  +'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#8'FontBold'#9#9'CharSpace'#5#0
+  +#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#10'LOCATI'
+  +'ON :'#0#0#8'TPRLabel'#8'PRLabel6'#4'Left'#2'n'#6'Height'#2#19#3'Top'#2'c'#5
+  +'Width'#3#144#0#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'
+  +#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Cap'
+  +'tion'#6#8'PRLabel6'#0#0#8'TPRLabel'#8'PRLabel7'#4'Left'#2'+'#6'Height'#2#19
+  +#3'Top'#2'c'#5'Width'#2'3'#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0
+  +#0#192#2'@'#8'FontBold'#9#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0
+  +#0#0#0#0#0#0#0#0#0#7'Caption'#6#6'DATE :'#0#0#8'TPRLabel'#8'PRLabel8'#4'Left'
+  +#3'V'#1#6'Height'#2#19#3'Top'#2'c'#5'Width'#2'8'#8'FontName'#7#7'fnArial'#8
+  +'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#8'FontBold'#9#9'CharSpace'#5#0#0#0#0#0#0
+  +#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#6'TIME :'#0#0#8'TPR'
+  +'Label'#9'PRLabel10'#4'Left'#3#142#1#6'Height'#2#19#3'Top'#2'c'#5'Width'#2'`'
+  +#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5
+  +#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#9'PRLab'
+  +'el10'#9'Alignment'#7#8'taCenter'#0#0#8'TPRLabel'#9'PRLabel11'#4'Left'#3#244
+  +#1#6'Height'#2#19#3'Top'#2'c'#5'Width'#2' '#8'FontName'#7#7'fnArial'#8'FontS'
+  +'ize'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpac'
+  +'e'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#3'UTC'#0#0#8'TPRLabel'#9'PRLabel12'#4
+  +'Left'#3#182#1#6'Height'#2#19#3'Top'#3#130#0#5'Width'#2'@'#8'FontName'#7#7'f'
+  +'nArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0
+  +#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#9'PRLabel12'#9'Alignmen'
+  +'t'#7#8'taCenter'#0#0#8'TPRLabel'#9'PRLabel13'#4'Left'#3#244#1#6'Height'#2#19
+  +#3'Top'#3#130#0#5'Width'#2' '#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0
+  +#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0
+  +#0#0#0#0#7'Caption'#6#5'm / s'#0#0#8'TPRLabel'#9'PRLabel14'#4'Left'#3#134#1#6
+  +'Height'#2#19#3'Top'#3#130#0#5'Width'#2'8'#8'FontName'#7#7'fnArial'#8'FontSi'
+  +'ze'#5#0#0#0#0#0#0#0#192#2'@'#8'FontBold'#9#9'CharSpace'#5#0#0#0#0#0#0#0#0#0
+  +#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#6'WIND :'#0#0#8'TPRLabel'
+  +#9'PRLabel15'#4'Left'#2'f'#6'Height'#2#19#3'Top'#3#130#0#5'Width'#2'@'#8'Fon'
+  +'tName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0
+  +#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#9'PRLabel15'
+  +#9'Alignment'#7#8'taCenter'#0#0#8'TPRLabel'#9'PRLabel16'#4'Left'#2'+'#6'Heig'
+  +'ht'#2#19#3'Top'#3#130#0#5'Width'#2'3'#8'FontName'#7#7'fnArial'#8'FontSize'#5
+  +#0#0#0#0#0#0#0#192#2'@'#8'FontBold'#9#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'W'
+  +'ordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#8'SEEING :'#0#0#8'TPRLabel'#9
+  +'PRLabel17'#4'Left'#3#182#0#6'Height'#2#19#3'Top'#3#130#0#5'Width'#2'h'#8'Fo'
+  +'ntName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#8'FontBold'#9#9'C'
+  +'harSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Captio'
+  +'n'#6#13'TEMPERATURE :'#0#0#8'TPRLabel'#9'PRLabel18'#4'Left'#3#30#1#6'Height'
+  ,#2#19#3'Top'#3#130#0#5'Width'#2'H'#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0
+  +#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0
+  +#0#0#0#0#0#0#7'Caption'#6#9'PRLabel18'#9'Alignment'#7#8'taCenter'#0#0#8'TPRL'
+  +'abel'#9'PRLabel19'#4'Left'#3'^'#1#6'Height'#2#19#3'Top'#3#130#0#5'Width'#2
+  +' '#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpac'
+  +'e'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#3
+  +#194#176'C'#0#0#8'TPRLabel'#9'PRLabel20'#4'Left'#2'~'#6'Height'#2#19#3'Top'#3
+  +#157#0#5'Width'#2'@'#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192
+  +#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7
+  +'Caption'#6#9'PRLabel20'#9'Alignment'#7#8'taCenter'#0#0#8'TPRLabel'#9'PRLabe'
+  +'l21'#4'Left'#2'+'#6'Height'#2#19#3'Top'#3#157#0#5'Width'#2'S'#8'FontName'#7
+  +#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#8'FontBold'#9#9'CharSpace'#5
+  +#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#10'APER'
+  +'TURE :'#0#0#8'TPRLabel'#9'PRLabel22'#4'Left'#3#222#0#6'Height'#2#19#3'Top'#3
+  +#157#0#5'Width'#2'h'#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192
+  +#2'@'#8'FontBold'#9#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0
+  +#0#0#0#0#0#0#7'Caption'#6#14'FOCAL LENGTH :'#0#0#8'TPRLabel'#9'PRLabel23'#4
+  +'Left'#3'F'#1#6'Height'#2#19#3'Top'#3#157#0#5'Width'#2'@'#8'FontName'#7#7'fn'
+  +'Arial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0
+  +#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#9'PRLabel23'#9'Alignment'
+  +#7#8'taCenter'#0#0#8'TPRLabel'#9'PRLabel24'#4'Left'#3#134#1#6'Height'#2#19#3
+  +'Top'#3#157#0#5'Width'#2' '#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0
+  +#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0
+  +#0#0#0#7'Caption'#6#2'mm'#0#0#8'TPRLabel'#9'PRLabel25'#4'Left'#3#166#1#6'Hei'
+  +'ght'#2#19#3'Top'#3#157#0#5'Width'#2'0'#8'FontName'#7#7'fnArial'#8'FontSize'
+  +#5#0#0#0#0#0#0#0#192#2'@'#8'FontBold'#9#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9
+  +'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#6'TYPE :'#0#0#8'TPRLabel'#9'P'
+  +'RLabel26'#4'Left'#3#212#1#6'Height'#2#19#3'Top'#3#157#0#5'Width'#2'@'#8'Fon'
+  +'tName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0
+  +#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#9'PRLabel26'
+  +#0#0#8'TPRLabel'#9'PRLabel27'#4'Left'#3#190#0#6'Height'#2#19#3'Top'#3#157#0#5
+  +'Width'#2' '#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#9
+  +'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Capti'
+  +'on'#6#2'mm'#0#0#8'TPRLabel'#9'PRLabel28'#4'Left'#2'+'#6'Height'#2#19#3'Top'
+  +#3#181#0#5'Width'#2'S'#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0
+  +#192#2'@'#8'FontBold'#9#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0
+  +#0#0#0#0#0#0#0#0#7'Caption'#6#10'EYEPIECE :'#0#0#8'TPRLabel'#9'PRLabel29'#4
+  +'Left'#2'~'#6'Height'#2#19#3'Top'#3#181#0#5'Width'#2'@'#8'FontName'#7#7'fnAr'
+  +'ial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0
+  +#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#9'PRLabel29'#9'Alignment'#7
+  +#8'taCenter'#0#0#8'TPRLabel'#9'PRLabel30'#4'Left'#3#190#0#6'Height'#2#19#3'T'
+  +'op'#3#181#0#5'Width'#2' '#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0
+  +#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0
+  +#0#0#7'Caption'#6#2'mm'#0#0#8'TPRLabel'#9'PRLabel31'#4'Left'#3#238#0#6'Heigh'
+  +'t'#2#19#3'Top'#3#181#0#5'Width'#2'X'#8'FontName'#7#7'fnArial'#8'FontSize'#5
+  +#0#0#0#0#0#0#0#192#2'@'#8'FontBold'#9#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'W'
+  +'ordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#12'FILTRATION :'#0#0#8'TPRLabe'
+  +'l'#9'PRLabel32'#4'Left'#3'F'#1#6'Height'#2#19#3'Top'#3#181#0#5'Width'#3#206
+  +#0#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'
+  +#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#9'PRL'
+  +'abel32'#0#0#8'TPRLabel'#9'PRLabel33'#4'Left'#2'+'#6'Height'#2#19#3'Top'#3
+  +#205#0#5'Width'#2'd'#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192
+  +#2'@'#8'FontBold'#9#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0
+  +#0#0#0#0#0#0#7'Caption'#6#13'OBSERVATION :'#0#0#8'TPRLabel'#9'PRLabel34'#4'L'
+  +'eft'#3#152#0#6'Height'#2#19#3'Top'#3#205#0#5'Width'#3#134#0#8'FontName'#7#7
+  +'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0
+  +#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#9'PRLabel34'#0#0#8'TPRL'
+  +'abel'#9'PRLabel35'#4'Left'#3'.'#1#6'Height'#2#19#3'Top'#3#205#0#5'Width'#3
+  +#144#0#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#8'FontB'
+  +'old'#9#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0
+  +#7'Caption'#6#19'RADIUS OF DRAWING :'#0#0#8'TPRLabel'#9'PRLabel36'#4'Left'#3
+  +#190#1#6'Height'#2#19#3'Top'#3#205#0#5'Width'#2'8'#8'FontName'#7#7'fnArial'#8
+  +'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'Wor'
+  +'dSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#8'PRLabl36'#9'Alignment'#7#8'taC'
+  ,'enter'#0#0#8'TPRLabel'#9'PRLabel37'#4'Left'#3#254#1#6'Height'#2#19#3'Top'#3
+  +#205#0#5'Width'#2#24#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192
+  +#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7
+  +'Caption'#6#2'mm'#0#0#8'TPRLabel'#9'PRLabel38'#4'Left'#2'+'#6'Height'#2#19#3
+  +'Top'#3'B'#1#5'Width'#2#28#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0
+  +#0#192#2'@'#8'FontBold'#9#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0
+  +#0#0#0#0#0#0#0#0#0#7'Caption'#6#5'r  = '#0#0#8'TPRLabel'#9'PRLabel39'#4'Left'
+  +#2'F'#6'Height'#2#19#3'Top'#3'B'#1#5'Width'#2'@'#8'FontName'#7#7'fnArial'#8
+  +'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'Wor'
+  +'dSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#9'PRLabel39'#0#0#8'TPRLabel'#9'P'
+  +'RLabel40'#4'Left'#2'+'#6'Height'#2#19#3'Top'#3'*'#1#5'Width'#2#28#8'FontNam'
+  +'e'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#8'FontBold'#9#9'CharSp'
+  +'ace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#5
+  +'f  = '#0#0#8'TPRLabel'#9'PRLabel41'#4'Left'#2'F'#6'Height'#2#19#3'Top'#3'*'
+  +#1#5'Width'#2'@'#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2
+  +'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7
+  +'Caption'#6#9'PRLabel41'#0#0#8'TPRLabel'#9'PRLabel42'#4'Left'#2'+'#6'Height'
+  +#2#19#3'Top'#3#18#1#5'Width'#2#28#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0
+  +#0#0#0#0#0#192#2'@'#8'FontBold'#9#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordS'
+  +'pace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#4'g = '#0#0#8'TPRLabel'#9'PRLabel4'
+  +'3'#4'Left'#2'F'#6'Height'#2#19#3'Top'#3#18#1#5'Width'#2'@'#8'FontName'#7#7
+  +'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0
+  +#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#9'PRLabel43'#0#0#8'TPRL'
+  +'abel'#9'PRLabel44'#4'Left'#3#174#0#6'Height'#2#19#3'Top'#3#18#1#5'Width'#2
+  +#28#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#8'FontBold'
+  +#9#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'C'
+  +'aption'#6#5'g  = '#0#0#8'TPRLabel'#9'PRLabel45'#4'Left'#3#203#0#6'Height'#2
+  +#19#3'Top'#3#18#1#5'Width'#2'@'#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0
+  +#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0
+  +#0#0#0#0#0#7'Caption'#6#9'PRLabel45'#0#0#8'TPRLabel'#9'PRLabel46'#4'Left'#3
+  +#203#0#6'Height'#2#19#3'Top'#3'*'#1#5'Width'#2'@'#8'FontName'#7#7'fnArial'#8
+  +'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'Wor'
+  +'dSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#9'PRLabel46'#0#0#8'TPRLabel'#9'P'
+  +'RLabel47'#4'Left'#3#174#0#6'Height'#2#19#3'Top'#3'*'#1#5'Width'#2#28#8'Font'
+  +'Name'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#8'FontBold'#9#9'Cha'
+  +'rSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'
+  +#6#6'f   = '#0#0#8'TPRLabel'#9'PRLabel48'#4'Left'#3#174#0#6'Height'#2#19#3'T'
+  +'op'#3'B'#1#5'Width'#2#28#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0
+  +#0#192#2'@'#8'FontBold'#9#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0
+  +#0#0#0#0#0#0#0#0#0#7'Caption'#6#6'r   = '#0#0#8'TPRLabel'#9'PRLabel49'#4'Lef'
+  +'t'#3#203#0#6'Height'#2#19#3'Top'#3'B'#1#5'Width'#2'@'#8'FontName'#7#7'fnAri'
+  +'al'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0
+  +#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#9'PRLabel49'#0#0#8'TPRLabel'
+  +#9'PRLabel50'#4'Left'#3'6'#1#6'Height'#2#19#3'Top'#3#18#1#5'Width'#2#28#8'Fo'
+  +'ntName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#8'FontBold'#9#9'C'
+  +'harSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Captio'
+  +'n'#6#5'CV = '#0#0#8'TPRLabel'#9'PRLabel51'#4'Left'#3'Y'#1#6'Height'#2#19#3
+  +'Top'#3#18#1#5'Width'#2'@'#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0
+  +#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0
+  +#0#0#7'Caption'#6#9'PRLabel51'#0#0#8'TPRLabel'#9'PRLabel52'#4'Left'#3'Y'#1#6
+  +'Height'#2#19#3'Top'#3'*'#1#5'Width'#2'@'#8'FontName'#7#7'fnArial'#8'FontSiz'
+  +'e'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'
+  +#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#9'PRLabel52'#0#0#8'TPRLabel'#9'PRLabel53'
+  +#4'Left'#3'6'#1#6'Height'#2#19#3'Top'#3'*'#1#5'Width'#2#28#8'FontName'#7#7'f'
+  +'nArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#8'FontBold'#9#9'CharSpace'#5#0
+  +#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#5'SN = '#0
+  +#0#8'TPRLabel'#9'PRLabel54'#4'Left'#3'6'#1#6'Height'#2#19#3'Top'#3'B'#1#5'Wi'
+  +'dth'#2#28#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#8'F'
+  +'ontBold'#9#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0
+  +#0#0#7'Caption'#6#5'RB = '#0#0#8'TPRLabel'#9'PRLabel55'#4'Left'#3'Y'#1#6'Hei'
+  +'ght'#2#19#3'Top'#3'B'#1#5'Width'#2'@'#8'FontName'#7#7'fnArial'#8'FontSize'#5
+  +#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0
+  +#0#0#0#0#0#0#0#0#7'Caption'#6#9'PRLabel55'#0#0#8'TPRLabel'#9'PRLabel56'#4'Le'
+  +'ft'#3#181#0#6'Height'#2#19#3'Top'#3#29#1#5'Width'#2#28#8'FontName'#7#7'fnAr'
+  ,'ial'#8'FontSize'#5#0#0#0#0#0#0#0#128#2'@'#8'FontBold'#9#9'CharSpace'#5#0#0#0
+  +#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#1'C'#0#0#8'TP'
+  +'RLabel'#9'PRLabel57'#4'Left'#3#179#0#6'Height'#2#19#3'Top'#3'5'#1#5'Width'#2
+  +#28#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#128#2'@'#8'FontBold'
+  +#9#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'C'
+  +'aption'#6#1'C'#0#0#8'TPRLabel'#9'PRLabel58'#4'Left'#3#179#0#6'Height'#2#19#3
+  +'Top'#3'M'#1#5'Width'#2#28#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0
+  +#0#128#2'@'#8'FontBold'#9#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0
+  +#0#0#0#0#0#0#0#0#0#7'Caption'#6#1'C'#0#0#8'TPRLabel'#9'PRLabel59'#4'Left'#3
+  +#212#1#6'Height'#2#19#3'Top'#3'B'#1#5'Width'#2'@'#8'FontName'#7#7'fnArial'#8
+  +'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'Wor'
+  +'dSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#9'PRLabel59'#0#0#8'TPRLabel'#9'P'
+  +'RLabel60'#4'Left'#3#185#1#6'Height'#2#19#3'Top'#3'B'#1#5'Width'#2#28#8'Font'
+  +'Name'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#8'FontBold'#9#9'Cha'
+  +'rSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'
+  +#6#5'F  = '#0#0#8'TPRLabel'#9'PRLabel61'#4'Left'#2'x'#6'Height'#2#19#3'Top'#3
+  +#238#0#5'Width'#2'H'#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192
+  +#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7
+  +'Caption'#6#9'PRLabel61'#0#0#8'TPRLabel'#9'PRLabel62'#4'Left'#2'+'#6'Height'
+  +#2#19#3'Top'#3#238#0#5'Width'#2'M'#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0
+  +#0#0#0#0#0#192#2'@'#8'FontBold'#9#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordS'
+  +'pace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#10'ROTATION :'#0#0#8'TPRLabel'#9'P'
+  +'RLabel63'#4'Left'#3#237#0#6'Height'#2#19#3'Top'#3#238#0#5'Width'#2'H'#8'Fon'
+  +'tName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0
+  +#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#9'PRLabel63'
+  +#0#0#8'TPRLabel'#9'PRLabel64'#4'Left'#3#208#0#6'Height'#2#19#3'Top'#3#238#0#5
+  +'Width'#2'#'#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#8
+  +'FontBold'#9#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0
+  +#0#0#0#7'Caption'#6#4'P  ='#0#0#8'TPRLabel'#9'PRLabel65'#4'Left'#3'^'#1#6'He'
+  +'ight'#2#19#3'Top'#3#238#0#5'Width'#2'H'#8'FontName'#7#7'fnArial'#8'FontSize'
+  +#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0
+  +#0#0#0#0#0#0#0#0#0#7'Caption'#6#9'PRLabel65'#0#0#8'TPRLabel'#9'PRLabel66'#4
+  +'Left'#3'>'#1#6'Height'#2#19#3'Top'#3#238#0#5'Width'#2'#'#8'FontName'#7#7'fn'
+  +'Arial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#8'FontBold'#9#9'CharSpace'#5#0#0
+  +#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#4'B  ='#0#0
+  +#8'TPRLabel'#9'PRLabel67'#4'Left'#3#206#1#6'Height'#2#19#3'Top'#3#238#0#5'Wi'
+  +'dth'#2'H'#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#9'C'
+  +'harSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Captio'
+  +'n'#6#9'PRLabel67'#0#0#8'TPRLabel'#9'PRLabel68'#4'Left'#3#175#1#6'Height'#2
+  +#19#3'Top'#3#238#0#5'Width'#2'#'#8'FontName'#7#7'fnArial'#8'FontSize'#5#0#0#0
+  +#0#0#0#0#192#2'@'#8'FontBold'#9#9'CharSpace'#5#0#0#0#0#0#0#0#0#0#0#9'WordSpa'
+  +'ce'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#4'L  ='#0#0#8'TPRLabel'#9'PRLabel69'
+  +#4'Left'#3#197#1#6'Height'#2#19#3'Top'#3#12#3#5'Width'#2'd'#8'FontName'#7#7
+  +'fnArial'#8'FontSize'#5#0#0#0#0#0#0#0#192#2'@'#9'CharSpace'#5#0#0#0#0#0#0#0#0
+  +#0#0#9'WordSpace'#5#0#0#0#0#0#0#0#0#0#0#7'Caption'#6#18#194#169'  Slnecne sk'
+  +'vrny'#9'Alignment'#7#14'taRightJustify'#0#0#0#0#7'TButton'#7'Button1'#4'Lef'
+  +'t'#2#8#6'Height'#2#25#3'Top'#2'p'#5'Width'#2'K'#7'Caption'#6#7'Button1'#7'O'
+  +'nClick'#7#12'Button1Click'#8'TabOrder'#2#1#0#0#8'TPReport'#8'PReport1'#8'Fi'
+  +'leName'#6#10'export.pdf'#6'Author'#6#14'Slnecne skvrny'#12'CreationDate'#5#0
+  +#136#169#170'j'#191'A'#163#14'@'#7'Creator'#6#14'Slnecne skvrny'#7'ModDate'#5
+  +#0#0#0#0#0#0#0#0#0#0#5'Title'#6#6'Export'#11'UseOutlines'#8#16'ViewerPrefere'
+  +'nce'#11#0#4'left'#2#8#3'top'#2#8#0#0#11'TSaveDialog'#11'SaveDialog1'#10'Def'
+  +'aultExt'#6#4'.pdf'#6'Filter'#6'%PDF s'#195#186'bory|*.pdf|V'#197#161'etky s'
+  +#195#186'bory|*.*'#7'Options'#11#17'ofOverwritePrompt'#14'ofEnableSizing'#12
+  +'ofViewDetail'#0#4'left'#2#8#3'top'#2'8'#0#0#0
+]);

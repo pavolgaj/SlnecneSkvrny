@@ -1,0 +1,539 @@
+﻿object Form9: TForm9
+  Left = 154
+  Height = 688
+  Top = 203
+  Width = 952
+  Caption = 'Štatistiky - tabuľky'
+  ClientHeight = 688
+  ClientWidth = 952
+  Icon.Data = {
+    7E04000000000100010010100000000000006804000016000000280000001000
+    0000200000000100200000000000000400000000000000000000000000000000
+    0000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00D69E72C4D3996EF4D196
+    68FFCE9263FFC78756FFC38452FFC38452FFC38452FFC38452FFC38452FFBB77
+    42B0FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00D7A175FFF8F2EDFFF7F0
+    EAFFF6EDE6FFF1E4DBFFF0E2D8FFF0E2D8FFF0E2D8FFF0E2D8FFF0E2D8FFC58A
+    5DFDFFFFFF00FFFFFF00FFFFFF00D69E72B1D3996EDCE1AE87FFFAF4F0FFEACB
+    B2FFEACCB3FFE8C7ACFFE8C7ACFFE8C7ACFFE8C8B0FFE8C8AEFFF0E2D8FFC486
+    54FFFFFFFF00FFFFFF00FFFFFF00D7A175E6F8F2EDE6E3B18CFFFAF6F1FFEAC9
+    AEFFFFFFFFFFE8C7ACFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF1E5DBFFC686
+    55FFFFFFFF00D69E729DD3996EC3E0AC85FAF7ECE5FAE5B48FFFFAF6F2FFE9C6
+    AAFFE9C6ACFFE8C7ACFFE8C7ACFFE9C9B0FFE8C8B0FFE8CCB5FFF2E7DEFFC88A
+    59FFFFFFFF00D7A175CCF8F2EDCCE5B693FAFAF5F0FAE7B794FFFBF7F4FFE9C3
+    A6FFFFFFFFFFE8C7ACFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7F1EBFFCB8F
+    5FFFFFFFFF00E1AE87CCFAF4F0CCE5B692FAF9F3EDFAE9BA98FFFBF7F4FFE9C3
+    A6FFE9C3A6FFE9C3A6FFE9C3A6FFE9C3A6FFE9C3A6FFE9C3A6FFFBF7F4FFCE93
+    64FFFFFFFF00E3B18CCCFAF6F1CCE7B896FAFBF8F5FAEBBD9BFFFBF7F4FFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFBF7F4FFD197
+    6AFFFFFFFF00E5B48FCCFAF6F2CCE9BB99FAFAF3EEFAECBF9EFFFBF7F4FF9CD5
+    A5FF98D3A1FF8BCB93FF82C689FF7EC384FF7AC180FF76BE7CFFFBF7F4FFD49B
+    6FFFFFFFFF00E7B794CCFBF7F4CCEBBD9CFAFBF8F5FAEFC6A8FFFBF7F4FFFBF7
+    F4FFFBF7F4FFFBF7F4FFFBF7F4FFFBF7F4FFFBF7F4FFFBF7F4FFFBF7F4FFD7A0
+    74F8FFFFFF00E9BA98CCFBF7F4CCECBF9FFAFAF3EEFAC9CBA4FCE6C3A2FEEDC0
+    9FFFEBBE9DFFE7B793FFE4B28CFFE2AF88FFE0AC84FFDDA980FFDCA57DFFDAA3
+    7ACAFFFFFF00EBBD9BCCFBF7F4CCF0CAAEF6FBF8F5FAFBF8F5FAFBF8F5FAFBF8
+    F5FAFBF8F5FAFBF8F5FAFBF7F4FAF8EFE9FAFBF7F4E6D7A074E0FFFFFF00FFFF
+    FF00FFFFFF00ECBF9ECCFBF7F4CCC6CBA4E3E1C4A2F5E5C19EFAE3BF9BFADFB8
+    92FADCB38BFADAB087FAE2B28DFADCA87FFADCA57DE6DAA37AB6FFFFFF00FFFF
+    FF00FFFFFF00EEC1A1BCFBF7F4CCFBF7F4CCFBF7F4CCFBF7F4CCFBF7F4CCFBF7
+    F4CCFBF7F4CCFBF7F4CCFBF7F4CCD7A074C6FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00EFC2A365EFC1A2B6EDC09FCCEBBE9DCCE7B793CCE4B28CCCE2AF
+    88CCE0AC84CCDDA980CCDCA57DCCDAA37AA2FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00F8000000F8000000E0000000E00000008000000080000000800000008000
+    00008000000080000000800000008003000080030000800F0000C00F0000FFFF
+    0000
+  }
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  OnResize = FormResize
+  Position = poDefault
+  LCLVersion = '0.9.28.2'
+  WindowState = wsMaximized
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 688
+    Top = 0
+    Width = 955
+    ActivePage = TabSheet3
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Images = Form1.ImageList1
+    TabIndex = 3
+    TabOrder = 0
+    object TabSheet7: TTabSheet
+      Caption = 'Úvod'
+      ClientHeight = 661
+      ClientWidth = 947
+      ImageIndex = -1
+      OnShow = TabSheet7Show
+      object GroupBox1: TGroupBox
+        Left = 188
+        Height = 600
+        Top = 16
+        Width = 704
+        ClientHeight = 582
+        ClientWidth = 700
+        Color = clBtnFace
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 0
+        object Label3: TLabel
+          Left = 278
+          Height = 241
+          Top = 288
+          Width = 337
+          Caption = 'g   -  počet skupín na celom sl. disku'#13#10'f    -  počet škvŕn na celom sl. disku'#13#10'r    -  relatívne číslo '#13#10'gC -  počet skupín v centrálnej oblasti'#13#10'fC  -  počet škvŕn v centrálnej oblasti'#13#10'rC  -  relatívne číslo centrálnej oblasti'#13#10'CV -  CV indexy'#13#10'SN -  Pettisovo číslo'#13#10'RB -  Beckovo číslo'#13#10'F   -  počet fakulových polí'
+          Font.Height = -20
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label2: TLabel
+          Left = 126
+          Height = 25
+          Top = 288
+          Width = 132
+          Caption = 'Popis tabuliek:'
+          Font.Height = -20
+          Font.Style = [fsUnderline]
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label5: TLabel
+          Left = 22
+          Height = 25
+          Top = 88
+          Width = 171
+          Caption = 'Jednotlivé tabuľky:'
+          Font.Height = -20
+          Font.Style = [fsUnderline]
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label4: TLabel
+          Left = 206
+          Height = 169
+          Top = 88
+          Width = 472
+          Caption = 'Celkový prehľad     -  všetky záznamy'#13#10'Mesačný prehľad    -  záznamy vo zvolenom mesiaci'#13#10'Ročný prehľad        -  záznamy vo zvolenom roku'#13#10'Mesačné priemery  -  priemery za jednotlivé mesiace'#13#10'Kĺzavé priemery     -  priemery za 12 mesiacov'#13#10'Pozorovatelia         -  počet zadaných záznamov '#13#10'                                jednotlivými pozorovateľmi'
+          Font.Height = -20
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label1: TLabel
+          Left = 14
+          Height = 49
+          Top = 8
+          Width = 670
+          Caption = 'Vitajte v časti ŠTATISTIKY - TABUĽKY'
+          Font.Height = -40
+          ParentColor = False
+          ParentFont = False
+        end
+      end
+    end
+    object TabSheet1: TTabSheet
+      Caption = 'Celkový prehľad'
+      ClientHeight = 661
+      ClientWidth = 947
+      ImageIndex = -1
+      OnShow = TabSheet1Show
+      object StringGrid2: TStringGrid
+        Left = 0
+        Height = 1240
+        Hint = 'g   -  počet skupín na celom sl. disku'#13#10'f    -  počet škvŕn na celom sl. disku'#13#10'r    -  relatívne číslo '#13#10'gC -  počet skupín v centrálnej oblasti'#13#10'fC  -  počet škvŕn v centrálnej oblasti'#13#10'rC  -  relatívne číslo centrálnej oblasti'#13#10'CV -  CV indexy'#13#10'SN -  Pettisovo číslo'#13#10'RB -  Beckovo číslo'#13#10'F   -  počet fakulových polí'
+        Top = 0
+        Width = 730
+        ColCount = 11
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goRowSelect, goSmoothScroll]
+        ParentShowHint = False
+        PopupMenu = PopupMenu1
+        RowCount = 1
+        ShowHint = True
+        TabOrder = 0
+        Cells = (
+          11
+          0
+          0
+          'Dátum'
+          1
+          0
+          'g'
+          2
+          0
+          'f'
+          3
+          0
+          'r'
+          4
+          0
+          'gC'
+          5
+          0
+          'fC'
+          6
+          0
+          'rC'
+          7
+          0
+          'CV'
+          8
+          0
+          'SN'
+          9
+          0
+          'RB'
+          10
+          0
+          'F'
+        )
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Mesačný prehľad'
+      ClientHeight = 661
+      ClientWidth = 947
+      ImageIndex = -1
+      OnShow = TabSheet2Show
+      object StringGrid3: TStringGrid
+        Left = 0
+        Height = 1240
+        Hint = 'g   -  počet skupín na celom sl. disku'#13#10'f    -  počet škvŕn na celom sl. disku'#13#10'r    -  relatívne číslo '#13#10'gC -  počet skupín v centrálnej oblasti'#13#10'fC  -  počet škvŕn v centrálnej oblasti'#13#10'rC  -  relatívne číslo centrálnej oblasti'#13#10'CV -  CV indexy'#13#10'SN -  Pettisovo číslo'#13#10'RB -  Beckovo číslo'#13#10'F   -  počet fakulových polí'
+        Top = 0
+        Width = 730
+        ColCount = 11
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goRowSelect, goSmoothScroll]
+        ParentShowHint = False
+        PopupMenu = PopupMenu1
+        RowCount = 1
+        ShowHint = True
+        TabOrder = 0
+        Cells = (
+          11
+          0
+          0
+          'Dátum'
+          1
+          0
+          'g'
+          2
+          0
+          'f'
+          3
+          0
+          'r'
+          4
+          0
+          'gC'
+          5
+          0
+          'fC'
+          6
+          0
+          'rC'
+          7
+          0
+          'CV'
+          8
+          0
+          'SN'
+          9
+          0
+          'RB'
+          10
+          0
+          'F'
+        )
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'Ročný prehľad'
+      ClientHeight = 661
+      ClientWidth = 947
+      ImageIndex = -1
+      OnShow = TabSheet3Show
+      object StringGrid4: TStringGrid
+        Left = 0
+        Height = 1240
+        Hint = 'g   -  počet skupín na celom sl. disku'#13#10'f    -  počet škvŕn na celom sl. disku'#13#10'r    -  relatívne číslo '#13#10'gC -  počet skupín v centrálnej oblasti'#13#10'fC  -  počet škvŕn v centrálnej oblasti'#13#10'rC  -  relatívne číslo centrálnej oblasti'#13#10'CV -  CV indexy'#13#10'SN -  Pettisovo číslo'#13#10'RB -  Beckovo číslo'#13#10'F   -  počet fakulových polí'
+        Top = 0
+        Width = 730
+        ColCount = 11
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goRowSelect, goSmoothScroll]
+        ParentShowHint = False
+        PopupMenu = PopupMenu1
+        RowCount = 1
+        ShowHint = True
+        TabOrder = 0
+        Cells = (
+          11
+          0
+          0
+          'Dátum'
+          1
+          0
+          'g'
+          2
+          0
+          'f'
+          3
+          0
+          'r'
+          4
+          0
+          'gC'
+          5
+          0
+          'fC'
+          6
+          0
+          'rC'
+          7
+          0
+          'CV'
+          8
+          0
+          'SN'
+          9
+          0
+          'RB'
+          10
+          0
+          'F'
+        )
+      end
+    end
+    object TabSheet4: TTabSheet
+      Caption = 'Mesačné priemery'
+      ClientHeight = 661
+      ClientWidth = 947
+      ImageIndex = -1
+      OnShow = TabSheet4Show
+      object StringGrid5: TStringGrid
+        Left = 0
+        Height = 780
+        Hint = 'g   -  počet skupín na celom sl. disku'#13#10'f    -  počet škvŕn na celom sl. disku'#13#10'r    -  relatívne číslo '#13#10'gC -  počet skupín v centrálnej oblasti'#13#10'fC  -  počet škvŕn v centrálnej oblasti'#13#10'rC  -  relatívne číslo centrálnej oblasti'#13#10'CV -  CV indexy'#13#10'SN -  Pettisovo číslo'#13#10'RB -  Beckovo číslo'#13#10'F   -  počet fakulových polí'
+        Top = 0
+        Width = 730
+        ColCount = 11
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goRowSelect, goSmoothScroll]
+        ParentShowHint = False
+        PopupMenu = PopupMenu1
+        RowCount = 1
+        ShowHint = True
+        TabOrder = 0
+        Cells = (
+          11
+          0
+          0
+          'Mesiac'
+          1
+          0
+          'g'
+          2
+          0
+          'f'
+          3
+          0
+          'r'
+          4
+          0
+          'gC'
+          5
+          0
+          'fC'
+          6
+          0
+          'rC'
+          7
+          0
+          'CV'
+          8
+          0
+          'SN'
+          9
+          0
+          'RB'
+          10
+          0
+          'F'
+        )
+      end
+    end
+    object TabSheet5: TTabSheet
+      Caption = 'Kĺzavé priemery'
+      ClientHeight = 661
+      ClientWidth = 947
+      ImageIndex = -1
+      OnShow = TabSheet5Show
+      object StringGrid6: TStringGrid
+        Left = 0
+        Height = 780
+        Hint = 'g   -  počet skupín na celom sl. disku'#13#10'f    -  počet škvŕn na celom sl. disku'#13#10'r    -  relatívne číslo '#13#10'gC -  počet skupín v centrálnej oblasti'#13#10'fC  -  počet škvŕn v centrálnej oblasti'#13#10'rC  -  relatívne číslo centrálnej oblasti'#13#10'CV -  CV indexy'#13#10'SN -  Pettisovo číslo'#13#10'RB -  Beckovo číslo'#13#10'F   -  počet fakulových polí'
+        Top = 0
+        Width = 730
+        ColCount = 11
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goRowSelect, goSmoothScroll]
+        ParentShowHint = False
+        PopupMenu = PopupMenu1
+        RowCount = 1
+        ShowHint = True
+        TabOrder = 0
+        Cells = (
+          11
+          0
+          0
+          'Mesiac'
+          1
+          0
+          'g'
+          2
+          0
+          'f'
+          3
+          0
+          'r'
+          4
+          0
+          'gC'
+          5
+          0
+          'fC'
+          6
+          0
+          'rC'
+          7
+          0
+          'CV'
+          8
+          0
+          'SN'
+          9
+          0
+          'RB'
+          10
+          0
+          'F'
+        )
+      end
+    end
+    object TabSheet6: TTabSheet
+      Caption = 'Pozorovatelia'
+      ClientHeight = 661
+      ClientWidth = 947
+      ImageIndex = -1
+      OnShow = TabSheet6Show
+      object StringGrid7: TStringGrid
+        Left = 0
+        Height = 782
+        Top = 0
+        Width = 1037
+        ColCount = 3
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goRowSelect, goSmoothScroll]
+        PopupMenu = PopupMenu1
+        RowCount = 3
+        TabOrder = 0
+        ColWidths = (
+          197
+          65
+          60
+        )
+        Cells = (
+          2
+          0
+          2
+          'Spolu'
+          2
+          0
+          'Spolu'
+        )
+      end
+    end
+    object TabSheet8: TTabSheet
+      ClientHeight = 661
+      ClientWidth = 947
+      ImageIndex = 5
+      object GroupBox2: TGroupBox
+        Left = 228
+        Height = 600
+        Top = 24
+        Width = 704
+        ClientHeight = 582
+        ClientWidth = 700
+        Color = clBtnFace
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 0
+        object Label11: TLabel
+          Left = 278
+          Height = 241
+          Top = 288
+          Width = 337
+          Caption = 'g   -  počet skupín na celom sl. disku'#13#10'f    -  počet škvŕn na celom sl. disku'#13#10'r    -  relatívne číslo '#13#10'gC -  počet skupín v centrálnej oblasti'#13#10'fC  -  počet škvŕn v centrálnej oblasti'#13#10'rC  -  relatívne číslo centrálnej oblasti'#13#10'CV -  CV indexy'#13#10'SN -  Pettisovo číslo'#13#10'RB -  Beckovo číslo'#13#10'F   -  počet fakulových polí'
+          Font.Height = -20
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label12: TLabel
+          Left = 126
+          Height = 25
+          Top = 288
+          Width = 132
+          Caption = 'Popis tabuliek:'
+          Font.Height = -20
+          Font.Style = [fsUnderline]
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label13: TLabel
+          Left = 22
+          Height = 25
+          Top = 88
+          Width = 171
+          Caption = 'Jednotlivé tabuľky:'
+          Font.Height = -20
+          Font.Style = [fsUnderline]
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label14: TLabel
+          Left = 206
+          Height = 169
+          Top = 88
+          Width = 472
+          Caption = 'Celkový prehľad     -  všetky záznamy'#13#10'Mesačný prehľad    -  záznamy vo zvolenom mesiaci'#13#10'Ročný prehľad        -  záznamy vo zvolenom roku'#13#10'Mesačné priemery  -  priemery za jednotlivé mesiace'#13#10'Kĺzavé priemery     -  priemery za 12 mesiacov'#13#10'Pozorovatelia         -  počet zadaných záznamov '#13#10'                                jednotlivými pozorovateľmi'
+          Font.Height = -20
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label15: TLabel
+          Left = 14
+          Height = 49
+          Top = 8
+          Width = 670
+          Caption = 'Vitajte v časti ŠTATISTIKY - TABUĽKY'
+          Font.Height = -40
+          ParentColor = False
+          ParentFont = False
+        end
+      end
+    end
+  end
+  object PopupMenu1: TPopupMenu
+    left = 672
+    object MenuItem1: TMenuItem
+      Caption = 'Kopírovať všetko'
+      ShortCut = 24643
+      OnClick = MenuItem1Click
+    end
+  end
+  object MainMenu1: TMainMenu
+    left = 720
+    object MenuItem3: TMenuItem
+      Caption = 'zrusit'
+      ShortCut = 27
+      Visible = False
+      OnClick = MenuItem3Click
+    end
+  end
+end

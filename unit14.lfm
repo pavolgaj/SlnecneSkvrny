@@ -1,0 +1,65 @@
+object Form14: TForm14
+  Left = 316
+  Height = 215
+  Top = 119
+  Width = 363
+  Caption = 'Export viacerých záznamov'
+  ClientHeight = 215
+  ClientWidth = 363
+  OnShow = FormShow
+  LCLVersion = '0.9.28.2'
+  object Label1: TLabel
+    Left = 14
+    Height = 17
+    Top = 40
+    Width = 179
+    Caption = 'Naozaj chcete exportovať'
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 56
+    Height = 17
+    Top = 80
+    Width = 91
+    Caption = '0 záznamov?'
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object ListBox1: TListBox
+    Left = 199
+    Height = 215
+    Top = 0
+    Width = 164
+    Anchors = [akTop, akRight, akBottom]
+    IntegralHeight = True
+    ItemHeight = 0
+    MultiSelect = True
+    OnSelectionChange = ListBox1SelectionChange
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 16
+    Height = 25
+    Top = 160
+    Width = 75
+    Caption = 'Áno'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 111
+    Height = 25
+    Top = 160
+    Width = 75
+    Caption = 'Nie'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+end

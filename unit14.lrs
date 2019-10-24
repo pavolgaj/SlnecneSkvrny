@@ -1,0 +1,22 @@
+{ Toto je automaticky generovaný súbor zdrojov Lazarus }
+
+LazarusResources.Add('TForm14','FORMDATA',[
+  'TPF0'#7'TForm14'#6'Form14'#4'Left'#3'<'#1#6'Height'#3#215#0#3'Top'#2'w'#5'Wi'
+  +'dth'#3'k'#1#7'Caption'#6#27'Export viacer'#195#189'ch z'#195#161'znamov'#12
+  +'ClientHeight'#3#215#0#11'ClientWidth'#3'k'#1#6'OnShow'#7#8'FormShow'#10'LCL'
+  +'Version'#6#8'0.9.28.2'#0#6'TLabel'#6'Label1'#4'Left'#2#14#6'Height'#2#17#3
+  +'Top'#2'('#5'Width'#3#179#0#7'Caption'#6#25'Naozaj chcete exportova'#197#165
+  +#11'Font.Height'#2#243#9'Font.Name'#6#13'MS Sans Serif'#10'Font.Style'#11#6
+  +'fsBold'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label2'#4'Left'
+  +#2'8'#6'Height'#2#17#3'Top'#2'P'#5'Width'#2'['#7'Caption'#6#12'0 z'#195#161
+  +'znamov?'#11'Font.Height'#2#243#9'Font.Name'#6#13'MS Sans Serif'#10'Font.Sty'
+  +'le'#11#6'fsBold'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#8'TListBox'#8'Lis'
+  +'tBox1'#4'Left'#3#199#0#6'Height'#3#215#0#3'Top'#2#0#5'Width'#3#164#0#7'Anch'
+  +'ors'#11#5'akTop'#7'akRight'#8'akBottom'#0#14'IntegralHeight'#9#10'ItemHeigh'
+  +'t'#2#0#11'MultiSelect'#9#17'OnSelectionChange'#7#23'ListBox1SelectionChange'
+  +#8'TabOrder'#2#0#0#0#7'TButton'#7'Button1'#4'Left'#2#16#6'Height'#2#25#3'Top'
+  +#3#160#0#5'Width'#2'K'#7'Caption'#6#4#195#129'no'#7'OnClick'#7#12'Button1Cli'
+  +'ck'#8'TabOrder'#2#1#0#0#7'TButton'#7'Button2'#4'Left'#2'o'#6'Height'#2#25#3
+  +'Top'#3#160#0#5'Width'#2'K'#7'Caption'#6#3'Nie'#7'OnClick'#7#12'Button2Click'
+  +#8'TabOrder'#2#2#0#0#0
+]);

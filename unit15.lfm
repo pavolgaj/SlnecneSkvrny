@@ -1,0 +1,609 @@
+object Form15: TForm15
+  Left = 266
+  Height = 676
+  Top = 2
+  Width = 848
+  ActiveControl = BitBtn1
+  BorderIcons = [biSystemMenu]
+  Caption = 'Nový záznam z obrázka'
+  ClientHeight = 676
+  ClientWidth = 848
+  Constraints.MaxHeight = 676
+  Constraints.MaxWidth = 848
+  Constraints.MinHeight = 676
+  Constraints.MinWidth = 848
+  Icon.Data = {
+    7E04000000000100010010100000000000006804000016000000280000001000
+    0000200000000100200000000000000400000000000000000000000000000000
+    0000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00196B3788196B37F2196B37FF196B37F2196B3788FFFF
+    FF00FFFFFF00AA74538AAB724FC3AA6D45F0AA6B43F0AA6B43F0AA6B43F0AA6B
+    43F0AA6B43F05D6B3DF8288C53FF64BA8DFF95D2B2FF64BA8DFF288C53FF196B
+    378CFFFFFF00A86D48E1EEECEAFFF7F2F0FFF8F3F0FFF8F3EFFFF7F3EFFFF7F2
+    EFFFF7F2EEFF22703FFF62BA8BFF60BA87FFFFFFFFFF60B987FF67BC8FFF196B
+    37F7FFFFFF00A6643AF0F6F0ECFFFDE8D7FFFEE8D7FFFEE8D7FFFEE8D7FFFEE8
+    D7FFFEE8D7FF317B4CFF9CD4B6FFFFFFFFFFFFFFFFFFFFFFFFFF95D2B2FF196B
+    37FFFFFFFF00A66439F0F7F0ECFF816242FFAC8258FFAC8258FFAC8258FFAC82
+    58FFAC8258FF47875DFF90D3B1FF92D6B1FFFFFFFFFF65BC8CFF67BC8FFF196B
+    37F7FFFFFF00A8663AF0F7F0EBFFAC8258FFE5AD75FFE5AD75FFE5AD75FFE5AD
+    75FFE5AD75FF9B9E6EFF61AB81FF95D4B4FFBAE6D0FF6ABB8FFF2D8F57FF196B
+    378CFFFFFF00A8663AF0F7F1ECFFAC8258FFE5AD75FFE5AD75FFE5AD75FFE5AD
+    75FFE5AD75FFE5AD75FFA1A172FF5F956EFF4F8E66FF498960FF6C7347F7FFFF
+    FF00FFFFFF00A8663CF0F7F2EDFFA67F56FFDEAA73FFDEAA73FFDDA973FFDDA8
+    73FFDCA772FFDCA772FFDCA772FFDCA772FFA47D55FFF6EDE6FFAA6D45F0FFFF
+    FF00FFFFFF00A8663CF0F7F3EEFF9C966EFFE6C79DFFE2C598FFDFC496FFC8BD
+    88FFE4BA82FFE4BA83FFE4BA83FFD3C199FFA59A7BFFF6EDE6FFAA6D45F0FFFF
+    FF00FFFFFF00A8663CF0F7F4EFFFB6A583FFF5DDB0FFF6DEB0FFF4DDAFFFF1DC
+    ADFFF3DAABFFF3DAACFFF2D9ABFFEFDAAEFFB4A584FFF4EEE6FFAA6D45F0FFFF
+    FF00FFFFFF00A8663CF0F7F4F1FFBEAB88FFFEE5B5FFFDE4B5FFFDE4B5FFFDE4
+    B5FFFDE4B5FFFDE4B5FFFDE4B5FFFDE4B5FFBEAB88FFF6EFE7FFAA6D45F0FFFF
+    FF00FFFFFF00A8663CF0F7F4F3FFB6A481FFF2DCADFFF5DEB0FFF2DDAFFFF6DE
+    AFFFF7DFAFFFF8E0B1FFFAE1B2FFFCE3B4FFBEAB88FFF7EFE8FFAB6D45F0FFFF
+    FF00FFFFFF00A86D46F0F3F2F1FF96815CFFA69E76FFA4A17DFFABA07AFFBAA2
+    7AFFBAA37CFFBAA47EFFBBA680FFBCA883FF8F8065FFF7F1EAFFAB6D45F0FFFF
+    FF00FFFFFF00AB7958E9DEDEDCFEF3F3F2FFF7F4F3FFF7F4F2FFF7F4F1FFF7F4
+    EFFFF8F4EFFFF8F3EEFFF8F2EDFFF8F2EBFFF7F2EBFFF1EEE8FFAA704AEFFFFF
+    FF00FFFFFF00AA7B5B8DAB7758E8A86D46F0A8663AF0A8663AF0A8663AF0A866
+    3AF0A8663AF0A8643AF0A8643AF0A8643AF0A8643AF0A86B43F0A874518FFFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+    FF00FFC100008000000080000000800000008000000080000000800100008001
+    000080010000800100008001000080010000800100008001000080010000FFFF
+    0000
+  }
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '0.9.28.2'
+  object Image2: TImage
+    Left = 16
+    Height = 620
+    Top = 44
+    Width = 620
+    Stretch = True
+    Visible = False
+  end
+  object Image1: TImage
+    Left = 16
+    Height = 620
+    Top = 44
+    Width = 620
+    Enabled = False
+    OnMouseDown = Image1MouseDown
+    OnMouseMove = Image1MouseMove
+    OnMouseUp = Image1MouseUp
+  end
+  object GroupBox3: TGroupBox
+    Left = 646
+    Height = 184
+    Hint = 'Údaje o fakulovom poli.'
+    Top = 481
+    Width = 194
+    ClientHeight = 166
+    ClientWidth = 190
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 4
+    object Label10: TLabel
+      Left = 2
+      Height = 33
+      Top = 1
+      Width = 106
+      Caption = '        Počet'#13#10'fakulových polí'
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label11: TLabel
+      Left = 29
+      Height = 16
+      Top = 81
+      Width = 46
+      Caption = 'Intenzita'
+      ParentColor = False
+    end
+    object Label12: TLabel
+      Left = 48
+      Height = 16
+      Top = 105
+      Width = 27
+      Caption = 'Číslo'
+      ParentColor = False
+    end
+    object SpinEdit6: TSpinEdit
+      Left = 117
+      Height = 23
+      Hint = 'Počet fakulových polí.'
+      Top = 7
+      Width = 50
+      MaxValue = 50
+      ParentShowHint = False
+      ReadOnly = True
+      ShowHint = True
+      TabOrder = 4
+    end
+    object BitBtn9: TBitBtn
+      Left = 55
+      Height = 25
+      Hint = 'Pridať fakulové pole.'
+      Top = 41
+      Width = 96
+      Caption = 'Pridať pole'
+      Enabled = False
+      Font.Color = clBlack
+      OnClick = BitBtn9Click
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Edit7: TEdit
+      Left = 87
+      Height = 23
+      Hint = 'Intezita fakulového poľa:'#13#10'od 0 do 4 (4 -> najjasnejšie).'
+      Top = 74
+      Width = 80
+      TabOrder = 1
+    end
+    object Edit6: TEdit
+      Left = 87
+      Height = 23
+      Hint = 'Číslo fakulového poľa.'
+      Top = 105
+      Width = 80
+      TabOrder = 2
+    end
+    object BitBtn11: TBitBtn
+      Left = 55
+      Height = 25
+      Hint = 'Uložiť fakulové pole.'
+      Top = 136
+      Width = 96
+      Caption = 'Uložiť pole'
+      Enabled = False
+      Font.Color = clBlack
+      OnClick = BitBtn11Click
+      ParentFont = False
+      TabOrder = 3
+    end
+  end
+  object BitBtn1: TBitBtn
+    Left = 16
+    Height = 25
+    Hint = 'Načítať nový obrázok na spracovanie.'
+    Top = 8
+    Width = 107
+    Caption = 'Načítať obrázok'
+    Font.Color = clGreen
+    Font.Style = [fsBold, fsUnderline]
+    OnClick = BitBtn1Click
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+  end
+  object BitBtn2: TBitBtn
+    Left = 136
+    Height = 25
+    Hint = 'Začať spracovanie obrázka.'
+    Top = 8
+    Width = 112
+    Caption = 'Začať spracovanie'
+    Enabled = False
+    Font.Color = clBlack
+    OnClick = BitBtn2Click
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 1
+  end
+  object BitBtn4: TBitBtn
+    Left = 264
+    Height = 25
+    Hint = 'Zobraziť obrázok '#13#10'v externom prehliadači.'
+    Top = 8
+    Width = 112
+    Caption = 'Zobraziť obrázok'
+    Enabled = False
+    Font.Color = clBlack
+    OnClick = BitBtn4Click
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 6
+  end
+  object BitBtn5: TBitBtn
+    Left = 192
+    Height = 25
+    Top = 56
+    Width = 112
+    Caption = 'Začať spracovanie'
+    Enabled = False
+    Font.Color = clBlack
+    OnClick = BitBtn2Click
+    ParentFont = False
+    TabOrder = 9
+    Visible = False
+  end
+  object BitBtn6: TBitBtn
+    Left = 72
+    Height = 25
+    Top = 56
+    Width = 107
+    Caption = 'Načítať obrázok'
+    Enabled = False
+    Font.Color = clGreen
+    Font.Style = [fsBold, fsUnderline]
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 10
+    Visible = False
+  end
+  object BitBtn7: TBitBtn
+    Left = 504
+    Height = 25
+    Hint = 'Dokončiť spracovanie obrázka.'
+    Top = 8
+    Width = 132
+    Caption = 'Dokončiť spracovanie'
+    Enabled = False
+    Font.Color = clBlack
+    OnClick = BitBtn7Click
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 5
+  end
+  object RadioGroup2: TRadioGroup
+    Left = 646
+    Height = 47
+    Hint = 'Veľkosť štetca na kreslenie / mazanie plochy.'
+    Top = 440
+    Width = 194
+    AutoFill = True
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 3
+    ClientHeight = 29
+    ClientWidth = 190
+    Columns = 3
+    Enabled = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 8
+    object Label13: TLabel
+      Left = 6
+      Height = 17
+      Hint = 'Veľkosť štetca na kreslenie / mazanie plochy.'
+      Top = 6
+      Width = 70
+      Caption = 'Veľkosť'
+      ParentColor = False
+    end
+    object RadioButton3: TRadioButton
+      Left = 76
+      Height = 17
+      Hint = 'Veľkosť štetca na kreslenie / mazanie plochy.'
+      Top = 6
+      Width = 55
+      Caption = '1'
+      Checked = True
+      State = cbChecked
+      TabOrder = 0
+    end
+    object RadioButton4: TRadioButton
+      Left = 131
+      Height = 17
+      Hint = 'Veľkosť štetca na kreslenie / mazanie plochy.'
+      Top = 6
+      Width = 53
+      Caption = '2'
+      TabOrder = 1
+      TabStop = False
+    end
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 646
+    Height = 47
+    Hint = 'Kresliť / mazať plochu '#13#10'sl. škvŕn alebo fakulového poľa.'
+    Top = 399
+    Width = 194
+    AutoFill = True
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 2
+    ClientHeight = 29
+    ClientWidth = 190
+    Columns = 2
+    Enabled = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 7
+    object RadioButton1: TRadioButton
+      Left = 6
+      Height = 17
+      Hint = 'Kresliť / mazať plochu '#13#10'sl. škvŕn alebo fakulového poľa.'
+      Top = 6
+      Width = 86
+      Caption = 'Kresliť'
+      Checked = True
+      OnChange = RadioButton1Change
+      State = cbChecked
+      TabOrder = 0
+    end
+    object RadioButton2: TRadioButton
+      Left = 92
+      Height = 17
+      Hint = 'Kresliť / mazať plochu '#13#10'sl. škvŕn alebo fakulového poľa.'
+      Top = 6
+      Width = 92
+      Caption = 'Zmazať'
+      TabOrder = 1
+      TabStop = False
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 646
+    Height = 264
+    Hint = 'Údaje o skupine sl. škvŕn.'
+    Top = 142
+    Width = 194
+    ClientHeight = 246
+    ClientWidth = 190
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 3
+    object Label4: TLabel
+      Left = 17
+      Height = 17
+      Top = 6
+      Width = 91
+      Caption = 'Počet skupín'
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label5: TLabel
+      Left = 54
+      Height = 16
+      Top = 76
+      Width = 21
+      Caption = 'Typ'
+      ParentColor = False
+    end
+    object Label6: TLabel
+      Left = 44
+      Height = 16
+      Top = 105
+      Width = 31
+      Caption = 'Počet'
+      ParentColor = False
+    end
+    object Label7: TLabel
+      Left = 19
+      Height = 16
+      Top = 134
+      Width = 56
+      Caption = 'Penumbry'
+      ParentColor = False
+    end
+    object Label8: TLabel
+      Left = 11
+      Height = 16
+      Top = 163
+      Width = 64
+      Caption = 'Malé škvrny'
+      ParentColor = False
+    end
+    object Label9: TLabel
+      Left = 48
+      Height = 16
+      Top = 192
+      Width = 27
+      Caption = 'Číslo'
+      ParentColor = False
+    end
+    object SpinEdit5: TSpinEdit
+      Left = 117
+      Height = 23
+      Hint = 'Počet skupín.'
+      Top = 6
+      Width = 50
+      MaxValue = 50
+      ParentShowHint = False
+      ReadOnly = True
+      ShowHint = True
+      TabOrder = 7
+    end
+    object BitBtn8: TBitBtn
+      Left = 55
+      Height = 25
+      Top = 33
+      Width = 96
+      Caption = 'Pridať skupinu'
+      Enabled = False
+      Font.Color = clBlack
+      OnClick = BitBtn8Click
+      ParentFont = False
+      TabOrder = 0
+    end
+    object BitBtn10: TBitBtn
+      Left = 55
+      Height = 25
+      Hint = 'Uložiť skupinu sl. škvŕn.'
+      Top = 217
+      Width = 96
+      Caption = 'Uložiť skupinu'
+      Enabled = False
+      Font.Color = clBlack
+      OnClick = BitBtn10Click
+      ParentFont = False
+      TabOrder = 6
+    end
+    object Edit5: TEdit
+      Left = 87
+      Height = 23
+      Hint = 'Číslo skupiny.'
+      Top = 185
+      Width = 80
+      TabOrder = 5
+    end
+    object Edit4: TEdit
+      Left = 87
+      Height = 23
+      Hint = 'Počet škvŕn v skupine menších ako 1 mm2.'
+      Top = 156
+      Width = 80
+      TabOrder = 4
+    end
+    object Edit3: TEdit
+      Left = 87
+      Height = 23
+      Hint = 'Počet penumbier v skupine.'
+      Top = 127
+      Width = 80
+      TabOrder = 3
+    end
+    object Edit2: TEdit
+      Left = 87
+      Height = 23
+      Hint = 'Počet škvŕn v skupine.'
+      Top = 100
+      Width = 80
+      TabOrder = 2
+    end
+    object Edit1: TEdit
+      Left = 88
+      Height = 23
+      Hint = 'Typ podľa McIntoshovej kvalifikácie.'
+      Top = 69
+      Width = 80
+      TabOrder = 1
+    end
+  end
+  object GroupBox1: TGroupBox
+    Left = 646
+    Height = 146
+    Hint = 'Okraje slnečného'#13#10'disku na obrázku.'
+    Top = 2
+    Width = 194
+    ClientHeight = 128
+    ClientWidth = 190
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 2
+    object Label1: TLabel
+      Left = 39
+      Height = 17
+      Top = -2
+      Width = 116
+      Caption = 'Hranice obrázka'
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 2
+      Height = 16
+      Top = 34
+      Width = 69
+      Caption = 'Horizontálne'
+      ParentColor = False
+    end
+    object Label3: TLabel
+      Left = 18
+      Height = 16
+      Top = 74
+      Width = 53
+      Caption = 'Vertikálne'
+      ParentColor = False
+    end
+    object SpinEdit1: TSpinEdit
+      Left = 79
+      Height = 23
+      Hint = 'Ľavý okraj.'
+      Top = 27
+      Width = 50
+      Enabled = False
+      MaxValue = 620
+      OnChange = SpinEdit1Change
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 0
+    end
+    object SpinEdit3: TSpinEdit
+      Left = 79
+      Height = 23
+      Hint = 'Horný okraj.'
+      Top = 67
+      Width = 50
+      Enabled = False
+      MaxValue = 620
+      OnChange = SpinEdit3Change
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 2
+    end
+    object SpinEdit2: TSpinEdit
+      Left = 137
+      Height = 23
+      Hint = 'Pravý okraj.'
+      Top = 27
+      Width = 50
+      Enabled = False
+      MaxValue = 620
+      OnChange = SpinEdit2Change
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 1
+      Value = 620
+    end
+    object SpinEdit4: TSpinEdit
+      Left = 137
+      Height = 23
+      Hint = 'Spodný okraj.'
+      Top = 67
+      Width = 50
+      Enabled = False
+      MaxValue = 620
+      OnChange = SpinEdit4Change
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 3
+      Value = 620
+    end
+    object BitBtn3: TBitBtn
+      Left = 55
+      Height = 25
+      Hint = 'Uložiť nastavenie hraníc.'
+      Top = 103
+      Width = 96
+      Caption = 'Uložiť hranice'
+      Enabled = False
+      Font.Color = clBlack
+      OnClick = BitBtn3Click
+      ParentFont = False
+      TabOrder = 4
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Title = 'Otvoriť obrázok'
+    Filter = 'Obrázky (*.bmp; *.jpg; *.png)|*.bmp; *.jpg|JPG súbory (*.jpg)|*.jpg|Windows Bitmap (*.bmp)|*.bmp'
+    Options = [ofFileMustExist, ofEnableSizing, ofViewDetail]
+    left = 24
+    top = 48
+  end
+end

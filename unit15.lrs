@@ -1,0 +1,225 @@
+{ Toto je automaticky generovaný súbor zdrojov Lazarus }
+
+LazarusResources.Add('TForm15','FORMDATA',[
+  'TPF0'#7'TForm15'#6'Form15'#4'Left'#3#10#1#6'Height'#3#164#2#3'Top'#2#2#5'Wid'
+  +'th'#3'P'#3#13'ActiveControl'#7#7'BitBtn1'#11'BorderIcons'#11#12'biSystemMen'
+  +'u'#0#7'Caption'#6#24'Nov'#195#189' z'#195#161'znam z obr'#195#161'zka'#12'C'
+  +'lientHeight'#3#164#2#11'ClientWidth'#3'P'#3#21'Constraints.MaxHeight'#3#164
+  +#2#20'Constraints.MaxWidth'#3'P'#3#21'Constraints.MinHeight'#3#164#2#20'Cons'
+  +'traints.MinWidth'#3'P'#3#9'Icon.Data'#10#130#4#0#0'~'#4#0#0#0#0#1#0#1#0#16
+  +#16#0#0#0#0#0#0'h'#4#0#0#22#0#0#0'('#0#0#0#16#0#0#0' '#0#0#0#1#0' '#0#0#0#0#0
+  +#0#4#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#255#255#255#0#255#255#255#0#255#255
+  +#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0
+  +#255#255#255#0#255#255#255#0#25'k7'#136#25'k7'#242#25'k7'#255#25'k7'#242#25
+  +'k7'#136#255#255#255#0#255#255#255#0#170'tS'#138#171'rO'#195#170'mE'#240#170
+  +'kC'#240#170'kC'#240#170'kC'#240#170'kC'#240#170'kC'#240']k='#248'('#140'S'
+  +#255'd'#186#141#255#149#210#178#255'd'#186#141#255'('#140'S'#255#25'k7'#140
+  +#255#255#255#0#168'mH'#225#238#236#234#255#247#242#240#255#248#243#240#255
+  +#248#243#239#255#247#243#239#255#247#242#239#255#247#242#238#255'"p?'#255'b'
+  +#186#139#255'`'#186#135#255#255#255#255#255'`'#185#135#255'g'#188#143#255#25
+  +'k7'#247#255#255#255#0#166'd:'#240#246#240#236#255#253#232#215#255#254#232
+  +#215#255#254#232#215#255#254#232#215#255#254#232#215#255#254#232#215#255'1{L'
+  +#255#156#212#182#255#255#255#255#255#255#255#255#255#255#255#255#255#149#210
+  +#178#255#25'k7'#255#255#255#255#0#166'd9'#240#247#240#236#255#129'bB'#255#172
+  +#130'X'#255#172#130'X'#255#172#130'X'#255#172#130'X'#255#172#130'X'#255'G'
+  +#135']'#255#144#211#177#255#146#214#177#255#255#255#255#255'e'#188#140#255'g'
+  +#188#143#255#25'k7'#247#255#255#255#0#168'f:'#240#247#240#235#255#172#130'X'
+  +#255#229#173'u'#255#229#173'u'#255#229#173'u'#255#229#173'u'#255#229#173'u'
+  +#255#155#158'n'#255'a'#171#129#255#149#212#180#255#186#230#208#255'j'#187#143
+  +#255'-'#143'W'#255#25'k7'#140#255#255#255#0#168'f:'#240#247#241#236#255#172
+  +#130'X'#255#229#173'u'#255#229#173'u'#255#229#173'u'#255#229#173'u'#255#229
+  +#173'u'#255#229#173'u'#255#161#161'r'#255'_'#149'n'#255'O'#142'f'#255'I'#137
+  +'`'#255'lsG'#247#255#255#255#0#255#255#255#0#168'f<'#240#247#242#237#255#166
+  +#127'V'#255#222#170's'#255#222#170's'#255#221#169's'#255#221#168's'#255#220
+  +#167'r'#255#220#167'r'#255#220#167'r'#255#220#167'r'#255#164'}U'#255#246#237
+  +#230#255#170'mE'#240#255#255#255#0#255#255#255#0#168'f<'#240#247#243#238#255
+  +#156#150'n'#255#230#199#157#255#226#197#152#255#223#196#150#255#200#189#136
+  +#255#228#186#130#255#228#186#131#255#228#186#131#255#211#193#153#255#165#154
+  +'{'#255#246#237#230#255#170'mE'#240#255#255#255#0#255#255#255#0#168'f<'#240
+  +#247#244#239#255#182#165#131#255#245#221#176#255#246#222#176#255#244#221#175
+  +#255#241#220#173#255#243#218#171#255#243#218#172#255#242#217#171#255#239#218
+  +#174#255#180#165#132#255#244#238#230#255#170'mE'#240#255#255#255#0#255#255
+  +#255#0#168'f<'#240#247#244#241#255#190#171#136#255#254#229#181#255#253#228
+  +#181#255#253#228#181#255#253#228#181#255#253#228#181#255#253#228#181#255#253
+  +#228#181#255#253#228#181#255#190#171#136#255#246#239#231#255#170'mE'#240#255
+  +#255#255#0#255#255#255#0#168'f<'#240#247#244#243#255#182#164#129#255#242#220
+  +#173#255#245#222#176#255#242#221#175#255#246#222#175#255#247#223#175#255#248
+  +#224#177#255#250#225#178#255#252#227#180#255#190#171#136#255#247#239#232#255
+  +#171'mE'#240#255#255#255#0#255#255#255#0#168'mF'#240#243#242#241#255#150#129
+  +'\'#255#166#158'v'#255#164#161'}'#255#171#160'z'#255#186#162'z'#255#186#163
+  +'|'#255#186#164'~'#255#187#166#128#255#188#168#131#255#143#128'e'#255#247#241
+  +#234#255#171'mE'#240#255#255#255#0#255#255#255#0#171'yX'#233#222#222#220#254
+  +#243#243#242#255#247#244#243#255#247#244#242#255#247#244#241#255#247#244#239
+  +#255#248#244#239#255#248#243#238#255#248#242#237#255#248#242#235#255#247#242
+  +#235#255#241#238#232#255#170'pJ'#239#255#255#255#0#255#255#255#0#170'{['#141
+  +#171'wX'#232#168'mF'#240#168'f:'#240#168'f:'#240#168'f:'#240#168'f:'#240#168
+  +'f:'#240#168'd:'#240#168'd:'#240#168'd:'#240#168'd:'#240#168'kC'#240#168'tQ'
+  +#143#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0
+  +#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255
+  +#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255
+  +#255#0#255#255#255#0#255#193#0#0#128#0#0#0#128#0#0#0#128#0#0#0#128#0#0#0#128
+  +#0#0#0#128#1#0#0#128#1#0#0#128#1#0#0#128#1#0#0#128#1#0#0#128#1#0#0#128#1#0#0
+  +#128#1#0#0#128#1#0#0#255#255#0#0#6'OnShow'#7#8'FormShow'#8'Position'#7#16'po'
+  +'MainFormCenter'#10'LCLVersion'#6#8'0.9.28.2'#0#6'TImage'#6'Image2'#4'Left'#2
+  +#16#6'Height'#3'l'#2#3'Top'#2','#5'Width'#3'l'#2#7'Stretch'#9#7'Visible'#8#0
+  +#0#6'TImage'#6'Image1'#4'Left'#2#16#6'Height'#3'l'#2#3'Top'#2','#5'Width'#3
+  +'l'#2#7'Enabled'#8#11'OnMouseDown'#7#15'Image1MouseDown'#11'OnMouseMove'#7#15
+  +'Image1MouseMove'#9'OnMouseUp'#7#13'Image1MouseUp'#0#0#9'TGroupBox'#9'GroupB'
+  ,'ox3'#4'Left'#3#134#2#6'Height'#3#184#0#4'Hint'#6#24#195#154'daje o fakulovo'
+  +'m poli.'#3'Top'#3#225#1#5'Width'#3#194#0#12'ClientHeight'#3#166#0#11'Client'
+  +'Width'#3#190#0#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#4#0#6'TLabe'
+  +'l'#7'Label10'#4'Left'#2#2#6'Height'#2'!'#3'Top'#2#1#5'Width'#2'j'#7'Caption'
+  +#6'!        Po'#196#141'et'#13#10'fakulov'#195#189'ch pol'#195#173#11'Font.H'
+  +'eight'#2#243#9'Font.Name'#6#13'MS Sans Serif'#10'Font.Style'#11#6'fsBold'#0
+  +#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label11'#4'Left'#2#29#6
+  +'Height'#2#16#3'Top'#2'Q'#5'Width'#2'.'#7'Caption'#6#9'Intenzita'#11'ParentC'
+  +'olor'#8#0#0#6'TLabel'#7'Label12'#4'Left'#2'0'#6'Height'#2#16#3'Top'#2'i'#5
+  +'Width'#2#27#7'Caption'#6#7#196#140#195#173'slo'#11'ParentColor'#8#0#0#9'TSp'
+  +'inEdit'#9'SpinEdit6'#4'Left'#2'u'#6'Height'#2#23#4'Hint'#6#25'Po'#196#141'e'
+  +'t fakulov'#195#189'ch pol'#195#173'.'#3'Top'#2#7#5'Width'#2'2'#8'MaxValue'#2
+  +'2'#14'ParentShowHint'#8#8'ReadOnly'#9#8'ShowHint'#9#8'TabOrder'#2#4#0#0#7'T'
+  +'BitBtn'#7'BitBtn9'#4'Left'#2'7'#6'Height'#2#25#4'Hint'#6#23'Prida'#197#165
+  +' fakulov'#195#169' pole.'#3'Top'#2')'#5'Width'#2'`'#7'Caption'#6#12'Prida'
+  +#197#165' pole'#7'Enabled'#8#10'Font.Color'#7#7'clBlack'#7'OnClick'#7#12'Bit'
+  +'Btn9Click'#10'ParentFont'#8#8'TabOrder'#2#0#0#0#5'TEdit'#5'Edit7'#4'Left'#2
+  +'W'#6'Height'#2#23#4'Hint'#6'<Intezita fakulov'#195#169'ho po'#196#190'a:'#13
+  +#10'od 0 do 4 (4 -> najjasnej'#197#161'ie).'#3'Top'#2'J'#5'Width'#2'P'#8'Tab'
+  +'Order'#2#1#0#0#5'TEdit'#5'Edit6'#4'Left'#2'W'#6'Height'#2#23#4'Hint'#6#26
+  +#196#140#195#173'slo fakulov'#195#169'ho po'#196#190'a.'#3'Top'#2'i'#5'Width'
+  +#2'P'#8'TabOrder'#2#2#0#0#7'TBitBtn'#8'BitBtn11'#4'Left'#2'7'#6'Height'#2#25
+  +#4'Hint'#6#24'Ulo'#197#190'i'#197#165' fakulov'#195#169' pole.'#3'Top'#3#136
+  +#0#5'Width'#2'`'#7'Caption'#6#13'Ulo'#197#190'i'#197#165' pole'#7'Enabled'#8
+  +#10'Font.Color'#7#7'clBlack'#7'OnClick'#7#13'BitBtn11Click'#10'ParentFont'#8
+  +#8'TabOrder'#2#3#0#0#0#7'TBitBtn'#7'BitBtn1'#4'Left'#2#16#6'Height'#2#25#4'H'
+  +'int'#6')Na'#196#141#195#173'ta'#197#165' nov'#195#189' obr'#195#161'zok na '
+  +'spracovanie.'#3'Top'#2#8#5'Width'#2'k'#7'Caption'#6#19'Na'#196#141#195#173
+  +'ta'#197#165' obr'#195#161'zok'#10'Font.Color'#7#7'clGreen'#10'Font.Style'#11
+  +#6'fsBold'#11'fsUnderline'#0#7'OnClick'#7#12'BitBtn1Click'#10'ParentFont'#8
+  +#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#0#0#0#7'TBitBtn'#7'BitBtn2'
+  +#4'Left'#3#136#0#6'Height'#2#25#4'Hint'#6#29'Za'#196#141'a'#197#165' spracov'
+  +'anie obr'#195#161'zka.'#3'Top'#2#8#5'Width'#2'p'#7'Caption'#6#19'Za'#196#141
+  +'a'#197#165' spracovanie'#7'Enabled'#8#10'Font.Color'#7#7'clBlack'#7'OnClick'
+  +#7#12'BitBtn2Click'#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'Ta'
+  +'bOrder'#2#1#0#0#7'TBitBtn'#7'BitBtn4'#4'Left'#3#8#1#6'Height'#2#25#4'Hint'#6
+  +'-Zobrazi'#197#165' obr'#195#161'zok '#13#10'v externom prehliada'#196#141'i'
+  +'.'#3'Top'#2#8#5'Width'#2'p'#7'Caption'#6#18'Zobrazi'#197#165' obr'#195#161
+  +'zok'#7'Enabled'#8#10'Font.Color'#7#7'clBlack'#7'OnClick'#7#12'BitBtn4Click'
+  +#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#6#0#0#7'T'
+  +'BitBtn'#7'BitBtn5'#4'Left'#3#192#0#6'Height'#2#25#3'Top'#2'8'#5'Width'#2'p'
+  +#7'Caption'#6#19'Za'#196#141'a'#197#165' spracovanie'#7'Enabled'#8#10'Font.C'
+  +'olor'#7#7'clBlack'#7'OnClick'#7#12'BitBtn2Click'#10'ParentFont'#8#8'TabOrde'
+  +'r'#2#9#7'Visible'#8#0#0#7'TBitBtn'#7'BitBtn6'#4'Left'#2'H'#6'Height'#2#25#3
+  +'Top'#2'8'#5'Width'#2'k'#7'Caption'#6#19'Na'#196#141#195#173'ta'#197#165' ob'
+  +'r'#195#161'zok'#7'Enabled'#8#10'Font.Color'#7#7'clGreen'#10'Font.Style'#11#6
+  +'fsBold'#11'fsUnderline'#0#7'OnClick'#7#12'BitBtn1Click'#10'ParentFont'#8#8
+  +'TabOrder'#2#10#7'Visible'#8#0#0#7'TBitBtn'#7'BitBtn7'#4'Left'#3#248#1#6'Hei'
+  +'ght'#2#25#4'Hint'#6' Dokon'#196#141'i'#197#165' spracovanie obr'#195#161'zk'
+  +'a.'#3'Top'#2#8#5'Width'#3#132#0#7'Caption'#6#22'Dokon'#196#141'i'#197#165' '
+  +'spracovanie'#7'Enabled'#8#10'Font.Color'#7#7'clBlack'#7'OnClick'#7#12'BitBt'
+  +'n7Click'#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#5
+  +#0#0#11'TRadioGroup'#11'RadioGroup2'#4'Left'#3#134#2#6'Height'#2'/'#4'Hint'#6
+  +'0Ve'#196#190'kos'#197#165' '#197#161'tetca na kreslenie / mazanie plochy.'#3
+  +'Top'#3#184#1#5'Width'#3#194#0#8'AutoFill'#9#28'ChildSizing.LeftRightSpacing'
+  +#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHorizontal'#7
+  +#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24'crsHomoge'
+  +'nousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'C'
+  +'hildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29
+  +'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#3#12'Clien'
+  +'tHeight'#2#29#11'ClientWidth'#3#190#0#7'Columns'#2#3#7'Enabled'#8#14'Parent'
+  +'ShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#8#0#6'TLabel'#7'Label13'#4'Left'#2#6
+  +#6'Height'#2#17#4'Hint'#6'0Ve'#196#190'kos'#197#165' '#197#161'tetca na kres'
+  +'lenie / mazanie plochy.'#3'Top'#2#6#5'Width'#2'F'#7'Caption'#6#9'Ve'#196#190
+  ,'kos'#197#165#11'ParentColor'#8#0#0#12'TRadioButton'#12'RadioButton3'#4'Left'
+  +#2'L'#6'Height'#2#17#4'Hint'#6'0Ve'#196#190'kos'#197#165' '#197#161'tetca na'
+  +' kreslenie / mazanie plochy.'#3'Top'#2#6#5'Width'#2'7'#7'Caption'#6#1'1'#7
+  +'Checked'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2#0#0#0#12'TRadioButton'#12
+  +'RadioButton4'#4'Left'#3#131#0#6'Height'#2#17#4'Hint'#6'0Ve'#196#190'kos'#197
+  +#165' '#197#161'tetca na kreslenie / mazanie plochy.'#3'Top'#2#6#5'Width'#2
+  +'5'#7'Caption'#6#1'2'#8'TabOrder'#2#1#7'TabStop'#8#0#0#0#11'TRadioGroup'#11
+  +'RadioGroup1'#4'Left'#3#134#2#6'Height'#2'/'#4'Hint'#6'?Kresli'#197#165' / m'
+  +'aza'#197#165' plochu '#13#10'sl. '#197#161'kv'#197#149'n alebo fakulov'#195
+  +#169'ho po'#196#190'a.'#3'Top'#3#143#1#5'Width'#3#194#0#8'AutoFill'#9#28'Chi'
+  +'ldSizing.LeftRightSpacing'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'Chil'
+  +'dSizing.EnlargeHorizontal'#7#24'crsHomogenousChildResize'#27'ChildSizing.En'
+  +'largeVertical'#7#24'crsHomogenousChildResize'#28'ChildSizing.ShrinkHorizont'
+  +'al'#7#14'crsScaleChilds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'
+  +#18'ChildSizing.Layout'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.C'
+  +'ontrolsPerLine'#2#2#12'ClientHeight'#2#29#11'ClientWidth'#3#190#0#7'Columns'
+  +#2#2#7'Enabled'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#7#0#12'TR'
+  +'adioButton'#12'RadioButton1'#4'Left'#2#6#6'Height'#2#17#4'Hint'#6'?Kresli'
+  +#197#165' / maza'#197#165' plochu '#13#10'sl. '#197#161'kv'#197#149'n alebo '
+  +'fakulov'#195#169'ho po'#196#190'a.'#3'Top'#2#6#5'Width'#2'V'#7'Caption'#6#8
+  +'Kresli'#197#165#7'Checked'#9#8'OnChange'#7#18'RadioButton1Change'#5'State'#7
+  +#9'cbChecked'#8'TabOrder'#2#0#0#0#12'TRadioButton'#12'RadioButton2'#4'Left'#2
+  +'\'#6'Height'#2#17#4'Hint'#6'?Kresli'#197#165' / maza'#197#165' plochu '#13
+  +#10'sl. '#197#161'kv'#197#149'n alebo fakulov'#195#169'ho po'#196#190'a.'#3
+  +'Top'#2#6#5'Width'#2'\'#7'Caption'#6#7'Zmaza'#197#165#8'TabOrder'#2#1#7'TabS'
+  +'top'#8#0#0#0#9'TGroupBox'#9'GroupBox2'#4'Left'#3#134#2#6'Height'#3#8#1#4'Hi'
+  +'nt'#6#29#195#154'daje o skupine sl. '#197#161'kv'#197#149'n.'#3'Top'#3#142#0
+  +#5'Width'#3#194#0#12'ClientHeight'#3#246#0#11'ClientWidth'#3#190#0#14'Parent'
+  +'ShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#3#0#6'TLabel'#6'Label4'#4'Left'#2#17
+  +#6'Height'#2#17#3'Top'#2#6#5'Width'#2'['#7'Caption'#6#14'Po'#196#141'et skup'
+  +#195#173'n'#11'Font.Height'#2#243#9'Font.Name'#6#13'MS Sans Serif'#10'Font.S'
+  +'tyle'#11#6'fsBold'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Lab'
+  +'el5'#4'Left'#2'6'#6'Height'#2#16#3'Top'#2'L'#5'Width'#2#21#7'Caption'#6#3'T'
+  +'yp'#11'ParentColor'#8#0#0#6'TLabel'#6'Label6'#4'Left'#2','#6'Height'#2#16#3
+  +'Top'#2'i'#5'Width'#2#31#7'Caption'#6#6'Po'#196#141'et'#11'ParentColor'#8#0#0
+  +#6'TLabel'#6'Label7'#4'Left'#2#19#6'Height'#2#16#3'Top'#3#134#0#5'Width'#2'8'
+  +#7'Caption'#6#8'Penumbry'#11'ParentColor'#8#0#0#6'TLabel'#6'Label8'#4'Left'#2
+  +#11#6'Height'#2#16#3'Top'#3#163#0#5'Width'#2'@'#7'Caption'#6#13'Mal'#195#169
+  +' '#197#161'kvrny'#11'ParentColor'#8#0#0#6'TLabel'#6'Label9'#4'Left'#2'0'#6
+  +'Height'#2#16#3'Top'#3#192#0#5'Width'#2#27#7'Caption'#6#7#196#140#195#173'sl'
+  +'o'#11'ParentColor'#8#0#0#9'TSpinEdit'#9'SpinEdit5'#4'Left'#2'u'#6'Height'#2
+  +#23#4'Hint'#6#15'Po'#196#141'et skup'#195#173'n.'#3'Top'#2#6#5'Width'#2'2'#8
+  +'MaxValue'#2'2'#14'ParentShowHint'#8#8'ReadOnly'#9#8'ShowHint'#9#8'TabOrder'
+  +#2#7#0#0#7'TBitBtn'#7'BitBtn8'#4'Left'#2'7'#6'Height'#2#25#3'Top'#2'!'#5'Wid'
+  +'th'#2'`'#7'Caption'#6#15'Prida'#197#165' skupinu'#7'Enabled'#8#10'Font.Colo'
+  +'r'#7#7'clBlack'#7'OnClick'#7#12'BitBtn8Click'#10'ParentFont'#8#8'TabOrder'#2
+  +#0#0#0#7'TBitBtn'#8'BitBtn10'#4'Left'#2'7'#6'Height'#2#25#4'Hint'#6#29'Ulo'
+  +#197#190'i'#197#165' skupinu sl. '#197#161'kv'#197#149'n.'#3'Top'#3#217#0#5
+  +'Width'#2'`'#7'Caption'#6#16'Ulo'#197#190'i'#197#165' skupinu'#7'Enabled'#8
+  +#10'Font.Color'#7#7'clBlack'#7'OnClick'#7#13'BitBtn10Click'#10'ParentFont'#8
+  +#8'TabOrder'#2#6#0#0#5'TEdit'#5'Edit5'#4'Left'#2'W'#6'Height'#2#23#4'Hint'#6
+  +#16#196#140#195#173'slo skupiny.'#3'Top'#3#185#0#5'Width'#2'P'#8'TabOrder'#2
+  +#5#0#0#5'TEdit'#5'Edit4'#4'Left'#2'W'#6'Height'#2#23#4'Hint'#6'-Po'#196#141
+  +'et '#197#161'kv'#197#149'n v skupine men'#197#161#195#173'ch ako 1 mm2.'#3
+  +'Top'#3#156#0#5'Width'#2'P'#8'TabOrder'#2#4#0#0#5'TEdit'#5'Edit3'#4'Left'#2
+  +'W'#6'Height'#2#23#4'Hint'#6#27'Po'#196#141'et penumbier v skupine.'#3'Top'#2
+  +#127#5'Width'#2'P'#8'TabOrder'#2#3#0#0#5'TEdit'#5'Edit2'#4'Left'#2'W'#6'Heig'
+  +'ht'#2#23#4'Hint'#6#25'Po'#196#141'et '#197#161'kv'#197#149'n v skupine.'#3
+  +'Top'#2'd'#5'Width'#2'P'#8'TabOrder'#2#2#0#0#5'TEdit'#5'Edit1'#4'Left'#2'X'#6
+  +'Height'#2#23#4'Hint'#6'&Typ pod'#196#190'a McIntoshovej kvalifik'#195#161'c'
+  +'ie.'#3'Top'#2'E'#5'Width'#2'P'#8'TabOrder'#2#1#0#0#0#9'TGroupBox'#9'GroupBo'
+  +'x1'#4'Left'#3#134#2#6'Height'#3#146#0#4'Hint'#6'&Okraje slne'#196#141'n'#195
+  +#169'ho'#13#10'disku na obr'#195#161'zku.'#3'Top'#2#2#5'Width'#3#194#0#12'Cl'
+  +'ientHeight'#3#128#0#11'ClientWidth'#3#190#0#14'ParentShowHint'#8#8'ShowHint'
+  ,#9#8'TabOrder'#2#2#0#6'TLabel'#6'Label1'#4'Left'#2''''#6'Height'#2#17#3'Top'
+  +#2#254#5'Width'#2't'#7'Caption'#6#16'Hranice obr'#195#161'zka'#11'Font.Heigh'
+  +'t'#2#243#9'Font.Name'#6#13'MS Sans Serif'#10'Font.Style'#11#6'fsBold'#0#11
+  +'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label2'#4'Left'#2#2#6'Heigh'
+  +'t'#2#16#3'Top'#2'"'#5'Width'#2'E'#7'Caption'#6#13'Horizont'#195#161'lne'#11
+  +'ParentColor'#8#0#0#6'TLabel'#6'Label3'#4'Left'#2#18#6'Height'#2#16#3'Top'#2
+  +'J'#5'Width'#2'5'#7'Caption'#6#11'Vertik'#195#161'lne'#11'ParentColor'#8#0#0
+  +#9'TSpinEdit'#9'SpinEdit1'#4'Left'#2'O'#6'Height'#2#23#4'Hint'#6#13#196#189
+  +'av'#195#189' okraj.'#3'Top'#2#27#5'Width'#2'2'#7'Enabled'#8#8'MaxValue'#3'l'
+  +#2#8'OnChange'#7#15'SpinEdit1Change'#14'ParentShowHint'#8#8'ShowHint'#9#8'Ta'
+  +'bOrder'#2#0#0#0#9'TSpinEdit'#9'SpinEdit3'#4'Left'#2'O'#6'Height'#2#23#4'Hin'
+  +'t'#6#13'Horn'#195#189' okraj.'#3'Top'#2'C'#5'Width'#2'2'#7'Enabled'#8#8'Max'
+  +'Value'#3'l'#2#8'OnChange'#7#15'SpinEdit3Change'#14'ParentShowHint'#8#8'Show'
+  +'Hint'#9#8'TabOrder'#2#2#0#0#9'TSpinEdit'#9'SpinEdit2'#4'Left'#3#137#0#6'Hei'
+  +'ght'#2#23#4'Hint'#6#13'Prav'#195#189' okraj.'#3'Top'#2#27#5'Width'#2'2'#7'E'
+  +'nabled'#8#8'MaxValue'#3'l'#2#8'OnChange'#7#15'SpinEdit2Change'#14'ParentSho'
+  +'wHint'#8#8'ShowHint'#9#8'TabOrder'#2#1#5'Value'#3'l'#2#0#0#9'TSpinEdit'#9'S'
+  +'pinEdit4'#4'Left'#3#137#0#6'Height'#2#23#4'Hint'#6#14'Spodn'#195#189' okraj'
+  +'.'#3'Top'#2'C'#5'Width'#2'2'#7'Enabled'#8#8'MaxValue'#3'l'#2#8'OnChange'#7
+  +#15'SpinEdit4Change'#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#3#5'Va'
+  +'lue'#3'l'#2#0#0#7'TBitBtn'#7'BitBtn3'#4'Left'#2'7'#6'Height'#2#25#4'Hint'#6
+  +#28'Ulo'#197#190'i'#197#165' nastavenie hran'#195#173'c.'#3'Top'#2'g'#5'Widt'
+  +'h'#2'`'#7'Caption'#6#16'Ulo'#197#190'i'#197#165' hranice'#7'Enabled'#8#10'F'
+  +'ont.Color'#7#7'clBlack'#7'OnClick'#7#12'BitBtn3Click'#10'ParentFont'#8#8'Ta'
+  +'bOrder'#2#4#0#0#0#11'TOpenDialog'#11'OpenDialog1'#5'Title'#6#17'Otvori'#197
+  +#165' obr'#195#161'zok'#6'Filter'#6'bObr'#195#161'zky (*.bmp; *.jpg; *.png)|'
+  +'*.bmp; *.jpg|JPG s'#195#186'bory (*.jpg)|*.jpg|Windows Bitmap (*.bmp)|*.bmp'
+  +#7'Options'#11#15'ofFileMustExist'#14'ofEnableSizing'#12'ofViewDetail'#0#4'l'
+  +'eft'#2#24#3'top'#2'0'#0#0#0
+]);

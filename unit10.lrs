@@ -1,0 +1,217 @@
+{ Toto je automaticky generovaný súbor zdrojov Lazarus }
+
+LazarusResources.Add('TForm10','FORMDATA',[
+  'TPF0'#7'TForm10'#6'Form10'#4'Left'#2'B'#6'Height'#3#239#1#3'Top'#2'W'#5'Widt'
+  +'h'#3#244#3#13'ActiveControl'#7#12'PageControl1'#7'Caption'#6#19#197#160'tat'
+  +'istiky - grafy'#12'ClientHeight'#3#239#1#11'ClientWidth'#3#244#3#9'Icon.Dat'
+  +'a'#10#130#4#0#0'~'#4#0#0#0#0#1#0#1#0#16#16#0#0#0#0' '#0'h'#4#0#0#22#0#0#0'('
+  +#0#0#0#16#0#0#0' '#0#0#0#1#0' '#0#0#0#0#0'@'#4#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0'#'#0#0#0'3'#0#0#0'3'#0#0#0'3'#0#0#0'3'#0#0#0'3'#0#0#0'3'#0#0#0
+  +'3'#0#0#0'3'#0#0#0'3'#0#0#0'3'#0#0#0'3'#0#0#0'3'#0#0#0'3'#0#0#0'1'#255#255
+  +#255#1#139#139#139#193#147#147#147#255#145#145#146#255#145#145#146#255#144
+  +#145#146#255#144#144#145#255#144#144#144#255#144#144#144#255#144#144#144#255
+  +#144#144#144#255#144#144#144#255#144#144#144#255#144#144#144#255#146#146#146
+  +#255#149#149#149#243#255#255#255#1#147#147#147#255#255#255#255#255#255#255
+  +#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255
+  +#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255#255
+  +#255#255#255#255#255#255#255#255#147#147#147#255#255#255#255#1#145#145#146
+  +#255#255#255#255#255#185#127#13#255#181'y'#3#255#196#162'a'#255#253#254#254
+  +#255#255#255#255#255#215#215#216#255#255#255#255#255#255#255#254#255#216#216
+  +#214#255#255#255#254#255#255#255#254#255#255#255#255#255#145#145#145#255#255
+  +#255#255#1#145#145#145#255#255#255#255#255#255#255#255#255#247#244#237#255
+  +#188#143'2'#255#192#142'+'#255#248#243#236#255#217#218#221#255#255#255#255
+  +#255#255#255#253#255#225#223#213#255#255#255#253#255#255#255#252#255#255#255
+  +#255#255#145#145#144#255#255#255#255#1#145#145#145#255#255#255#255#255#210
+  +#211#211#255#212#214#217#255#216#221#228#255#194#158'S'#255#186'~'#7#255#221
+  +#221#217#255#186#190#216#255'hs'#201#255'AP'#196#255#21''''#189#255#0#19#185
+  +#255#255#255#255#255#146#146#145#255#255#255#255#1#145#145#145#255#255#255
+  +#255#255#247#246#245#255#249#248#248#255#215#215#215#255#255#255#255#255#171
+  +#135'V'#255#159'p"'#255'4C'#201#255'z'#134#223#255#159#163#205#255#230#231
+  +#240#255#255#255#245#255#255#255#255#255#145#145#145#255#255#255#255#1#146
+  +#145#145#255#255#254#254#255#255#246#249#255#255#250#252#255#231#219#217#255
+  +'pv'#223#255',?'#216#255#192#155'Q'#255#204#152','#255#253#252#247#255#215
+  +#217#217#255#248#249#248#255#245#245#244#255#255#254#252#255#145#145#145#255
+  +#255#255#255#1#146#146#146#255#255#255#255#255#0'{)'#255#0#132'/'#255#0#137
+  +'G'#255#19'V'#150#255#222#212#219#255#220#219#224#255#194#156'O'#255#183'}'#6
+  +#255#199#178#138#255#203#200#191#255#204#208#214#255#253#255#255#255#145#146
+  +#146#255#255#255#255#1#146#146#146#255#255#253#253#255#255#248#244#255#166
+  +#158#230#255'''['#159#255#5#153'M'#255'%'#162'g'#255#208#205#209#255#251#247
+  +#255#255#227#206#175#255#192#147'B'#255#184'v'#0#255#181'r'#0#255#254#254#255
+  +#255#146#146#147#255#255#255#255#1#146#146#146#255#255#253#250#255#235#232
+  +#230#255#31'.'#198#255#175#170#204#255#243#240#235#255'G'#172'}'#255#0#134'>'
+  +#255#146#200#177#255#238#236#240#255#219#209#219#255#253#245#255#255#247#242
+  +#250#255#255#252#255#255#146#146#147#255#255#255#255#1#146#147#146#255#255
+  +#255#249#255'{'#131#192#255'@M'#193#255#211#208#196#255#205#200#198#255#211
+  +#201#203#255#135#179#158#255#21#146'Y'#255#0#128'3'#255#0#129'5'#255#0#127'3'
+  +#255#0'{,'#255#255#252#255#255#147#146#147#255#255#255#255#1#147#147#146#255
+  +#255#255#248#255'6E'#198#255#171#176#216#255#199#198#190#255#229#229#226#255
+  +#231#228#227#255#200#194#194#255#240#231#233#255#244#232#235#255#209#196#200
+  +#255#244#231#235#255#237#228#230#255#254#249#250#255#146#146#146#255#255#255
+  +#255#1#148#148#146#255#255#255#249#255#18'$'#191#255#234#231#221#255#190#189
+  +#185#255#222#221#220#255#222#221#220#255#188#186#186#255#224#221#221#255#225
+  +#221#221#255#190#187#187#255#224#221#221#255#222#219#219#255#249#248#248#255
+  +#146#146#146#255#255#255#255#1#149#148#148#255#255#255#251#255#255#254#247
+  +#255#252#251#246#255#250#249#247#255#248#247#246#255#248#247#246#255#249#248
+  +#246#255#248#247#246#255#248#247#246#255#249#248#246#255#248#247#246#255#248
+  +#247#246#255#253#251#250#255#148#148#148#255#255#255#255#1#152#152#152#197
+  +#148#148#148#255#147#147#146#255#146#146#146#255#146#146#146#255#146#146#146
+  +#255#146#146#146#255#146#146#146#255#146#146#146#255#146#146#146#255#146#146
+  +#146#255#146#146#146#255#146#146#146#255#148#148#148#255#152#152#152#239#255
+  +#255#255#1#0#0#255#255#0#0#255#255#0#0#255#255#0#0#255#255#0#0#255#255#0#0
+  +#255#255#0#0#255#255#0#0#255#255#0#0#255#255#0#0#255#255#0#0#255#255#0#0#255
+  +#255#0#0#255#255#0#0#255#255#0#0#255#255#0#0#255#255#4'Menu'#7#9'MainMenu1'
+  +#10'OnActivate'#7#12'FormActivate'#8'OnCreate'#7#10'FormCreate'#8'OnResize'#7
+  +#10'FormResize'#8'Position'#7#9'poDefault'#10'LCLVersion'#6#8'0.9.28.2'#11'W'
+  +'indowState'#7#11'wsMaximized'#0#12'TPageControl'#12'PageControl1'#4'Left'#2
+  +#0#6'Height'#3#240#1#3'Top'#2#255#5'Width'#3'W'#4#10'ActivePage'#7#10'TabShe'
+  +'et10'#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#8'akBottom'#0#6'Images'#7
+  ,#16'Form1.ImageList1'#8'TabIndex'#2#10#8'TabOrder'#2#0#0#9'TTabSheet'#10'Tab'
+  +'Sheet11'#7'Caption'#6#5#195#154'vod'#12'ClientHeight'#3#213#1#11'ClientWidt'
+  +'h'#3'O'#4#10'ImageIndex'#2#255#6'OnShow'#7#14'TabSheet11Show'#0#9'TGroupBox'
+  +#9'GroupBox1'#4'Left'#3#16#1#6'Height'#3#230#1#3'Top'#3#189#0#5'Width'#3#148
+  +#2#12'ClientHeight'#3#212#1#11'ClientWidth'#3#144#2#5'Color'#7#9'clBtnFace'
+  +#11'ParentColor'#8#10'ParentFont'#8#8'TabOrder'#2#0#0#6'TLabel'#7'Label11'#4
+  +'Left'#3#238#0#6'Height'#3#9#1#3'Top'#2'X'#5'Width'#3#161#1#7'Caption'#12#145
+  +#1#0#0'g   -  po'#196#141'et skup'#195#173'n na celom sl. disku'#13#10'f    '
+  +'-  po'#196#141'et '#197#161'kv'#197#149'n na celom sl. disku'#13#10'r    - '
+  +' relat'#195#173'vne '#196#141#195#173'slo '#13#10'gC -  po'#196#141'et skup'
+  +#195#173'n v centr'#195#161'lnej oblasti'#13#10'fC  -  po'#196#141'et '#197
+  +#161'kv'#197#149'n v centr'#195#161'lnej oblasti'#13#10'rC  -  relat'#195#173
+  +'vne '#196#141#195#173'slo centr'#195#161'lnej oblasti'#13#10'CV -  CV index'
+  +'y'#13#10'SN -  Pettisovo '#196#141#195#173'slo'#13#10'RB -  Beckovo '#196
+  +#141#195#173'slo'#13#10'F   -  po'#196#141'et fakulov'#195#189'ch pol'#195
+  +#173#13#10'Mot'#195#189'likov'#195#189' diagram - heliografick'#195#161' '
+  +#197#161#195#173'rka skup'#195#173'n'#11'Font.Height'#2#236#11'ParentColor'#8
+  +#10'ParentFont'#8#0#0#6'TLabel'#7'Label12'#4'Left'#2'F'#6'Height'#2#25#3'Top'
+  +#2'X'#5'Width'#3#149#0#7'Caption'#6#18'Jednotliv'#195#169' grafy:'#11'Font.H'
+  +'eight'#2#236#10'Font.Style'#11#11'fsUnderline'#0#11'ParentColor'#8#10'Paren'
+  +'tFont'#8#0#0#6'TLabel'#7'Label13'#4'Left'#2#22#6'Height'#2#25#3'Top'#3#149#1
+  +#5'Width'#2'u'#7'Caption'#6#13'Popis grafov:'#11'Font.Height'#2#236#10'Font.'
+  +'Style'#11#11'fsUnderline'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'
+  +#7'Label14'#4'Left'#3#154#0#6'Height'#2'1'#3'Top'#3#149#1#5'Width'#3#213#1#7
+  +'Caption'#6'a'#196#141'erven'#195#161' '#196#141'iara  -  mesa'#196#141'n'
+  +#195#169' priemery'#13#10'modr'#195#161' '#196#141'iara    -  k'#196#186'zav'
+  +#195#169' priemery (min. 12 mesiacov)'#11'Font.Height'#2#236#11'ParentColor'
+  +#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label15'#4'Left'#2#10#6'Height'#2'1'#3'T'
+  +'op'#2#14#5'Width'#3'r'#2#7'Caption'#6'$Vitajte v '#196#141'asti '#197#160'T'
+  +'ATISTIKY - GRAFY'#11'Font.Height'#2#216#11'ParentColor'#8#10'ParentFont'#8#0
+  +#0#0#0#9'TTabSheet'#9'TabSheet1'#4'Hint'#6#14'Po'#196#141'et skup'#195#173'n'
+  +#7'Caption'#6#1'g'#12'ClientHeight'#3#213#1#11'ClientWidth'#3'O'#4#10'ImageI'
+  +'ndex'#2#255#6'OnShow'#7#13'TabSheet1Show'#14'ParentShowHint'#8#8'ShowHint'#9
+  +#0#6'TImage'#6'Image1'#4'Left'#2#0#6'Height'#3#130#1#4'Hint'#6'sPo'#196#141
+  +'et skup'#195#173'n'#13#10#13#10#196#141'erven'#195#161' '#196#141'iara  -  '
+  +'mesa'#196#141'n'#195#169' priemery'#13#10'modr'#195#161' '#196#141'iara    '
+  +'-  k'#196#186'zav'#195#169' priemery (min. 12 mesiacov)'#3'Top'#2#0#5'Width'
+  +#3#147#2#9'PopupMenu'#7#10'PopupMenu1'#0#0#0#9'TTabSheet'#9'TabSheet2'#4'Hin'
+  +'t'#6#13'Po'#196#141'et '#197#161'kvrn'#7'Caption'#6#1'f'#12'ClientHeight'#3
+  +#213#1#11'ClientWidth'#3'O'#4#10'ImageIndex'#2#255#6'OnShow'#7#13'TabSheet2S'
+  +'how'#14'ParentShowHint'#8#8'ShowHint'#9#0#6'TImage'#6'Image2'#4'Left'#2#0#6
+  +'Height'#3'R'#3#4'Hint'#6'sPo'#196#141'et '#197#161'kv'#197#149'n'#13#10#13
+  +#10#196#141'erven'#195#161' '#196#141'iara  -  mesa'#196#141'n'#195#169' pri'
+  +'emery'#13#10'modr'#195#161' '#196#141'iara    -  k'#196#186'zav'#195#169' p'
+  +'riemery (min. 12 mesiacov)'#3'Top'#2#0#5'Width'#3#171#4#9'PopupMenu'#7#10'P'
+  +'opupMenu1'#0#0#0#9'TTabSheet'#9'TabSheet3'#4'Hint'#6#16'Relat'#195#173'ne '
+  +#196#141'islo'#7'Caption'#6#1'r'#12'ClientHeight'#3#213#1#11'ClientWidth'#3
+  +'O'#4#10'ImageIndex'#2#255#6'OnShow'#7#13'TabSheet3Show'#14'ParentShowHint'#8
+  +#8'ShowHint'#9#0#6'TImage'#6'Image3'#4'Left'#2#0#6'Height'#3'R'#3#4'Hint'#6
+  +'uRelat'#195#173'ne '#196#141'islo'#13#10#13#10#196#141'erven'#195#161' '#196
+  +#141'iara  -  mesa'#196#141'n'#195#169' priemery'#13#10'modr'#195#161' '#196
+  +#141'iara    -  k'#196#186'zav'#195#169' priemery (min. 12 mesiacov)'#3'Top'
+  +#2#0#5'Width'#3#171#4#9'PopupMenu'#7#10'PopupMenu1'#0#0#0#9'TTabSheet'#9'Tab'
+  +'Sheet4'#4'Hint'#6'$Po'#196#141'et skup'#195#173'n v centr'#195#161'lnej obl'
+  +'asti'#7'Caption'#6#2'gC'#12'ClientHeight'#3#213#1#11'ClientWidth'#3'O'#4#10
+  +'ImageIndex'#2#255#6'OnShow'#7#13'TabSheet4Show'#14'ParentShowHint'#8#8'Show'
+  +'Hint'#9#0#6'TImage'#6'Image4'#4'Left'#2#0#6'Height'#3'R'#3#4'Hint'#6#137'Po'
+  +#196#141'et skup'#195#173'n v centr'#195#161'lnej oblasti'#13#10#13#10#196
+  +#141'erven'#195#161' '#196#141'iara  -  mesa'#196#141'n'#195#169' priemery'
+  +#13#10'modr'#195#161' '#196#141'iara    -  k'#196#186'zav'#195#169' priemery'
+  +' (min. 12 mesiacov)'#3'Top'#2#0#5'Width'#3#171#4#9'PopupMenu'#7#10'PopupMen'
+  +'u1'#0#0#0#9'TTabSheet'#9'TabSheet5'#4'Hint'#6'#Po'#196#141'et '#197#161'kvr'
+  +'n v centr'#195#161'lnej oblasti'#7'Caption'#6#2'fC'#12'ClientHeight'#3#213#1
+  +#11'ClientWidth'#3'O'#4#10'ImageIndex'#2#255#6'OnShow'#7#13'TabSheet5Show'#14
+  ,'ParentShowHint'#8#8'ShowHint'#9#0#6'TImage'#6'Image5'#4'Left'#2#0#6'Height'
+  +#3'R'#3#4'Hint'#6#137'Po'#196#141'et '#197#161'kv'#197#149'n v centr'#195#161
+  +'lnej oblasti'#13#10#13#10#196#141'erven'#195#161' '#196#141'iara  -  mesa'
+  +#196#141'n'#195#169' priemery'#13#10'modr'#195#161' '#196#141'iara    -  k'
+  +#196#186'zav'#195#169' priemery (min. 12 mesiacov)'#3'Top'#2#0#5'Width'#3#171
+  +#4#9'PopupMenu'#7#10'PopupMenu1'#0#0#0#9'TTabSheet'#9'TabSheet6'#4'Hint'#6'('
+  +'Relat'#195#173'vne '#196#141#195#173'slo v centr'#195#161'lnej oblasti'#7'C'
+  +'aption'#6#2'rC'#12'ClientHeight'#3#213#1#11'ClientWidth'#3'O'#4#10'ImageInd'
+  +'ex'#2#255#6'OnShow'#7#13'TabSheet6Show'#14'ParentShowHint'#8#8'ShowHint'#9#0
+  +#6'TImage'#6'Image6'#4'Left'#2#0#6'Height'#3'R'#3#4'Hint'#6#141'Relat'#195
+  +#173'vne '#196#141#195#173'slo v centr'#195#161'lnej oblasti'#13#10#13#10#196
+  +#141'erven'#195#161' '#196#141'iara  -  mesa'#196#141'n'#195#169' priemery'
+  +#13#10'modr'#195#161' '#196#141'iara    -  k'#196#186'zav'#195#169' priemery'
+  +' (min. 12 mesiacov)'#3'Top'#2#0#5'Width'#3#171#4#9'PopupMenu'#7#10'PopupMen'
+  +'u1'#0#0#0#9'TTabSheet'#9'TabSheet7'#4'Hint'#6#9'CV indexy'#7'Caption'#6#2'C'
+  +'V'#12'ClientHeight'#3#213#1#11'ClientWidth'#3'O'#4#10'ImageIndex'#2#255#6'O'
+  +'nShow'#7#13'TabSheet7Show'#14'ParentShowHint'#8#8'ShowHint'#9#0#6'TImage'#6
+  +'Image7'#4'Left'#2#0#6'Height'#3'R'#3#4'Hint'#6'nCV indexy'#13#10#13#10#196
+  +#141'erven'#195#161' '#196#141'iara  -  mesa'#196#141'n'#195#169' priemery'
+  +#13#10'modr'#195#161' '#196#141'iara    -  k'#196#186'zav'#195#169' priemery'
+  +' (min. 12 mesiacov)'#3'Top'#2#0#5'Width'#3#171#4#9'PopupMenu'#7#10'PopupMen'
+  +'u1'#0#0#0#9'TTabSheet'#9'TabSheet8'#4'Hint'#6#17'Pettisovo '#196#141#195#173
+  +'slo'#7'Caption'#6#2'SN'#12'ClientHeight'#3#213#1#11'ClientWidth'#3'O'#4#10
+  +'ImageIndex'#2#255#6'OnShow'#7#13'TabSheet8Show'#14'ParentShowHint'#8#8'Show'
+  +'Hint'#9#0#6'TImage'#6'Image8'#4'Left'#2#0#6'Height'#3'R'#3#4'Hint'#6'vPetti'
+  +'sovo '#196#141#195#173'slo'#13#10#13#10#196#141'erven'#195#161' '#196#141'i'
+  +'ara  -  mesa'#196#141'n'#195#169' priemery'#13#10'modr'#195#161' '#196#141
+  +'iara    -  k'#196#186'zav'#195#169' priemery (min. 12 mesiacov)'#3'Top'#2#0
+  +#5'Width'#3#171#4#9'PopupMenu'#7#10'PopupMenu1'#0#0#0#9'TTabSheet'#9'TabShee'
+  +'t9'#4'Hint'#6#15'Beckovo '#196#141#195#173'slo'#7'Caption'#6#2'RB'#12'Clien'
+  +'tHeight'#3#213#1#11'ClientWidth'#3'O'#4#10'ImageIndex'#2#255#6'OnShow'#7#13
+  +'TabSheet9Show'#14'ParentShowHint'#8#8'ShowHint'#9#0#6'TImage'#6'Image9'#4'L'
+  +'eft'#2#0#6'Height'#3'R'#3#4'Hint'#6'tBeckovo '#196#141#195#173'slo'#13#10#13
+  +#10#196#141'erven'#195#161' '#196#141'iara  -  mesa'#196#141'n'#195#169' pri'
+  +'emery'#13#10'modr'#195#161' '#196#141'iara    -  k'#196#186'zav'#195#169' p'
+  +'riemery (min. 12 mesiacov)'#3'Top'#2#0#5'Width'#3#171#4#9'PopupMenu'#7#10'P'
+  +'opupMenu1'#0#0#0#9'TTabSheet'#10'TabSheet10'#4'Hint'#6#24'Po'#196#141'et fa'
+  +'kulov'#195#189'ch pol'#195#173#7'Caption'#6#1'F'#12'ClientHeight'#3#213#1#11
+  +'ClientWidth'#3'O'#4#10'ImageIndex'#2#255#6'OnShow'#7#14'TabSheet10Show'#14
+  +'ParentShowHint'#8#8'ShowHint'#9#0#6'TImage'#7'Image10'#4'Left'#2#0#6'Height'
+  +#3'T'#3#4'Hint'#6'}Po'#196#141'et fakulov'#195#189'ch pol'#195#173#13#10#13
+  +#10#196#141'erven'#195#161' '#196#141'iara  -  mesa'#196#141'n'#195#169' pri'
+  +'emery'#13#10'modr'#195#161' '#196#141'iara    -  k'#196#186'zav'#195#169' p'
+  +'riemery (min. 12 mesiacov)'#3'Top'#2#0#5'Width'#3#169#4#9'PopupMenu'#7#10'P'
+  +'opupMenu1'#0#0#0#9'TTabSheet'#10'TabSheet13'#7'Caption'#6#20'Mot'#195#189'l'
+  +'ikov'#195#189' diagram'#12'ClientHeight'#3#213#1#11'ClientWidth'#3'O'#4#10
+  +'ImageIndex'#2#255#6'OnShow'#7#14'TabSheet13Show'#0#6'TImage'#7'Image11'#4'L'
+  +'eft'#2#0#6'Height'#3'T'#3#4'Hint'#6'NHeliografick'#195#161' '#197#161#195
+  +#173'rka skup'#195#173'n'#13#10#13#10#196#140'ierny bod - heliografick'#195
+  +#161' '#197#161#195#173'rka skupiny'#3'Top'#2#0#5'Width'#3#169#4#14'ParentSh'
+  +'owHint'#8#9'PopupMenu'#7#10'PopupMenu1'#8'ShowHint'#9#0#0#0#9'TTabSheet'#10
+  +'TabSheet12'#12'ClientHeight'#3#213#1#11'ClientWidth'#3'O'#4#10'ImageIndex'#2
+  +#5#0#9'TGroupBox'#9'GroupBox2'#4'Left'#3#16#1#6'Height'#3#230#1#3'Top'#3#188
+  +#0#5'Width'#3#148#2#12'ClientHeight'#3#212#1#11'ClientWidth'#3#144#2#5'Color'
+  +#7#9'clBtnFace'#11'ParentColor'#8#10'ParentFont'#8#8'TabOrder'#2#0#0#6'TLabe'
+  +'l'#6'Label6'#4'Left'#3#238#0#6'Height'#3#9#1#3'Top'#2'X'#5'Width'#3#161#1#7
+  +'Caption'#12#145#1#0#0'g   -  po'#196#141'et skup'#195#173'n na celom sl. di'
+  +'sku'#13#10'f    -  po'#196#141'et '#197#161'kv'#197#149'n na celom sl. disk'
+  +'u'#13#10'r    -  relat'#195#173'vne '#196#141#195#173'slo '#13#10'gC -  po'
+  +#196#141'et skup'#195#173'n v centr'#195#161'lnej oblasti'#13#10'fC  -  po'
+  +#196#141'et '#197#161'kv'#197#149'n v centr'#195#161'lnej oblasti'#13#10'rC '
+  +' -  relat'#195#173'vne '#196#141#195#173'slo centr'#195#161'lnej oblasti'#13
+  +#10'CV -  CV indexy'#13#10'SN -  Pettisovo '#196#141#195#173'slo'#13#10'RB -'
+  +'  Beckovo '#196#141#195#173'slo'#13#10'F   -  po'#196#141'et fakulov'#195
+  ,#189'ch pol'#195#173#13#10'Mot'#195#189'likov'#195#189' diagram - heliografi'
+  +'ck'#195#161' '#197#161#195#173'rka skup'#195#173'n'#11'Font.Height'#2#236#11
+  +'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label7'#4'Left'#2'F'#6'Heig'
+  +'ht'#2#25#3'Top'#2'X'#5'Width'#3#149#0#7'Caption'#6#18'Jednotliv'#195#169' g'
+  +'rafy:'#11'Font.Height'#2#236#10'Font.Style'#11#11'fsUnderline'#0#11'ParentC'
+  +'olor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label8'#4'Left'#2#22#6'Height'#2#25
+  +#3'Top'#3#149#1#5'Width'#2'u'#7'Caption'#6#13'Popis grafov:'#11'Font.Height'
+  +#2#236#10'Font.Style'#11#11'fsUnderline'#0#11'ParentColor'#8#10'ParentFont'#8
+  +#0#0#6'TLabel'#6'Label9'#4'Left'#3#154#0#6'Height'#2'1'#3'Top'#3#149#1#5'Wid'
+  +'th'#3#213#1#7'Caption'#6'a'#196#141'erven'#195#161' '#196#141'iara  -  mesa'
+  +#196#141'n'#195#169' priemery'#13#10'modr'#195#161' '#196#141'iara    -  k'
+  +#196#186'zav'#195#169' priemery (min. 12 mesiacov)'#11'Font.Height'#2#236#11
+  +'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label10'#4'Left'#2#10#6'Hei'
+  +'ght'#2'1'#3'Top'#2#14#5'Width'#3'r'#2#7'Caption'#6'$Vitajte v '#196#141'ast'
+  +'i '#197#160'TATISTIKY - GRAFY'#11'Font.Height'#2#216#11'ParentColor'#8#10'P'
+  +'arentFont'#8#0#0#0#0#0#10'TPopupMenu'#10'PopupMenu1'#4'left'#3'x'#2#3'top'#4
+  +#248#255#0#0#0#9'TMenuItem'#9'MenuItem1'#7'Caption'#6#16'Kop'#195#173'rova'
+  +#197#165' graf'#8'ShortCut'#3'C`'#7'OnClick'#7#14'MenuItem1Click'#0#0#0#9'TM'
+  +'ainMenu'#9'MainMenu1'#4'left'#3'X'#2#0#9'TMenuItem'#9'MenuItem3'#7'Caption'
+  +#6#6'zrusit'#8'ShortCut'#2#27#7'Visible'#8#7'OnClick'#7#14'MenuItem3Click'#0
+  +#0#0#0
+]);

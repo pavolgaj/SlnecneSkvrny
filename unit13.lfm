@@ -1,0 +1,858 @@
+object Form13: TForm13
+  Left = 583
+  Height = 683
+  Top = 277
+  Width = 689
+  Caption = 'Form13'
+  ClientHeight = 683
+  ClientWidth = 689
+  Position = poDesktopCenter
+  LCLVersion = '0.9.28.2'
+  object Image1: TImage
+    Left = 16
+    Height = 450
+    Top = 304
+    Width = 450
+  end
+  object PRPage1: TPRPage
+    Left = 56
+    Height = 842
+    Top = 8
+    Width = 596
+    MarginTop = 32
+    MarginLeft = 32
+    MarginRight = 32
+    MarginBottom = 32
+    object PRLayoutPanel1: TPRLayoutPanel
+      Left = 15
+      Height = 812
+      Top = 15
+      Width = 566
+      object PRLabel1: TPRLabel
+        Left = 0
+        Height = 35
+        Top = 9
+        Width = 566
+        FontName = fnArial
+        FontSize = 20
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'Sunspots - Report'
+        Alignment = taCenter
+      end
+      object PRImage1: TPRImage
+        Left = 58
+        Height = 450
+        Top = 358
+        Width = 450
+        SharedImage = False
+        Proportional = False
+      end
+      object PRLabel2: TPRLabel
+        Left = 43
+        Height = 19
+        Top = 49
+        Width = 100
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'OBSERVER :'
+      end
+      object PRLabel3: TPRLabel
+        Left = 134
+        Height = 19
+        Top = 49
+        Width = 400
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel3'
+      end
+      object PRLabel4: TPRLabel
+        Left = 134
+        Height = 19
+        Top = 70
+        Width = 400
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel4'
+      end
+      object PRLabel5: TPRLabel
+        Left = 43
+        Height = 19
+        Top = 70
+        Width = 100
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'LOCATION :'
+      end
+      object PRLabel6: TPRLabel
+        Left = 110
+        Height = 19
+        Top = 99
+        Width = 144
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel6'
+      end
+      object PRLabel7: TPRLabel
+        Left = 43
+        Height = 19
+        Top = 99
+        Width = 51
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'DATE :'
+      end
+      object PRLabel8: TPRLabel
+        Left = 342
+        Height = 19
+        Top = 99
+        Width = 56
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'TIME :'
+      end
+      object PRLabel10: TPRLabel
+        Left = 398
+        Height = 19
+        Top = 99
+        Width = 96
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel10'
+        Alignment = taCenter
+      end
+      object PRLabel11: TPRLabel
+        Left = 500
+        Height = 19
+        Top = 99
+        Width = 32
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'UTC'
+      end
+      object PRLabel12: TPRLabel
+        Left = 438
+        Height = 19
+        Top = 130
+        Width = 64
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel12'
+        Alignment = taCenter
+      end
+      object PRLabel13: TPRLabel
+        Left = 500
+        Height = 19
+        Top = 130
+        Width = 32
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'm / s'
+      end
+      object PRLabel14: TPRLabel
+        Left = 390
+        Height = 19
+        Top = 130
+        Width = 56
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'WIND :'
+      end
+      object PRLabel15: TPRLabel
+        Left = 102
+        Height = 19
+        Top = 130
+        Width = 64
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel15'
+        Alignment = taCenter
+      end
+      object PRLabel16: TPRLabel
+        Left = 43
+        Height = 19
+        Top = 130
+        Width = 51
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'SEEING :'
+      end
+      object PRLabel17: TPRLabel
+        Left = 182
+        Height = 19
+        Top = 130
+        Width = 104
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'TEMPERATURE :'
+      end
+      object PRLabel18: TPRLabel
+        Left = 286
+        Height = 19
+        Top = 130
+        Width = 72
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel18'
+        Alignment = taCenter
+      end
+      object PRLabel19: TPRLabel
+        Left = 350
+        Height = 19
+        Top = 130
+        Width = 32
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = '°C'
+      end
+      object PRLabel20: TPRLabel
+        Left = 126
+        Height = 19
+        Top = 157
+        Width = 64
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel20'
+        Alignment = taCenter
+      end
+      object PRLabel21: TPRLabel
+        Left = 43
+        Height = 19
+        Top = 157
+        Width = 83
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'APERTURE :'
+      end
+      object PRLabel22: TPRLabel
+        Left = 222
+        Height = 19
+        Top = 157
+        Width = 104
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'FOCAL LENGTH :'
+      end
+      object PRLabel23: TPRLabel
+        Left = 326
+        Height = 19
+        Top = 157
+        Width = 64
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel23'
+        Alignment = taCenter
+      end
+      object PRLabel24: TPRLabel
+        Left = 390
+        Height = 19
+        Top = 157
+        Width = 32
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'mm'
+      end
+      object PRLabel25: TPRLabel
+        Left = 422
+        Height = 19
+        Top = 157
+        Width = 48
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'TYPE :'
+      end
+      object PRLabel26: TPRLabel
+        Left = 468
+        Height = 19
+        Top = 157
+        Width = 64
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel26'
+      end
+      object PRLabel27: TPRLabel
+        Left = 190
+        Height = 19
+        Top = 157
+        Width = 32
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'mm'
+      end
+      object PRLabel28: TPRLabel
+        Left = 43
+        Height = 19
+        Top = 181
+        Width = 83
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'EYEPIECE :'
+      end
+      object PRLabel29: TPRLabel
+        Left = 126
+        Height = 19
+        Top = 181
+        Width = 64
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel29'
+        Alignment = taCenter
+      end
+      object PRLabel30: TPRLabel
+        Left = 190
+        Height = 19
+        Top = 181
+        Width = 32
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'mm'
+      end
+      object PRLabel31: TPRLabel
+        Left = 238
+        Height = 19
+        Top = 181
+        Width = 88
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'FILTRATION :'
+      end
+      object PRLabel32: TPRLabel
+        Left = 326
+        Height = 19
+        Top = 181
+        Width = 206
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel32'
+      end
+      object PRLabel33: TPRLabel
+        Left = 43
+        Height = 19
+        Top = 205
+        Width = 100
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'OBSERVATION :'
+      end
+      object PRLabel34: TPRLabel
+        Left = 152
+        Height = 19
+        Top = 205
+        Width = 134
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel34'
+      end
+      object PRLabel35: TPRLabel
+        Left = 302
+        Height = 19
+        Top = 205
+        Width = 144
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'RADIUS OF DRAWING :'
+      end
+      object PRLabel36: TPRLabel
+        Left = 446
+        Height = 19
+        Top = 205
+        Width = 56
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabl36'
+        Alignment = taCenter
+      end
+      object PRLabel37: TPRLabel
+        Left = 510
+        Height = 19
+        Top = 205
+        Width = 24
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'mm'
+      end
+      object PRLabel38: TPRLabel
+        Left = 43
+        Height = 19
+        Top = 322
+        Width = 28
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'r  = '
+      end
+      object PRLabel39: TPRLabel
+        Left = 70
+        Height = 19
+        Top = 322
+        Width = 64
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel39'
+      end
+      object PRLabel40: TPRLabel
+        Left = 43
+        Height = 19
+        Top = 298
+        Width = 28
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'f  = '
+      end
+      object PRLabel41: TPRLabel
+        Left = 70
+        Height = 19
+        Top = 298
+        Width = 64
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel41'
+      end
+      object PRLabel42: TPRLabel
+        Left = 43
+        Height = 19
+        Top = 274
+        Width = 28
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'g = '
+      end
+      object PRLabel43: TPRLabel
+        Left = 70
+        Height = 19
+        Top = 274
+        Width = 64
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel43'
+      end
+      object PRLabel44: TPRLabel
+        Left = 174
+        Height = 19
+        Top = 274
+        Width = 28
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'g  = '
+      end
+      object PRLabel45: TPRLabel
+        Left = 203
+        Height = 19
+        Top = 274
+        Width = 64
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel45'
+      end
+      object PRLabel46: TPRLabel
+        Left = 203
+        Height = 19
+        Top = 298
+        Width = 64
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel46'
+      end
+      object PRLabel47: TPRLabel
+        Left = 174
+        Height = 19
+        Top = 298
+        Width = 28
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'f   = '
+      end
+      object PRLabel48: TPRLabel
+        Left = 174
+        Height = 19
+        Top = 322
+        Width = 28
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'r   = '
+      end
+      object PRLabel49: TPRLabel
+        Left = 203
+        Height = 19
+        Top = 322
+        Width = 64
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel49'
+      end
+      object PRLabel50: TPRLabel
+        Left = 310
+        Height = 19
+        Top = 274
+        Width = 28
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'CV = '
+      end
+      object PRLabel51: TPRLabel
+        Left = 345
+        Height = 19
+        Top = 274
+        Width = 64
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel51'
+      end
+      object PRLabel52: TPRLabel
+        Left = 345
+        Height = 19
+        Top = 298
+        Width = 64
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel52'
+      end
+      object PRLabel53: TPRLabel
+        Left = 310
+        Height = 19
+        Top = 298
+        Width = 28
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'SN = '
+      end
+      object PRLabel54: TPRLabel
+        Left = 310
+        Height = 19
+        Top = 322
+        Width = 28
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'RB = '
+      end
+      object PRLabel55: TPRLabel
+        Left = 345
+        Height = 19
+        Top = 322
+        Width = 64
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel55'
+      end
+      object PRLabel56: TPRLabel
+        Left = 181
+        Height = 19
+        Top = 285
+        Width = 28
+        FontName = fnArial
+        FontSize = 8
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'C'
+      end
+      object PRLabel57: TPRLabel
+        Left = 179
+        Height = 19
+        Top = 309
+        Width = 28
+        FontName = fnArial
+        FontSize = 8
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'C'
+      end
+      object PRLabel58: TPRLabel
+        Left = 179
+        Height = 19
+        Top = 333
+        Width = 28
+        FontName = fnArial
+        FontSize = 8
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'C'
+      end
+      object PRLabel59: TPRLabel
+        Left = 468
+        Height = 19
+        Top = 322
+        Width = 64
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel59'
+      end
+      object PRLabel60: TPRLabel
+        Left = 441
+        Height = 19
+        Top = 322
+        Width = 28
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'F  = '
+      end
+      object PRLabel61: TPRLabel
+        Left = 120
+        Height = 19
+        Top = 238
+        Width = 72
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel61'
+      end
+      object PRLabel62: TPRLabel
+        Left = 43
+        Height = 19
+        Top = 238
+        Width = 77
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'ROTATION :'
+      end
+      object PRLabel63: TPRLabel
+        Left = 237
+        Height = 19
+        Top = 238
+        Width = 72
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel63'
+      end
+      object PRLabel64: TPRLabel
+        Left = 208
+        Height = 19
+        Top = 238
+        Width = 35
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'P  ='
+      end
+      object PRLabel65: TPRLabel
+        Left = 350
+        Height = 19
+        Top = 238
+        Width = 72
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel65'
+      end
+      object PRLabel66: TPRLabel
+        Left = 318
+        Height = 19
+        Top = 238
+        Width = 35
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'B  ='
+      end
+      object PRLabel67: TPRLabel
+        Left = 462
+        Height = 19
+        Top = 238
+        Width = 72
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'PRLabel67'
+      end
+      object PRLabel68: TPRLabel
+        Left = 431
+        Height = 19
+        Top = 238
+        Width = 35
+        FontName = fnArial
+        FontSize = 12
+        FontBold = True
+        CharSpace = 0
+        WordSpace = 0
+        Caption = 'L  ='
+      end
+      object PRLabel69: TPRLabel
+        Left = 453
+        Height = 19
+        Top = 780
+        Width = 100
+        FontName = fnArial
+        FontSize = 12
+        CharSpace = 0
+        WordSpace = 0
+        Caption = '©  Slnecne skvrny'
+        Alignment = taRightJustify
+      end
+    end
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 112
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object PReport1: TPReport
+    FileName = 'export.pdf'
+    Author = 'Slnecne skvrny'
+    CreationDate = 41793.7477213539
+    Creator = 'Slnecne skvrny'
+    ModDate = 0
+    Title = 'Export'
+    UseOutlines = False
+    ViewerPreference = []
+    left = 8
+    top = 8
+  end
+  object SaveDialog1: TSaveDialog
+    DefaultExt = '.pdf'
+    Filter = 'PDF súbory|*.pdf|Všetky súbory|*.*'
+    Options = [ofOverwritePrompt, ofEnableSizing, ofViewDetail]
+    left = 8
+    top = 56
+  end
+end

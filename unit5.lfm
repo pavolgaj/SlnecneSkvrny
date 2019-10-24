@@ -1,0 +1,355 @@
+object Form5: TForm5
+  Left = 282
+  Height = 330
+  Top = 478
+  Width = 730
+  BorderIcons = [biSystemMenu]
+  Caption = 'Nastavenia'
+  ClientHeight = 330
+  ClientWidth = 730
+  Constraints.MaxHeight = 330
+  Constraints.MaxWidth = 730
+  Constraints.MinHeight = 330
+  Constraints.MinWidth = 730
+  Icon.Data = {
+    7E04000000000100010010100000010020006804000016000000280000001000
+    0000200000000100200000000000000400006400000064000000000000000000
+    00000000000000000000000000000000000000000000A278583791694C72865B
+    4072865B437292694F6A00000000000000000000000000000000000000000000
+    0000000000000000000000000000AF8E753D825537AA734326F1734223FF7645
+    25FF7A4A2AFF7D4E2FFD805335E58355365D946A3F0C00000000000000000000
+    00000000000000000000A58468537C4C2CEF682F0AFF72401DFF74411AFF7C41
+    10FF824716FF864E1FFF895529FF875732FF895F40D29F775953000000000000
+    000000000000C8B29F50835230EF6E3307FF7A3D0AFF976B43FFBDB1A2FF8553
+    22FF88480BFF88480CFF86490EFFA4876AFFBAAB9DFF926B4BEFB8957C500000
+    0000FFFFBF04A88164E676390AFF854B16FF987650FF7E4612FFCEC5BAFF9C79
+    52FF8E4D0BFF8D4E0DFF9B764EFFE5E4E2FFE8E7E7FFAA8B6DFFA87E58E6BFBF
+    BF04DFCDBE72884E1FFF89480CFF935514FFCEBDA8FFD1CCC4FFF2F3F4FFC3B7
+    A7FF89561BFF9E774BFFEBEAE9FFEFEEEEFFB79874FF915210FF995F25FFC7AA
+    8A72AA7B52728A490EFF995813FFA1621AFFA26724FFAD814DFFC9B59DFFEBEA
+    EBFFCEC8BEFFE1DFDBFFEAEAEAFFB7976FFFA0631DFFA06017FF9A5911FFC8A7
+    85F5C6A584E79B5B19FFAB6E26FFAC7027FFAC7027FFAE7229FFAE7937FFCDC1
+    B0FFDFDFDFFFE1E1E1FFB69F7CFFAC7129FFAE7129FFAE7127FFAA6B21FFC297
+    67FFCFAE8CE7AF7432FFB57D35FFB49261FFB29469FFBF8D4CFFBC9C6EFFD2CE
+    C8FFD7D7D5FFD8D8D8FFC7BDAEFFB08346FFB47D36FFB87E35FFB87F35FFCCA4
+    73FFC7986472BD8442FFC29E6BFFD5D3CFFFD6D4CEFFBFA57CFFDCD9D4FFDFDE
+    DBFFD0BA9AFFD5C8B3FFDFDFE0FFD4CFC5FFC9BCA6FFB99257FFC48D44FFDABB
+    91F5E6D0B272CD9A5AFFD0A464FFDDCEB5FFE9E8E6FFE4E4E1FFE7E6E2FFDBC4
+    A0FFDBB67FFFDAB781FFE1DACEFFE5E2DBFFDCC9ACFFD4C4A9FFCE9D55FFDDB9
+    8872FFBFBF04DFB882E6DBAA62FFE1BA7EFFEDE4D4FFF5F5F5FFE7E3D9FFDDC5
+    9BFFE3C596FFE7C796FFEBDECAFFE1D6C2FFE1BE87FFDCB26EFFE0B779F4F3E4
+    D54300000000EED4B06BE7BD7EFFEAC384FFEFD8B1FFF1E5CFFFF8F7F5FFF2F0
+    EAFFEBDFC9FFEED4A9FFEFD7AEFFF2E6D2FFE8CA98FFE8BD79FFF1DBB7B90000
+    000000000000FFF2E615F4DCBABAEFCA8DFFF4D9ACFFF5DFB8FFF5E5C9FFF5E8
+    CEFFF4E0BCFFF6DFB8FFF5DFB9FFF5DCB2FFF0CC8EFFF2D5A5BAF2E6CE150000
+    00000000000000000000FFF2E615F7DDB26BF5D7A4F4F9E1B8FFFAE6C4FFFAE7
+    C5FFFAE7C5FFFAE6C4FFF9E3BDFFF6D8A4F4F8E3BEB9FFE6CE15000000000000
+    000000000000000000000000000000000000FBF3E443FADFB072FAE8C6F5FBE8
+    C7FFFBE8C7FFFAE8C6F5FADFAE72FBEBD5430000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000
+  }
+  Menu = MainMenu1
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '0.9.28.2'
+  object Label5: TLabel
+    Left = 16
+    Height = 17
+    Top = 188
+    Width = 202
+    Caption = 'Prednastavený názov súboru'
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 16
+    Height = 17
+    Top = 255
+    Width = 273
+    Caption = 'Typ súradníc pri zadávaní polohy škvŕn'
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 344
+    Height = 17
+    Top = 296
+    Width = 174
+    Caption = 'Import / export nastavení'
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object StringGrid1: TStringGrid
+    Left = 16
+    Height = 104
+    Hint = 'Zadávanie pozorovateľov:'#13#10#13#10'Meno a priezvisko pozorovateľa'#13#10'Pozorovacia stanica'#13#10'Použitý prístroj'#13#10'Priemer ďalekohľadu (mm)'#13#10'Ohnisková vzdialenosť (mm)'#13#10'Ohnisková vzdialenosť okulára (mm)'#13#10'Použitý filter'#13#10'Pozorovacia metóda (vizuálne/projekcia)'#13#10'Polomer zákresu Slnka (mm)'#13#10#13#10'Všetky hodnoty sa možno pri zadávaní zákresu zmeniť,'#13#10'zadané hodnoty budú prednastavené.'
+    Top = 16
+    Width = 688
+    AutoAdvance = aaRightDown
+    ColCount = 9
+    FixedCols = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goTabs, goSmoothScroll]
+    ParentShowHint = False
+    RowCount = 2
+    ShowHint = True
+    TabOrder = 0
+    TitleStyle = tsStandard
+    OnEditingDone = StringGrid1EditingDone
+    ColWidths = (
+      106
+      94
+      72
+      46
+      46
+      40
+      84
+      109
+      86
+    )
+    Cells = (
+      9
+      0
+      0
+      'Pozorovateľ'
+      1
+      0
+      'Stanica'
+      2
+      0
+      'Prístroj'
+      3
+      0
+      'Priemer'
+      4
+      0
+      'Ohnisko'
+      5
+      0
+      'Okulár'
+      6
+      0
+      'Filter'
+      7
+      0
+      'Pozorovacia metóda'
+      8
+      0
+      'Polomer zákresu'
+    )
+  end
+  object Edit3: TEdit
+    Left = 448
+    Height = 23
+    Hint = 'Zadajte názov súboru s dátami.'
+    Top = 184
+    Width = 152
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 1
+  end
+  object ComboBox1: TComboBox
+    Left = 296
+    Height = 23
+    Hint = 'Zvoľte typ súradnicovej sústavy,'#13#10'v ktorej budete zadáť polohu škvrn.'#13#10'Voľbu je možné pri zadávaní zmeniť.'
+    Top = 251
+    Width = 152
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      'Pravouhlé, karteziánske'
+      'Polárne'
+    )
+    ParentShowHint = False
+    ShowHint = True
+    Style = csDropDownList
+    TabOrder = 2
+    Text = 'Pravouhlé, karteziánske'
+  end
+  object Button1: TButton
+    Left = 16
+    Height = 25
+    Top = 288
+    Width = 75
+    Caption = 'OK'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 104
+    Height = 25
+    Top = 288
+    Width = 75
+    Caption = 'Zrušiť'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object Button3: TButton
+    Left = 16
+    Height = 25
+    Hint = 'Pridanie ďalšieho pozorovateľa.'
+    Top = 136
+    Width = 123
+    Caption = 'Pridať pozorovateľa'
+    OnClick = Button3Click
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 5
+  end
+  object Button4: TButton
+    Left = 216
+    Height = 25
+    Hint = 'Odstránenie zvoleného pozorovateľa.'
+    Top = 136
+    Width = 128
+    Caption = 'Odstrániť pozorovateľa'
+    OnClick = Button4Click
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 7
+  end
+  object ComboBox2: TComboBox
+    Left = 360
+    Height = 23
+    Hint = 'Zvoľte pozorovateľa na odstránenie.'
+    Top = 140
+    Width = 152
+    ItemHeight = 15
+    ParentShowHint = False
+    ShowHint = True
+    Style = csDropDownList
+    TabOrder = 6
+  end
+  object ComboBox3: TComboBox
+    Left = 256
+    Height = 23
+    Hint = 'Zvolenie prednastaveného súboru dát.'#13#10'1. nachádza sa v rovnakom priečinku '#13#10'    ako tento program (slnko.exe)'#13#10'2. nacháda sa v inom priečinku'
+    Top = 184
+    Width = 152
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      'rovnaký priečinok'
+      'iný priečinok'
+    )
+    OnChange = ComboBox3Change
+    ParentShowHint = False
+    ShowHint = True
+    Style = csDropDownList
+    TabOrder = 8
+    Text = 'rovnaký priečinok'
+  end
+  object FileNameEdit1: TFileNameEdit
+    Left = 448
+    Height = 23
+    Hint = 'Zvoľte umiestnenie a názov súbor s dátami.'
+    Top = 184
+    Width = 152
+    DialogOptions = [ofForceShowHidden]
+    Filter = 'Slnečné škvrny - dáta  (*.xml)|*.xml|Všetky súbory|*.*'
+    FilterIndex = 1
+    HideDirectories = False
+    ButtonWidth = 23
+    NumGlyphs = 0
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 9
+    Visible = False
+  end
+  object Button5: TButton
+    Left = 536
+    Height = 25
+    Hint = 'Importovanie nastavení'
+    Top = 288
+    Width = 75
+    Caption = 'Import'
+    OnClick = Button5Click
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 10
+  end
+  object Button6: TButton
+    Left = 629
+    Height = 25
+    Hint = 'Exportovanie nastavení'
+    Top = 288
+    Width = 75
+    Caption = 'Export'
+    OnClick = Button6Click
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 11
+  end
+  object FileNameEdit2: TFileNameEdit
+    Left = 256
+    Height = 23
+    Hint = 'Zvoľte umiestnenie záložnej kópie dát.'
+    Top = 216
+    Width = 152
+    DialogOptions = [ofForceShowHidden]
+    Filter = 'Slnečné škvrny - dáta  (*.xml)|*.xml'
+    FilterIndex = 1
+    HideDirectories = False
+    ButtonWidth = 23
+    NumGlyphs = 0
+    Enabled = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 12
+  end
+  object CheckBox1: TCheckBox
+    Left = 16
+    Height = 20
+    Hint = 'Vytvárať záložnú kópiu dát.'
+    Top = 219
+    Width = 202
+    Caption = 'Vytvárať záložnú kópiu dát'
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    OnChange = CheckBox1Change
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 13
+  end
+  object OpenDialog1: TOpenDialog
+    Title = 'Import nastavení zo súboru'
+    Filter = 'Textový súbor (*.txt)|*.txt|Súbor nastavení (*.config)|*.config|Všetky súbory|*.*'
+    Options = [ofNoValidate, ofPathMustExist, ofFileMustExist, ofEnableSizing, ofForceShowHidden, ofViewDetail]
+    left = 560
+    top = 245
+  end
+  object SaveDialog1: TSaveDialog
+    Title = 'Export nastavení do súboru'
+    Filter = 'Textový súbor (*.txt)|*.txt|Súbor nastavení (*.config)|*.config|Všetky súbory|*.*'
+    left = 656
+    top = 245
+  end
+  object MainMenu1: TMainMenu
+    left = 656
+    top = 192
+    object MenuItem1: TMenuItem
+      Caption = 'ok'
+      ShortCut = 13
+      Visible = False
+      OnClick = MenuItem1Click
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'zrusit'
+      ShortCut = 27
+      Visible = False
+      OnClick = MenuItem2Click
+    end
+  end
+end
