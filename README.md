@@ -1,5 +1,6 @@
 # Program Slnečné škvrny
 
+[![DOI](https://zenodo.org/badge/217228778.svg)](https://zenodo.org/badge/latestdoi/217228778)
 ![](https://img.shields.io/github/downloads/pavolgaj/SlnecneSkvrny/total?label=GitHub%20download&style=plastic)
 ![](https://img.shields.io/github/v/release/pavolgaj/SlnecneSkvrny?style=plastic)
 ![](https://img.shields.io/github/languages/top/pavolgaj/SlnecneSkvrny?style=plastic)
